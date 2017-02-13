@@ -10,14 +10,16 @@ def download():
           "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC",
           "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]
 
-    base_url = "http://data.cnn.com/jsonp/ELECTION/%s/%s/xpoll/Pfull.json"
+    base_url = "http://data.cnn.com/ELECTION/%s/%s/xpoll/Pfull.json"
     base_output = "data/%s/%s.json"
 
     for year in years:
         for state in states:
             url = base_url % (year, state)
             file = requests.get(url)
-            print(file.text)
+
+            # print(file.text)
+
             output_path = base_output % (year, state)
 
             dir = os.path.dirname(output_path)
