@@ -18,8 +18,6 @@ def download():
             url = base_url % (year, state)
             file = requests.get(url)
 
-            # print(file.text)
-
             output_path = base_output % (year, state)
 
             dir = os.path.dirname(output_path)
