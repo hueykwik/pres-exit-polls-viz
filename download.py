@@ -10,8 +10,6 @@ def download():
           "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC",
           "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]
 
-#    states = ["AL"]
-
     base_url = "http://data.cnn.com/jsonp/ELECTION/%s/%s/xpoll/Pfull.json"
     base_output = "data/%s/%s.json"
 
