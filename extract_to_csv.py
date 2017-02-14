@@ -3,13 +3,11 @@ import json
 from pprint import pprint
 import csv
 
-def convert_file(csv_writer):
-    # Goes through each file and writes a row
-    # TODO: for year in years, for state in states
+def extract_file(year, state, csv_writer):
+    json_path = "data/%s/%s.json" % (year, state)
+    print(json_path)
 
-    # Just use 2016/CA.json as an example for now
-
-    with open('data/2016/CA.json') as data_file:
+    with open(json_path) as data_file:
         data = json.load(data_file)
 
         for poll in data['polls']:
@@ -29,19 +27,24 @@ def convert_file(csv_writer):
                     if cand_id == 8639 or cand_id == 893:
                         rep_pct = pct
 
-                csv_writer.writerow(['2016', 'CA', pollname, question, answer_name, dem_pct, rep_pct])
+                csv_writer.writerow([year, state, pollname, question, answer_name, dem_pct, rep_pct])
 
-def convert():
+def extract():
     # Output: CSV year pollname answer state democrat_pct republican_pct
     years = settings.YEARS
     states = settings.STATES
+
+    base_output = "data/%s/%s.json"
 
     with open('data/exit_polls.csv', 'w') as csv_file:
         csv_writer = csv.writer(csv_file)
 
         csv_writer.writerow(['year', 'state', 'pollname', 'question', 'answer', 'democrat', 'republican'])
 
-        convert_file(csv_writer)
+        states = ['CA'] # remove later
+        for year in years:
+            for state in states:
+                extract_file(year, state, csv_writer)
 
 if __name__ == "__main__":
-    convert()
+    extract()
