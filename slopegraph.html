@@ -1,0 +1,106 @@
+<title>Democratic Party Exit Polls</title>
+
+<style>
+  .left-labels,
+  .labels {
+    font-family: sans-serif;
+    font-size: 10px;
+  }
+
+  .chart-title {
+    font-family:sans-serif;
+    font-size: 16px;
+    text-anchor: middle;
+    font-weight: bold;
+  }
+
+  .footer {
+    font-family:sans-serif;
+  }
+</style>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<body>
+  <div id="graph-container"></div>
+  <div class="footer">
+
+    <p>Exit Poll Data: <a href="http://data.cnn.com/jsonp/ELECTION/2016/OH/xpoll/Pfull.json">2012 Ohio CNN</a>
+    <a href="http://data.cnn.com/jsonp/ELECTION/2016/OH/xpoll/Pfull.json">2016 Ohio CNN</a>
+  <script>
+
+    var width = 800;
+    var height = 800;
+
+    var margin = {top: 20, bottom: 20, left: 100, right:100};
+
+    var leftScale = d3.scale.linear()
+      .domain([0.0, 1.0])
+      .range([height - margin.top, margin.bottom]);
+
+    var rightScale = d3.scale.linear()
+      .domain([0.0, 1.0])
+      .range([height - margin.top, margin.bottom]);
+
+    var currencyFormatter = d3.format("0,.0f");
+
+    var svg = d3.select("#graph-container")
+      .append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+    d3.csv('ohio_exit_polls.csv', function(d) {
+      data = d;
+
+      var lines = svg.selectAll("line")
+        .data(data);
+
+      lines.enter()
+        .append("line")
+        .attr("x1", margin.left)
+        .attr("x2", width - margin.right)
+        .attr("y1", function(d) {
+          return leftScale(parseFloat(d['2012']));
+        })
+        .attr("y2", function(d) {
+          return rightScale(parseFloat(d['2016']));
+        })
+        .attr("stroke", "black")
+        .attr("stroke-width", 1);
+
+      var rightLabels = svg.selectAll(".labels")
+        .data(data);
+
+      rightLabels.enter()
+        .append("text")
+        .attr("class","labels")
+        .attr("x", width - margin.right + 3)
+        .attr("y", function(d) {
+          return rightScale(parseFloat(d['2016'])) + 4;
+        })
+        .text(function (d) {
+          return d['Category'];
+        });
+
+      var leftLabels = svg.selectAll(".left-labels")
+        .data(data);
+
+      leftLabels.enter()
+        .append("text")
+        .attr("class","left-labels")
+        .attr("x", margin.left - 65)
+        .attr("y", function(d) {
+          return leftScale(parseFloat(d['2012'])) + 4;
+        })
+        .text(function (d) {
+          return d['Category'];
+        })
+        .style("text-anchor","begin");
+
+      svg.append("text")
+        .attr("x", width / 2)
+        .attr("y", margin.top)
+        .attr("class", "chart-title")
+        .text("CNN Exit Polls, Democratic Party 2012 and 2016");
+    });
+  </script>
+</body>
