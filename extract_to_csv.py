@@ -12,10 +12,24 @@ def convert_file(csv_writer):
     with open('data/2016/CA.json') as data_file:
         data = json.load(data_file)
 
-        pprint(data['polls'][0])
-        #csvwriter.writerow(['Spam'] * 5 + ['Baked Beans'])
-        #csv_writer.writerow(['Spam', 'Lovely Spam', 'Wonderful Spam'])
+        for poll in data['polls']:
+            pollname = poll['pollname']
+            question = poll['question']
 
+            for answer in poll['answers']:
+                answer_name = answer['answer']
+
+                dem_pct = None
+                rep_pct = None
+                for cand_answer in answer['candidateanswers']:
+                    cand_id = cand_answer['id']
+                    pct = cand_answer['pct']
+                    if cand_id == 1746 or cand_id == 1918:
+                        dem_pct = pct
+                    if cand_id == 8639 or cand_id == 893:
+                        rep_pct = pct
+
+                csv_writer.writerow(['2016', 'CA', pollname, question, answer_name, dem_pct, rep_pct])
 
 def convert():
     # Output: CSV year pollname answer state democrat_pct republican_pct
@@ -25,7 +39,7 @@ def convert():
     with open('data/exit_polls.csv', 'w') as csv_file:
         csv_writer = csv.writer(csv_file)
 
-        csv_writer.writerow(['year', 'pollname', 'answer', 'state', 'democrat', 'republican'])
+        csv_writer.writerow(['year', 'state', 'pollname', 'question', 'answer', 'democrat', 'republican'])
 
         convert_file(csv_writer)
 
