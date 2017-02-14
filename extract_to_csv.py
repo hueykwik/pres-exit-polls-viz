@@ -2,12 +2,12 @@ import settings
 import json
 from pprint import pprint
 import csv
-
+import os
 
 mapping = {"SEX": {"Men": "Male",
             "Women": "Female"},
     "RACE": {"African-American": "Black"},
-    "INCOME3": {"Less than $50K": "Under $50K",
+    "INCOME3": {"Less Than $50K": "Under $50K",
                 "$50-100K": "$50K-$100K",
                 "$100K or More": "$100K or more"},
     "INC50K": {"Less Than $50K": "Under $50K",
@@ -20,7 +20,10 @@ mapping = {"SEX": {"Men": "Male",
                   "Black Women": "Black women",
                   "Latino Men": "Latino men",
                   "Latino Women": "Latino women",
-                  "All Others": "Others"}}
+                  "All Others": "Others"},
+    "AGE": {"65 and Older": "65 and older"},
+    "AGE65": {"65 and Older": "65 and older"}}
+
 
 def standardize_row(row):
     # Some of the same exit poll questions have slightly different answers
@@ -40,7 +43,14 @@ def standardize_row(row):
 
 def extract_file(year, state, csv_writer):
     json_path = "data/%s/%s.json" % (year, state)
+
     print(json_path)
+
+    if os.stat(json_path).st_size == 0:
+        print(json_path, " is empty, skipping")
+        return
+
+    print("Extracting: ", json_path)
 
     with open(json_path) as data_file:
         data = json.load(data_file)
@@ -82,7 +92,6 @@ def extract():
 
         csv_writer.writerow(['year', 'state', 'pollname', 'question', 'answer', 'democrat', 'republican'])
 
-        states = ['CA'] # remove later
         for year in years:
             for state in states:
                 extract_file(year, state, csv_writer)
