@@ -7,11 +7,20 @@ import csv
 mapping = {"SEX": {"Men": "Male",
             "Women": "Female"},
     "RACE": {"African-American": "Black"},
-    "INCOME": {"Less than $50K": "Under $50K",
+    "INCOME3": {"Less than $50K": "Under $50K",
                 "$50-100K": "$50K-$100K",
                 "$100K or More": "$100K or more"},
+    "INC50K": {"Less Than $50K": "Under $50K",
+               "$50K or More": "$50K or more"},
     "UNIONHH12": {"Yes": "Union",
-                  "No": "Not Union"}}
+                  "No": "Not Union"},
+    "SEXBYRACE": {"White Men": "White men",
+                  "White Women": "White women",
+                  "Black Men": "Black men",
+                  "Black Women": "Black women",
+                  "Latino Men": "Latino men",
+                  "Latino Women": "Latino women",
+                  "All Others": "Others"}}
 
 def standardize_row(row):
     # Some of the same exit poll questions have slightly different answers
