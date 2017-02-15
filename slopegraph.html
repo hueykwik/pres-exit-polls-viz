@@ -44,6 +44,11 @@
       .attr("width", width)
       .attr("height", height);
 
+    var createPercent = function(f) {
+      var pct = parseFloat(f) * 100;
+      return Math.floor(pct);
+    }
+
     d3.csv('ohio_exit_polls.csv', function(d) {
       data = d;
 
@@ -74,7 +79,7 @@
           return scale(parseFloat(d['2016']));
         })
         .text(function (d) {
-          return d['Category'];
+          return createPercent(d['2016']) + '   ' + d['Category'];
         });
 
       var leftLabels = svg.selectAll(".left-labels")
@@ -88,7 +93,7 @@
           return scale(parseFloat(d['2012']));
         })
         .text(function (d) {
-          return d['Category'];
+          return d['Category'] + '   ' + createPercent(d['2012']);
         })
         .style("text-anchor","begin");
 
