@@ -49,7 +49,6 @@ function ready (data) {
           .j('category').y('value').x('year')
           .textHeight((y_dom[0] - y_dom[1]) / height * 14),
 
-      // TODO: Understand how => works with the braces?
       textAlign = m => {
         return (d, i) => i ? 'start' : 'end';
       },
