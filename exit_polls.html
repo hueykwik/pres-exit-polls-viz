@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<style>
+svg {
+  font: 13px serif;
+}
+.years {
+  font-size: 15px;
+}
+.desc {
+  font-size: 16px;
+}
+.lines path {
+  fill: none;
+  stroke: black;
+  stroke-width: 1.1;
+}
+</style>
+<body>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="d3.slopegraph.js"></script>
+<script>
+d3.csv('ohio_exit_polls_tidy.csv', parseRow, ready );
+
+function parseRow (d) {
+  return { 'year': +d.Year,
+           'category': d.Category,
+           'value': +d.Percentage };
+}
+
+function ready (data) {
+  debugger;
+  var margin = {top: 70, right: 0, bottom: 40, left: 0},
+      width = 710 - margin.left - margin.right,
+      height = 940 - margin.top - margin.bottom,
+
+      y_dom = d3.extent(data, d => d.value).reverse()
+      x_dom = d3.extent(data, d => d.year)
+
+      y = d3.scale.linear()
+          .domain(y_dom)
+          .range([0, height]),
+      x = d3.scale.linear()
+          .domain(x_dom)
+          .range([390, 570]),
+
+      // textHeight just sets the minimum needed distance between labels (I think)
+      layout = d3.layout.slopegraph()(data)
+          .j('category').y('value').x('year')
+          .textHeight((y_dom[0] - y_dom[1]) / height * 14),
+
+      // TODO: Understand how => works with the braces?
+      textAlign = m => {
+        return (d, i) => i ? 'start' : 'end';
+      },
+      textMargin = m => {
+        return (d, i) => i ? m * 1 : m * -1;
+      };
+
+  // Adds the main svg tag, origin is set (margin.left, margin.top)
+  var svg = d3.select('body').append('svg')
+      .attr('width', width + margin.left + margin.right)
+      .attr('height', height + margin.top + margin.bottom)
+    .append('g')
+      .attr('transform', `translate(${margin.left},${margin.top})`);
+
+  // Adds the year labels, 2012 and 2016.
+  svg.append('g')
+      .attr('class', 'years')
+      .selectAll('text').data(x_dom).enter()
+    .append('text')
+      .attr('x', x)
+      .attr('dx', (d, i) => i ? 10 : -10)
+      .attr('y', -40)
+      .style('text-anchor', textAlign())
+      .text(String);
+
+  // Define the line that will be used for each pair below
+  var line = d3.svg.line()
+      .x(d => x(d.year))
+      .y(d => y(d.y));
+
+  // Add a group for each pair
+  var pairs = svg.append('g')
+      .attr('class', 'lines')
+      .selectAll('g')
+      .data(layout.pairs()).enter()
+    .append('g');
+
+  pairs.append('path')
+      .attr('d', line);
+
+  // Adds the labels for each category
+  pairs.selectAll('.category')
+      .data(d => d).enter()
+    .append('text')
+      .attr('class', 'category')
+      .attr('x', d => x(d.year))
+      .attr('dx', textMargin(48))
+      .attr('dy', '.32em')
+      .attr('y', d => y(d.y))
+      .style('text-anchor', textAlign())
+      .text(d => d.category);
+
+  // Adds the values for each category
+  pairs.selectAll('.value')
+      .data(d => d).enter()
+    .append('text')
+      .attr('class', 'value')
+      .attr('x', d => x(d.year))
+      .attr('dy', '.32em')
+      .attr('dx', textMargin(10))
+      .attr('y', d => y(d.y))
+      .style('text-anchor', textAlign())
+      .text(d => d.value.toFixed(2));
+
+  // Text description
+  svg.append('g')
+      .attr('class', 'desc')
+      .selectAll('text')
+      .data(['Democratic Party Exit Polls'
+            ,'Ohio'
+            ,'CNN, 2012 and 2016'
+            ]).enter()
+    .append('text')
+      .attr('y', (d,i) => i * 20)
+      .attr('dy', '-.32em')
+      .attr('x', 13)
+      .text(String);
+
+}
+</script>
+</body>
