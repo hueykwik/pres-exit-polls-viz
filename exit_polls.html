@@ -111,7 +111,7 @@ function ready(data) {
       .attr('dx', textMargin(10))
       .attr('y', d => y(d.y))
       .style('text-anchor', textAlign())
-      .text(d => d.value.toFixed(2));
+      .text(d => d.value.toFixed(0));
 
   // Text description
   svg.append('g')
