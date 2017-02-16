@@ -74,6 +74,11 @@
         .attr("stroke", "black")
         .attr("stroke-width", 1);
 
+      data.forEach(function(d) {
+        d.startTextY = scale(d['2012'])
+        d.endTextY = scale(d['2016'])
+      });
+
       var rightLabels = svg.selectAll(".labels")
         .data(data);
 
@@ -82,7 +87,7 @@
         .attr("class","labels")
         .attr("x", width - margin.right + 3)
         .attr("y", function(d) {
-          return scale(parseFloat(d['2016']));
+          return d.endTextY;
         })
         .text(function (d) {
           return createPercent(d['2016']) + '   ' + d['Category'];
@@ -97,7 +102,7 @@
         .attr("xml:space", "preserve")
         .attr("x", margin.left - 3)
         .attr("y", function(d) {
-          return scale(parseFloat(d['2012']));
+          return d.startTextY;
         })
         .text(function (d) {
           return d['Category'] + '   ' + createPercent(d['2012']);
