@@ -20,12 +20,12 @@ svg {
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script src="d3.slopegraph.js"></script>
 <script>
-d3.csv('ohio_exit_polls_tidy.csv', parseRow, ready );
+d3.csv('exit_polls_tidy.csv', parseRow, ready );
 
 function parseRow (d) {
-  return { 'year': +d.Year,
-           'category': d.Category,
-           'value': +d.Percentage };
+  return { 'year': +d.year,
+           'category': d.answer,
+           'value': +d.democrat };
 }
 
 function ready (data) {
