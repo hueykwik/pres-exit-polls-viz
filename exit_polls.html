@@ -15,6 +15,14 @@ svg {
   stroke: black;
   stroke-width: 1.1;
 }
+
+#states {
+  position: absolute;
+  top: 75px;
+  left: 13px;
+  font: 15px serif;
+}
+
 </style>
 <body>
 <script src="//d3js.org/d3.v3.min.js"></script>
@@ -95,8 +103,6 @@ function ready(data) {
       .data(layout.pairs(), pair_key_func).enter()
     .append('g');
 
-  console.log(layout.pairs().length);
-
   pairs.append('path')
       .attr('d', line);
 
@@ -129,7 +135,7 @@ function ready(data) {
       .attr('class', 'desc')
       .selectAll('text')
       .data(['Democratic Party Exit Polls'
-            ,'Ohio'
+            ,' '
             ,'CNN, 2012 and 2016'
             ]).enter()
     .append('text')
@@ -183,25 +189,16 @@ function ready(data) {
       .attr('y', d => y(d.y))
       .style('text-anchor', textAlign())
       .text(d => d.value.toFixed(0));
-
   }
 
-
-  // Text description
-  svg.append('g')
-      .attr('class', 'desc')
-      .selectAll('text')
-      .data(['Democratic Party Exit Polls'
-            ,'Ohio'
-            ,'CNN, 2012 and 2016'
-            ]).enter()
-    .append('text')
-      .attr('y', (d,i) => i * 20)
-      .attr('dy', '-.32em')
-      .attr('x', 13)
-      .text(String);
+  d3.select('#opts')
 
   update('OH');
 };
 </script>
+  <select id="states">
+    <option value="ds1">data1</option>
+    <option value="ds2" selected="selected">Ohio</option>
+    <option value="ds3">data3</option>
+  </select>
 </body>
