@@ -130,6 +130,19 @@ function ready(data) {
 
   function update(state) {
     filtered = data.filter(d => (d.state == state));
+
+    var layout = d3.layout.slopegraph()(filtered)
+          .j('category').y('value').x('year')
+          .textHeight((y_dom[0] - y_dom[1]) / height * 14);
+
+    var pairs = svg.append('g')
+      .attr('class', 'lines')
+      .selectAll('g')
+      .data(layout.pairs());
+
+    // pairs.exit().remove();
+
+
     debugger;
   }
 
