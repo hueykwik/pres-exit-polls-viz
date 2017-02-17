@@ -38,7 +38,20 @@ function parseRow(d) {
 }
 
 function ready(data) {
-  // debugger;
+  var defaultOptionName = "OH";
+
+  var states = d3.nest().key(d => d.state).entries(data);
+
+  d3.select('#states').selectAll('option')
+    .data(states, d => d.key)
+    .enter()
+    .append('option')
+    .attr("value", d => d.key)
+    //.property("selected", function(d){ return d === defaultOptionName; })
+    .text(d => d.key)
+
+    debugger;
+
   var margin = {top: 70, right: 0, bottom: 40, left: 0},
       width = 710 - margin.left - margin.right,
       height = 940 - margin.top - margin.bottom,
@@ -153,8 +166,6 @@ function ready(data) {
            .j('category').y('value').x('year')
            .textHeight((y_dom[0] - y_dom[1]) / height * 14);
 
-    debugger;
-
     var pairs = svg.selectAll('.lines')
         .selectAll('g')
       .data(layout.pairs(), pair_key_func);
@@ -191,14 +202,9 @@ function ready(data) {
       .text(d => d.value.toFixed(0));
   }
 
-  d3.select('#opts')
-
   update('OH');
 };
 </script>
   <select id="states">
-    <option value="ds1">data1</option>
-    <option value="ds2" selected="selected">Ohio</option>
-    <option value="ds3">data3</option>
   </select>
 </body>
