@@ -50,7 +50,12 @@ function ready(data) {
     .property("selected", function(d) {
       return d.key == defaultOptionName;
     })
-    .text(d => d.key)
+    .text(d => d.key);
+
+  d3.select('#states')
+    .on("change", function() {
+      update(this.value);
+    });
 
   var margin = {top: 70, right: 0, bottom: 40, left: 0},
       width = 710 - margin.left - margin.right,
