@@ -47,8 +47,6 @@
       });
     });
 
-    debugger;
-
     // step 2: "fan out" label positions to remove overlaps
     for (var col_id in rollup_cols) {
 
