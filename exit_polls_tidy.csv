@@ -10,8 +10,6 @@ AZ,RACE,Race,Latino,74.0,25.0,2012
 AZ,PHIL3,Ideology,Liberal,86.0,12.0,2012
 AZ,PHIL3,Ideology,Moderate,51.0,46.0,2012
 AZ,PHIL3,Ideology,Conservative,12.0,87.0,2012
-AZ,EDUCCOLL,Are you a college graduate?,Yes,42.0,56.0,2012
-AZ,EDUCCOLL,Are you a college graduate?,No,44.0,55.0,2012
 AZ,INCOME3,Income,Under $50K,47.0,51.0,2012
 AZ,INCOME3,Income,$50K-$100K,41.0,57.0,2012
 AZ,INCOME3,Income,$100K or more,43.0,56.0,2012
@@ -28,14 +26,11 @@ CA,RACE,Race,Asian,79.0,21.0,2012
 CA,PHIL3,Ideology,Liberal,94.0,5.0,2012
 CA,PHIL3,Ideology,Moderate,60.0,38.0,2012
 CA,PHIL3,Ideology,Conservative,24.0,75.0,2012
-CA,EDUCCOLL,Are you a college graduate?,Yes,59.0,39.0,2012
-CA,EDUCCOLL,Are you a college graduate?,No,60.0,39.0,2012
 CA,INCOME3,Income,Under $50K,64.0,34.0,2012
 CA,INCOME3,Income,$50K-$100K,59.0,39.0,2012
 CA,INCOME3,Income,$100K or more,52.0,46.0,2012
 CA,REL5,Religion,Protestant,46.0,52.0,2012
 CA,REL5,Religion,Catholic,62.0,38.0,2012
-CA,WHTEVANG,White born-again or evangelical Christian?,No,66.0,32.0,2012
 CA,MARRIED,Marital status,Married,51.0,48.0,2012
 CA,MARRIED,Marital status,Unmarried,67.0,30.0,2012
 CO,SEX,Gender,Male,51.0,46.0,2012
@@ -48,8 +43,6 @@ CO,RACE,Race,Latino,75.0,23.0,2012
 CO,PHIL3,Ideology,Liberal,91.0,8.0,2012
 CO,PHIL3,Ideology,Moderate,51.0,44.0,2012
 CO,PHIL3,Ideology,Conservative,15.0,83.0,2012
-CO,EDUCCOLL,Are you a college graduate?,Yes,48.0,50.0,2012
-CO,EDUCCOLL,Are you a college graduate?,No,54.0,44.0,2012
 CO,INCOME3,Income,Under $50K,60.0,38.0,2012
 CO,INCOME3,Income,$50K-$100K,50.0,48.0,2012
 CO,INCOME3,Income,$100K or more,46.0,51.0,2012
@@ -65,15 +58,11 @@ FL,RACE,Race,Latino,60.0,39.0,2012
 FL,PHIL3,Ideology,Liberal,86.0,13.0,2012
 FL,PHIL3,Ideology,Moderate,53.0,46.0,2012
 FL,PHIL3,Ideology,Conservative,20.0,78.0,2012
-FL,EDUCCOLL,Are you a college graduate?,Yes,49.0,50.0,2012
-FL,EDUCCOLL,Are you a college graduate?,No,52.0,47.0,2012
 FL,INCOME3,Income,Under $50K,59.0,40.0,2012
 FL,INCOME3,Income,$50K-$100K,44.0,54.0,2012
 FL,INCOME3,Income,$100K or more,43.0,57.0,2012
 FL,REL5,Religion,Protestant,42.0,58.0,2012
 FL,REL5,Religion,Catholic,47.0,52.0,2012
-FL,WHTEVANG,White born-again or evangelical Christian?,Yes,21.0,79.0,2012
-FL,WHTEVANG,White born-again or evangelical Christian?,No,62.0,37.0,2012
 FL,MARRIED,Marital status,Married,43.0,56.0,2012
 FL,MARRIED,Marital status,Unmarried,61.0,38.0,2012
 IL,SEX,Gender,Male,52.0,46.0,2012
@@ -87,13 +76,10 @@ IL,RACE,Race,Black,96.0,4.0,2012
 IL,PHIL3,Ideology,Liberal,95.0,3.0,2012
 IL,PHIL3,Ideology,Moderate,60.0,38.0,2012
 IL,PHIL3,Ideology,Conservative,14.0,85.0,2012
-IL,EDUCCOLL,Are you a college graduate?,Yes,52.0,47.0,2012
-IL,EDUCCOLL,Are you a college graduate?,No,64.0,34.0,2012
 IL,INCOME3,Income,Under $50K,72.0,27.0,2012
 IL,INCOME3,Income,$50K-$100K,57.0,41.0,2012
 IL,INCOME3,Income,$100K or more,44.0,55.0,2012
 IL,REL5,Religion,Protestant,53.0,46.0,2012
-IL,WHTEVANG,White born-again or evangelical Christian?,No,62.0,35.0,2012
 IL,MARRIED,Marital status,Married,50.0,49.0,2012
 IL,MARRIED,Marital status,Unmarried,72.0,26.0,2012
 IN,SEX,Gender,Male,40.0,57.0,2012
@@ -107,13 +93,9 @@ IN,RACE,Race,Black,89.0,10.0,2012
 IN,PHIL3,Ideology,Liberal,85.0,12.0,2012
 IN,PHIL3,Ideology,Moderate,55.0,44.0,2012
 IN,PHIL3,Ideology,Conservative,13.0,85.0,2012
-IN,EDUCCOLL,Are you a college graduate?,Yes,43.0,55.0,2012
-IN,EDUCCOLL,Are you a college graduate?,No,45.0,53.0,2012
 IN,INCOME3,Income,Under $50K,54.0,43.0,2012
 IN,INCOME3,Income,$50K-$100K,42.0,57.0,2012
 IN,INCOME3,Income,$100K or more,34.0,64.0,2012
-IN,WHTEVANG,White born-again or evangelical Christian?,Yes,19.0,80.0,2012
-IN,WHTEVANG,White born-again or evangelical Christian?,No,58.0,39.0,2012
 IN,MARRIED,Marital status,Married,37.0,62.0,2012
 IN,MARRIED,Marital status,Unmarried,55.0,42.0,2012
 IA,SEX,Gender,Male,44.0,53.0,2012
@@ -126,15 +108,11 @@ IA,RACE,Race,White,51.0,47.0,2012
 IA,PHIL3,Ideology,Liberal,89.0,10.0,2012
 IA,PHIL3,Ideology,Moderate,63.0,35.0,2012
 IA,PHIL3,Ideology,Conservative,17.0,81.0,2012
-IA,EDUCCOLL,Are you a college graduate?,Yes,52.0,46.0,2012
-IA,EDUCCOLL,Are you a college graduate?,No,52.0,46.0,2012
 IA,INCOME3,Income,Under $50K,59.0,38.0,2012
 IA,INCOME3,Income,$50K-$100K,50.0,49.0,2012
 IA,INCOME3,Income,$100K or more,45.0,54.0,2012
 IA,REL5,Religion,Protestant,46.0,53.0,2012
 IA,REL5,Religion,Catholic,47.0,52.0,2012
-IA,WHTEVANG,White born-again or evangelical Christian?,Yes,35.0,64.0,2012
-IA,WHTEVANG,White born-again or evangelical Christian?,No,60.0,38.0,2012
 IA,MARRIED,Marital status,Married,46.0,52.0,2012
 IA,MARRIED,Marital status,Unmarried,63.0,35.0,2012
 ME,SEX,Gender,Male,50.0,46.0,2012
@@ -147,8 +125,6 @@ ME,RACE,Race,White,57.0,40.0,2012
 ME,PHIL3,Ideology,Liberal,88.0,9.0,2012
 ME,PHIL3,Ideology,Moderate,61.0,36.0,2012
 ME,PHIL3,Ideology,Conservative,19.0,78.0,2012
-ME,EDUCCOLL,Are you a college graduate?,Yes,61.0,36.0,2012
-ME,EDUCCOLL,Are you a college graduate?,No,53.0,43.0,2012
 ME,INCOME3,Income,Under $50K,59.0,37.0,2012
 ME,INCOME3,Income,$50K-$100K,54.0,43.0,2012
 ME,INCOME3,Income,$100K or more,57.0,41.0,2012
@@ -166,15 +142,11 @@ MI,RACE,Race,Latino,63.0,34.0,2012
 MI,PHIL3,Ideology,Liberal,91.0,7.0,2012
 MI,PHIL3,Ideology,Moderate,60.0,39.0,2012
 MI,PHIL3,Ideology,Conservative,16.0,83.0,2012
-MI,EDUCCOLL,Are you a college graduate?,Yes,51.0,48.0,2012
-MI,EDUCCOLL,Are you a college graduate?,No,56.0,43.0,2012
 MI,INCOME3,Income,Under $50K,62.0,36.0,2012
 MI,INCOME3,Income,$50K-$100K,49.0,50.0,2012
 MI,INCOME3,Income,$100K or more,48.0,52.0,2012
 MI,REL5,Religion,Protestant,48.0,51.0,2012
 MI,REL5,Religion,Catholic,44.0,55.0,2012
-MI,WHTEVANG,White born-again or evangelical Christian?,Yes,24.0,74.0,2012
-MI,WHTEVANG,White born-again or evangelical Christian?,No,64.0,35.0,2012
 MI,MARRIED,Marital status,Married,45.0,54.0,2012
 MI,MARRIED,Marital status,Unmarried,66.0,32.0,2012
 MN,SEX,Gender,Male,44.0,51.0,2012
@@ -187,8 +159,6 @@ MN,RACE,Race,White,48.0,49.0,2012
 MN,PHIL3,Ideology,Liberal,91.0,6.0,2012
 MN,PHIL3,Ideology,Moderate,57.0,40.0,2012
 MN,PHIL3,Ideology,Conservative,14.0,85.0,2012
-MN,EDUCCOLL,Are you a college graduate?,Yes,54.0,43.0,2012
-MN,EDUCCOLL,Are you a college graduate?,No,52.0,46.0,2012
 MN,INCOME3,Income,Under $50K,59.0,37.0,2012
 MN,INCOME3,Income,$50K-$100K,50.0,48.0,2012
 MN,INCOME3,Income,$100K or more,46.0,52.0,2012
@@ -205,13 +175,9 @@ MO,RACE,Race,Black,94.0,6.0,2012
 MO,PHIL3,Ideology,Liberal,81.0,16.0,2012
 MO,PHIL3,Ideology,Moderate,53.0,44.0,2012
 MO,PHIL3,Ideology,Conservative,15.0,84.0,2012
-MO,EDUCCOLL,Are you a college graduate?,Yes,43.0,55.0,2012
-MO,EDUCCOLL,Are you a college graduate?,No,45.0,54.0,2012
 MO,INCOME3,Income,Under $50K,52.0,45.0,2012
 MO,INCOME3,Income,$50K-$100K,39.0,59.0,2012
 MO,INCOME3,Income,$100K or more,38.0,61.0,2012
-MO,WHTEVANG,White born-again or evangelical Christian?,Yes,22.0,76.0,2012
-MO,WHTEVANG,White born-again or evangelical Christian?,No,60.0,37.0,2012
 MO,MARRIED,Marital status,Married,36.0,62.0,2012
 MO,MARRIED,Marital status,Unmarried,56.0,41.0,2012
 NV,SEX,Gender,Male,48.0,49.0,2012
@@ -227,15 +193,11 @@ NV,RACE,Race,Asian,50.0,47.0,2012
 NV,PHIL3,Ideology,Liberal,91.0,7.0,2012
 NV,PHIL3,Ideology,Moderate,58.0,39.0,2012
 NV,PHIL3,Ideology,Conservative,19.0,79.0,2012
-NV,EDUCCOLL,Are you a college graduate?,Yes,49.0,49.0,2012
-NV,EDUCCOLL,Are you a college graduate?,No,56.0,42.0,2012
 NV,INCOME3,Income,Under $50K,68.0,29.0,2012
 NV,INCOME3,Income,$50K-$100K,47.0,52.0,2012
 NV,INCOME3,Income,$100K or more,37.0,61.0,2012
 NV,REL5,Religion,Protestant,43.0,57.0,2012
 NV,REL5,Religion,Catholic,51.0,46.0,2012
-NV,WHTEVANG,White born-again or evangelical Christian?,Yes,28.0,69.0,2012
-NV,WHTEVANG,White born-again or evangelical Christian?,No,59.0,40.0,2012
 NV,MARRIED,Marital status,Married,44.0,54.0,2012
 NV,MARRIED,Marital status,Unmarried,64.0,33.0,2012
 NH,SEX,Gender,Male,47.0,51.0,2012
@@ -248,13 +210,9 @@ NH,RACE,Race,White,51.0,47.0,2012
 NH,PHIL3,Ideology,Liberal,92.0,6.0,2012
 NH,PHIL3,Ideology,Moderate,56.0,42.0,2012
 NH,PHIL3,Ideology,Conservative,12.0,86.0,2012
-NH,EDUCCOLL,Are you a college graduate?,Yes,55.0,44.0,2012
-NH,EDUCCOLL,Are you a college graduate?,No,50.0,48.0,2012
 NH,INCOME3,Income,Under $50K,60.0,38.0,2012
 NH,INCOME3,Income,$50K-$100K,51.0,47.0,2012
 NH,INCOME3,Income,$100K or more,47.0,51.0,2012
-NH,WHTEVANG,White born-again or evangelical Christian?,Yes,25.0,73.0,2012
-NH,WHTEVANG,White born-again or evangelical Christian?,No,55.0,43.0,2012
 NH,MARRIED,Marital status,Married,49.0,50.0,2012
 NH,MARRIED,Marital status,Unmarried,58.0,40.0,2012
 NJ,SEX,Gender,Male,55.0,43.0,2012
@@ -268,8 +226,6 @@ NJ,RACE,Race,Black,96.0,4.0,2012
 NJ,PHIL3,Ideology,Liberal,89.0,10.0,2012
 NJ,PHIL3,Ideology,Moderate,60.0,39.0,2012
 NJ,PHIL3,Ideology,Conservative,22.0,76.0,2012
-NJ,EDUCCOLL,Are you a college graduate?,Yes,62.0,37.0,2012
-NJ,EDUCCOLL,Are you a college graduate?,No,55.0,43.0,2012
 NJ,INCOME3,Income,Under $50K,63.0,36.0,2012
 NJ,INCOME3,Income,$50K-$100K,55.0,45.0,2012
 NJ,INCOME3,Income,$100K or more,61.0,38.0,2012
@@ -286,8 +242,6 @@ NM,RACE,Race,Latino,65.0,29.0,2012
 NM,PHIL3,Ideology,Liberal,88.0,6.0,2012
 NM,PHIL3,Ideology,Moderate,61.0,34.0,2012
 NM,PHIL3,Ideology,Conservative,19.0,76.0,2012
-NM,EDUCCOLL,Are you a college graduate?,Yes,48.0,47.0,2012
-NM,EDUCCOLL,Are you a college graduate?,No,55.0,40.0,2012
 NM,INCOME3,Income,Under $50K,59.0,36.0,2012
 NM,INCOME3,Income,$50K-$100K,49.0,47.0,2012
 NM,INCOME3,Income,$100K or more,42.0,53.0,2012
@@ -305,14 +259,11 @@ NY,RACE,Race,Latino,89.0,11.0,2012
 NY,PHIL3,Ideology,Liberal,93.0,5.0,2012
 NY,PHIL3,Ideology,Moderate,63.0,36.0,2012
 NY,PHIL3,Ideology,Conservative,20.0,79.0,2012
-NY,EDUCCOLL,Are you a college graduate?,Yes,59.0,39.0,2012
-NY,EDUCCOLL,Are you a college graduate?,No,66.0,34.0,2012
 NY,INCOME3,Income,Under $50K,74.0,25.0,2012
 NY,INCOME3,Income,$50K-$100K,60.0,38.0,2012
 NY,INCOME3,Income,$100K or more,51.0,48.0,2012
 NY,REL5,Religion,Protestant,66.0,32.0,2012
 NY,REL5,Religion,Catholic,47.0,53.0,2012
-NY,WHTEVANG,White born-again or evangelical Christian?,No,67.0,33.0,2012
 NY,MARRIED,Marital status,Married,53.0,45.0,2012
 NY,MARRIED,Marital status,Unmarried,74.0,25.0,2012
 NC,SEX,Gender,Male,45.0,54.0,2012
@@ -327,13 +278,9 @@ NC,RACE,Race,Latino,68.0,31.0,2012
 NC,PHIL3,Ideology,Liberal,85.0,14.0,2012
 NC,PHIL3,Ideology,Moderate,57.0,42.0,2012
 NC,PHIL3,Ideology,Conservative,17.0,82.0,2012
-NC,EDUCCOLL,Are you a college graduate?,Yes,50.0,49.0,2012
-NC,EDUCCOLL,Are you a college graduate?,No,47.0,52.0,2012
 NC,INCOME3,Income,Under $50K,55.0,44.0,2012
 NC,INCOME3,Income,$50K-$100K,45.0,54.0,2012
 NC,INCOME3,Income,$100K or more,44.0,55.0,2012
-NC,WHTEVANG,White born-again or evangelical Christian?,Yes,20.0,79.0,2012
-NC,WHTEVANG,White born-again or evangelical Christian?,No,65.0,35.0,2012
 NC,MARRIED,Marital status,Married,39.0,60.0,2012
 NC,MARRIED,Marital status,Unmarried,61.0,37.0,2012
 NC,PARENTS,Parents by gender,Fathers,50.0,50.0,2012
@@ -350,15 +297,11 @@ OH,RACE,Race,Latino,54.0,42.0,2012
 OH,PHIL3,Ideology,Liberal,88.0,10.0,2012
 OH,PHIL3,Ideology,Moderate,57.0,41.0,2012
 OH,PHIL3,Ideology,Conservative,18.0,81.0,2012
-OH,EDUCCOLL,Are you a college graduate?,Yes,47.0,51.0,2012
-OH,EDUCCOLL,Are you a college graduate?,No,53.0,46.0,2012
 OH,INCOME3,Income,Under $50K,59.0,39.0,2012
 OH,INCOME3,Income,$50K-$100K,47.0,52.0,2012
 OH,INCOME3,Income,$100K or more,40.0,59.0,2012
 OH,REL5,Religion,Protestant,48.0,51.0,2012
 OH,REL5,Religion,Catholic,44.0,55.0,2012
-OH,WHTEVANG,White born-again or evangelical Christian?,Yes,30.0,69.0,2012
-OH,WHTEVANG,White born-again or evangelical Christian?,No,60.0,38.0,2012
 OH,MARRIED,Marital status,Married,42.0,56.0,2012
 OH,MARRIED,Marital status,Unmarried,62.0,36.0,2012
 OH,PARENTS,Parents by gender,Fathers,54.0,45.0,2012
@@ -372,8 +315,6 @@ OR,RACE,Race,White,54.0,44.0,2012
 OR,PHIL3,Ideology,Liberal,90.0,6.0,2012
 OR,PHIL3,Ideology,Moderate,58.0,40.0,2012
 OR,PHIL3,Ideology,Conservative,13.0,85.0,2012
-OR,EDUCCOLL,Are you a college graduate?,Yes,59.0,39.0,2012
-OR,EDUCCOLL,Are you a college graduate?,No,49.0,48.0,2012
 OR,INCOME3,Income,Under $50K,59.0,38.0,2012
 OR,INCOME3,Income,$50K-$100K,45.0,53.0,2012
 OR,INCOME3,Income,$100K or more,64.0,34.0,2012
@@ -389,8 +330,6 @@ PA,RACE,Race,Latino,80.0,18.0,2012
 PA,PHIL3,Ideology,Liberal,90.0,9.0,2012
 PA,PHIL3,Ideology,Moderate,54.0,45.0,2012
 PA,PHIL3,Ideology,Conservative,16.0,84.0,2012
-PA,EDUCCOLL,Are you a college graduate?,Yes,46.0,52.0,2012
-PA,EDUCCOLL,Are you a college graduate?,No,57.0,42.0,2012
 PA,INCOME3,Income,Under $50K,67.0,31.0,2012
 PA,INCOME3,Income,$50K-$100K,41.0,58.0,2012
 PA,INCOME3,Income,$100K or more,45.0,54.0,2012
@@ -408,13 +347,9 @@ VA,RACE,Race,Latino,64.0,33.0,2012
 VA,PHIL3,Ideology,Liberal,92.0,7.0,2012
 VA,PHIL3,Ideology,Moderate,56.0,42.0,2012
 VA,PHIL3,Ideology,Conservative,11.0,87.0,2012
-VA,EDUCCOLL,Are you a college graduate?,Yes,52.0,46.0,2012
-VA,EDUCCOLL,Are you a college graduate?,No,49.0,50.0,2012
 VA,INCOME3,Income,Under $50K,60.0,38.0,2012
 VA,INCOME3,Income,$50K-$100K,46.0,53.0,2012
 VA,INCOME3,Income,$100K or more,47.0,51.0,2012
-VA,WHTEVANG,White born-again or evangelical Christian?,Yes,17.0,83.0,2012
-VA,WHTEVANG,White born-again or evangelical Christian?,No,64.0,35.0,2012
 VA,MARRIED,Marital status,Married,44.0,55.0,2012
 VA,MARRIED,Marital status,Unmarried,61.0,37.0,2012
 WA,SEX,Gender,Male,53.0,44.0,2012
@@ -426,8 +361,6 @@ WA,RACE,Race,White,53.0,46.0,2012
 WA,PHIL3,Ideology,Liberal,93.0,5.0,2012
 WA,PHIL3,Ideology,Moderate,59.0,40.0,2012
 WA,PHIL3,Ideology,Conservative,19.0,78.0,2012
-WA,EDUCCOLL,Are you a college graduate?,Yes,58.0,40.0,2012
-WA,EDUCCOLL,Are you a college graduate?,No,54.0,44.0,2012
 WA,INCOME3,Income,Under $50K,64.0,34.0,2012
 WA,INCOME3,Income,$50K-$100K,49.0,48.0,2012
 WA,INCOME3,Income,$100K or more,59.0,41.0,2012
@@ -443,13 +376,9 @@ WI,RACE,Race,Latino,66.0,31.0,2012
 WI,PHIL3,Ideology,Liberal,90.0,8.0,2012
 WI,PHIL3,Ideology,Moderate,61.0,37.0,2012
 WI,PHIL3,Ideology,Conservative,14.0,85.0,2012
-WI,EDUCCOLL,Are you a college graduate?,Yes,53.0,46.0,2012
-WI,EDUCCOLL,Are you a college graduate?,No,51.0,47.0,2012
 WI,INCOME3,Income,Under $50K,62.0,37.0,2012
 WI,INCOME3,Income,$50K-$100K,49.0,50.0,2012
 WI,INCOME3,Income,$100K or more,39.0,59.0,2012
-WI,WHTEVANG,White born-again or evangelical Christian?,Yes,27.0,71.0,2012
-WI,WHTEVANG,White born-again or evangelical Christian?,No,60.0,38.0,2012
 WI,MARRIED,Marital status,Married,45.0,54.0,2012
 WI,MARRIED,Marital status,Unmarried,61.0,37.0,2012
 AZ,SEX,Gender,Male,40.0,53.0,2016
@@ -463,8 +392,6 @@ AZ,RACE,Race,Latino,61.0,31.0,2016
 AZ,PHIL3,Ideology,Liberal,80.0,12.0,2016
 AZ,PHIL3,Ideology,Moderate,55.0,38.0,2016
 AZ,PHIL3,Ideology,Conservative,13.0,82.0,2016
-AZ,EDUCCOLL,Are you a college graduate?,Yes,46.0,47.0,2016
-AZ,EDUCCOLL,Are you a college graduate?,No,43.0,50.0,2016
 AZ,INCOME3,Income,Under $50K,50.0,40.0,2016
 AZ,INCOME3,Income,$50K-$100K,48.0,48.0,2016
 AZ,INCOME3,Income,$100K or more,40.0,54.0,2016
@@ -481,14 +408,11 @@ CA,RACE,Race,Asian,70.0,17.0,2016
 CA,PHIL3,Ideology,Liberal,88.0,8.0,2016
 CA,PHIL3,Ideology,Moderate,60.0,33.0,2016
 CA,PHIL3,Ideology,Conservative,28.0,68.0,2016
-CA,EDUCCOLL,Are you a college graduate?,Yes,65.0,30.0,2016
-CA,EDUCCOLL,Are you a college graduate?,No,57.0,36.0,2016
 CA,INCOME3,Income,Under $50K,71.0,24.0,2016
 CA,INCOME3,Income,$50K-$100K,67.0,26.0,2016
 CA,INCOME3,Income,$100K or more,57.0,40.0,2016
 CA,REL5,Religion,Protestant,45.0,51.0,2016
 CA,REL5,Religion,Catholic,63.0,32.0,2016
-CA,WHTEVANG,White born-again or evangelical Christian?,No,69.0,26.0,2016
 CA,MARRIED,Marital status,Married,58.0,38.0,2016
 CA,MARRIED,Marital status,Unmarried,65.0,27.0,2016
 CO,SEX,Gender,Male,41.0,49.0,2016
@@ -501,8 +425,6 @@ CO,RACE,Race,Latino,67.0,30.0,2016
 CO,PHIL3,Ideology,Liberal,85.0,10.0,2016
 CO,PHIL3,Ideology,Moderate,53.0,36.0,2016
 CO,PHIL3,Ideology,Conservative,16.0,80.0,2016
-CO,EDUCCOLL,Are you a college graduate?,Yes,54.0,38.0,2016
-CO,EDUCCOLL,Are you a college graduate?,No,42.0,50.0,2016
 CO,INCOME3,Income,Under $50K,46.0,41.0,2016
 CO,INCOME3,Income,$50K-$100K,52.0,44.0,2016
 CO,INCOME3,Income,$100K or more,51.0,41.0,2016
@@ -518,15 +440,11 @@ FL,RACE,Race,Latino,62.0,35.0,2016
 FL,PHIL3,Ideology,Liberal,81.0,14.0,2016
 FL,PHIL3,Ideology,Moderate,51.0,43.0,2016
 FL,PHIL3,Ideology,Conservative,17.0,79.0,2016
-FL,EDUCCOLL,Are you a college graduate?,Yes,46.0,49.0,2016
-FL,EDUCCOLL,Are you a college graduate?,No,47.0,48.0,2016
 FL,INCOME3,Income,Under $50K,54.0,42.0,2016
 FL,INCOME3,Income,$50K-$100K,45.0,52.0,2016
 FL,INCOME3,Income,$100K or more,40.0,56.0,2016
 FL,REL5,Religion,Protestant,38.0,60.0,2016
 FL,REL5,Religion,Catholic,44.0,54.0,2016
-FL,WHTEVANG,White born-again or evangelical Christian?,Yes,14.0,85.0,2016
-FL,WHTEVANG,White born-again or evangelical Christian?,No,53.0,41.0,2016
 FL,MARRIED,Marital status,Married,44.0,51.0,2016
 FL,MARRIED,Marital status,Unmarried,52.0,42.0,2016
 IL,SEX,Gender,Male,50.0,43.0,2016
@@ -540,13 +458,10 @@ IL,RACE,Race,Black,87.0,12.0,2016
 IL,PHIL3,Ideology,Liberal,87.0,8.0,2016
 IL,PHIL3,Ideology,Moderate,63.0,31.0,2016
 IL,PHIL3,Ideology,Conservative,14.0,83.0,2016
-IL,EDUCCOLL,Are you a college graduate?,Yes,58.0,36.0,2016
-IL,EDUCCOLL,Are you a college graduate?,No,53.0,42.0,2016
 IL,INCOME3,Income,Under $50K,60.0,37.0,2016
 IL,INCOME3,Income,$50K-$100K,61.0,36.0,2016
 IL,INCOME3,Income,$100K or more,48.0,45.0,2016
 IL,REL5,Religion,Protestant,45.0,49.0,2016
-IL,WHTEVANG,White born-again or evangelical Christian?,No,73.0,22.0,2016
 IL,MARRIED,Marital status,Married,55.0,40.0,2016
 IL,MARRIED,Marital status,Unmarried,67.0,29.0,2016
 IN,SEX,Gender,Male,33.0,62.0,2016
@@ -560,13 +475,9 @@ IN,RACE,Race,Black,83.0,12.0,2016
 IN,PHIL3,Ideology,Liberal,79.0,15.0,2016
 IN,PHIL3,Ideology,Moderate,41.0,53.0,2016
 IN,PHIL3,Ideology,Conservative,10.0,86.0,2016
-IN,EDUCCOLL,Are you a college graduate?,Yes,43.0,51.0,2016
-IN,EDUCCOLL,Are you a college graduate?,No,33.0,63.0,2016
 IN,INCOME3,Income,Under $50K,40.0,52.0,2016
 IN,INCOME3,Income,$50K-$100K,33.0,63.0,2016
 IN,INCOME3,Income,$100K or more,34.0,62.0,2016
-IN,WHTEVANG,White born-again or evangelical Christian?,Yes,22.0,75.0,2016
-IN,WHTEVANG,White born-again or evangelical Christian?,No,50.0,45.0,2016
 IN,MARRIED,Marital status,Married,33.0,61.0,2016
 IN,MARRIED,Marital status,Unmarried,45.0,49.0,2016
 IA,SEX,Gender,Male,33.0,61.0,2016
@@ -579,15 +490,11 @@ IA,RACE,Race,White,40.0,54.0,2016
 IA,PHIL3,Ideology,Liberal,81.0,12.0,2016
 IA,PHIL3,Ideology,Moderate,51.0,42.0,2016
 IA,PHIL3,Ideology,Conservative,11.0,84.0,2016
-IA,EDUCCOLL,Are you a college graduate?,Yes,46.0,48.0,2016
-IA,EDUCCOLL,Are you a college graduate?,No,40.0,54.0,2016
 IA,INCOME3,Income,Under $50K,52.0,38.0,2016
 IA,INCOME3,Income,$50K-$100K,39.0,55.0,2016
 IA,INCOME3,Income,$100K or more,43.0,51.0,2016
 IA,REL5,Religion,Protestant,31.0,63.0,2016
 IA,REL5,Religion,Catholic,42.0,56.0,2016
-IA,WHTEVANG,White born-again or evangelical Christian?,Yes,25.0,70.0,2016
-IA,WHTEVANG,White born-again or evangelical Christian?,No,51.0,42.0,2016
 IA,MARRIED,Marital status,Married,38.0,58.0,2016
 IA,MARRIED,Marital status,Unmarried,54.0,43.0,2016
 ME,SEX,Gender,Male,41.0,52.0,2016
@@ -600,8 +507,6 @@ ME,RACE,Race,White,47.0,46.0,2016
 ME,PHIL3,Ideology,Liberal,84.0,8.0,2016
 ME,PHIL3,Ideology,Moderate,47.0,46.0,2016
 ME,PHIL3,Ideology,Conservative,11.0,84.0,2016
-ME,EDUCCOLL,Are you a college graduate?,Yes,58.0,35.0,2016
-ME,EDUCCOLL,Are you a college graduate?,No,38.0,55.0,2016
 ME,INCOME3,Income,Under $50K,44.0,47.0,2016
 ME,INCOME3,Income,$50K-$100K,50.0,44.0,2016
 ME,INCOME3,Income,$100K or more,55.0,41.0,2016
@@ -619,15 +524,11 @@ MI,RACE,Race,Latino,59.0,38.0,2016
 MI,PHIL3,Ideology,Liberal,81.0,14.0,2016
 MI,PHIL3,Ideology,Moderate,52.0,42.0,2016
 MI,PHIL3,Ideology,Conservative,17.0,79.0,2016
-MI,EDUCCOLL,Are you a college graduate?,Yes,50.0,44.0,2016
-MI,EDUCCOLL,Are you a college graduate?,No,45.0,49.0,2016
 MI,INCOME3,Income,Under $50K,53.0,42.0,2016
 MI,INCOME3,Income,$50K-$100K,43.0,51.0,2016
 MI,INCOME3,Income,$100K or more,43.0,51.0,2016
 MI,REL5,Religion,Protestant,39.0,55.0,2016
 MI,REL5,Religion,Catholic,39.0,57.0,2016
-MI,WHTEVANG,White born-again or evangelical Christian?,Yes,14.0,81.0,2016
-MI,WHTEVANG,White born-again or evangelical Christian?,No,58.0,36.0,2016
 MI,MARRIED,Marital status,Married,39.0,56.0,2016
 MI,MARRIED,Marital status,Unmarried,58.0,35.0,2016
 MN,SEX,Gender,Male,43.0,49.0,2016
@@ -640,8 +541,6 @@ MN,RACE,Race,White,43.0,50.0,2016
 MN,PHIL3,Ideology,Liberal,88.0,7.0,2016
 MN,PHIL3,Ideology,Moderate,48.0,43.0,2016
 MN,PHIL3,Ideology,Conservative,11.0,82.0,2016
-MN,EDUCCOLL,Are you a college graduate?,Yes,53.0,39.0,2016
-MN,EDUCCOLL,Are you a college graduate?,No,38.0,55.0,2016
 MN,INCOME3,Income,Under $50K,45.0,45.0,2016
 MN,INCOME3,Income,$50K-$100K,45.0,48.0,2016
 MN,INCOME3,Income,$100K or more,52.0,41.0,2016
@@ -658,13 +557,9 @@ MO,RACE,Race,Black,90.0,8.0,2016
 MO,PHIL3,Ideology,Liberal,80.0,14.0,2016
 MO,PHIL3,Ideology,Moderate,48.0,45.0,2016
 MO,PHIL3,Ideology,Conservative,8.0,89.0,2016
-MO,EDUCCOLL,Are you a college graduate?,Yes,39.0,55.0,2016
-MO,EDUCCOLL,Are you a college graduate?,No,37.0,59.0,2016
 MO,INCOME3,Income,Under $50K,46.0,48.0,2016
 MO,INCOME3,Income,$50K-$100K,34.0,59.0,2016
 MO,INCOME3,Income,$100K or more,30.0,66.0,2016
-MO,WHTEVANG,White born-again or evangelical Christian?,Yes,14.0,83.0,2016
-MO,WHTEVANG,White born-again or evangelical Christian?,No,50.0,44.0,2016
 MO,MARRIED,Marital status,Married,31.0,64.0,2016
 MO,MARRIED,Marital status,Unmarried,47.0,49.0,2016
 NV,SEX,Gender,Male,42.0,50.0,2016
@@ -680,15 +575,11 @@ NV,RACE,Race,Asian,62.0,36.0,2016
 NV,PHIL3,Ideology,Liberal,82.0,13.0,2016
 NV,PHIL3,Ideology,Moderate,54.0,38.0,2016
 NV,PHIL3,Ideology,Conservative,19.0,77.0,2016
-NV,EDUCCOLL,Are you a college graduate?,Yes,49.0,44.0,2016
-NV,EDUCCOLL,Are you a college graduate?,No,48.0,46.0,2016
 NV,INCOME3,Income,Under $50K,60.0,31.0,2016
 NV,INCOME3,Income,$50K-$100K,50.0,42.0,2016
 NV,INCOME3,Income,$100K or more,37.0,58.0,2016
 NV,REL5,Religion,Protestant,38.0,56.0,2016
 NV,REL5,Religion,Catholic,55.0,40.0,2016
-NV,WHTEVANG,White born-again or evangelical Christian?,Yes,25.0,68.0,2016
-NV,WHTEVANG,White born-again or evangelical Christian?,No,50.0,43.0,2016
 NV,MARRIED,Marital status,Married,46.0,49.0,2016
 NV,MARRIED,Marital status,Unmarried,49.0,44.0,2016
 NH,SEX,Gender,Male,40.0,53.0,2016
@@ -701,13 +592,9 @@ NH,RACE,Race,White,46.0,48.0,2016
 NH,PHIL3,Ideology,Liberal,87.0,9.0,2016
 NH,PHIL3,Ideology,Moderate,52.0,41.0,2016
 NH,PHIL3,Ideology,Conservative,9.0,86.0,2016
-NH,EDUCCOLL,Are you a college graduate?,Yes,54.0,40.0,2016
-NH,EDUCCOLL,Are you a college graduate?,No,39.0,55.0,2016
 NH,INCOME3,Income,Under $50K,51.0,43.0,2016
 NH,INCOME3,Income,$50K-$100K,50.0,46.0,2016
 NH,INCOME3,Income,$100K or more,48.0,47.0,2016
-NH,WHTEVANG,White born-again or evangelical Christian?,Yes,22.0,75.0,2016
-NH,WHTEVANG,White born-again or evangelical Christian?,No,50.0,43.0,2016
 NH,MARRIED,Marital status,Married,47.0,47.0,2016
 NH,MARRIED,Marital status,Unmarried,51.0,42.0,2016
 NJ,SEX,Gender,Male,51.0,45.0,2016
@@ -721,8 +608,6 @@ NJ,RACE,Race,Black,89.0,9.0,2016
 NJ,PHIL3,Ideology,Liberal,84.0,13.0,2016
 NJ,PHIL3,Ideology,Moderate,56.0,40.0,2016
 NJ,PHIL3,Ideology,Conservative,17.0,80.0,2016
-NJ,EDUCCOLL,Are you a college graduate?,Yes,60.0,35.0,2016
-NJ,EDUCCOLL,Are you a college graduate?,No,48.0,49.0,2016
 NJ,INCOME3,Income,Under $50K,64.0,31.0,2016
 NJ,INCOME3,Income,$50K-$100K,54.0,43.0,2016
 NJ,INCOME3,Income,$100K or more,50.0,46.0,2016
@@ -739,8 +624,6 @@ NM,RACE,Race,Latino,54.0,33.0,2016
 NM,PHIL3,Ideology,Liberal,82.0,9.0,2016
 NM,PHIL3,Ideology,Moderate,51.0,33.0,2016
 NM,PHIL3,Ideology,Conservative,15.0,75.0,2016
-NM,EDUCCOLL,Are you a college graduate?,Yes,51.0,37.0,2016
-NM,EDUCCOLL,Are you a college graduate?,No,45.0,43.0,2016
 NM,INCOME3,Income,Under $50K,52.0,33.0,2016
 NM,INCOME3,Income,$50K-$100K,44.0,46.0,2016
 NM,INCOME3,Income,$100K or more,47.0,43.0,2016
@@ -758,14 +641,11 @@ NY,RACE,Race,Latino,74.0,23.0,2016
 NY,PHIL3,Ideology,Liberal,88.0,8.0,2016
 NY,PHIL3,Ideology,Moderate,59.0,38.0,2016
 NY,PHIL3,Ideology,Conservative,19.0,78.0,2016
-NY,EDUCCOLL,Are you a college graduate?,Yes,64.0,33.0,2016
-NY,EDUCCOLL,Are you a college graduate?,No,53.0,44.0,2016
 NY,INCOME3,Income,Under $50K,68.0,30.0,2016
 NY,INCOME3,Income,$50K-$100K,61.0,37.0,2016
 NY,INCOME3,Income,$100K or more,55.0,38.0,2016
 NY,REL5,Religion,Protestant,50.0,48.0,2016
 NY,REL5,Religion,Catholic,55.0,43.0,2016
-NY,WHTEVANG,White born-again or evangelical Christian?,No,59.0,38.0,2016
 NY,MARRIED,Marital status,Married,53.0,44.0,2016
 NY,MARRIED,Marital status,Unmarried,66.0,30.0,2016
 NC,SEX,Gender,Male,38.0,56.0,2016
@@ -780,13 +660,9 @@ NC,RACE,Race,Latino,57.0,40.0,2016
 NC,PHIL3,Ideology,Liberal,86.0,9.0,2016
 NC,PHIL3,Ideology,Moderate,57.0,37.0,2016
 NC,PHIL3,Ideology,Conservative,15.0,83.0,2016
-NC,EDUCCOLL,Are you a college graduate?,Yes,49.0,48.0,2016
-NC,EDUCCOLL,Are you a college graduate?,No,43.0,53.0,2016
 NC,INCOME3,Income,Under $50K,56.0,38.0,2016
 NC,INCOME3,Income,$50K-$100K,48.0,50.0,2016
 NC,INCOME3,Income,$100K or more,38.0,60.0,2016
-NC,WHTEVANG,White born-again or evangelical Christian?,Yes,17.0,81.0,2016
-NC,WHTEVANG,White born-again or evangelical Christian?,No,63.0,32.0,2016
 NC,MARRIED,Marital status,Married,39.0,59.0,2016
 NC,MARRIED,Marital status,Unmarried,55.0,38.0,2016
 NC,PARENTS,Parents by gender,Fathers,37.0,62.0,2016
@@ -803,15 +679,11 @@ OH,RACE,Race,Latino,67.0,26.0,2016
 OH,PHIL3,Ideology,Liberal,81.0,14.0,2016
 OH,PHIL3,Ideology,Moderate,49.0,43.0,2016
 OH,PHIL3,Ideology,Conservative,16.0,81.0,2016
-OH,EDUCCOLL,Are you a college graduate?,Yes,41.0,52.0,2016
-OH,EDUCCOLL,Are you a college graduate?,No,44.0,52.0,2016
 OH,INCOME3,Income,Under $50K,51.0,43.0,2016
 OH,INCOME3,Income,$50K-$100K,40.0,55.0,2016
 OH,INCOME3,Income,$100K or more,37.0,59.0,2016
 OH,REL5,Religion,Protestant,37.0,59.0,2016
 OH,REL5,Religion,Catholic,38.0,58.0,2016
-OH,WHTEVANG,White born-again or evangelical Christian?,Yes,20.0,77.0,2016
-OH,WHTEVANG,White born-again or evangelical Christian?,No,55.0,40.0,2016
 OH,MARRIED,Marital status,Married,36.0,59.0,2016
 OH,MARRIED,Marital status,Unmarried,52.0,42.0,2016
 OH,PARENTS,Parents by gender,Fathers,35.0,57.0,2016
@@ -825,8 +697,6 @@ OR,RACE,Race,White,49.0,42.0,2016
 OR,PHIL3,Ideology,Liberal,89.0,5.0,2016
 OR,PHIL3,Ideology,Moderate,52.0,34.0,2016
 OR,PHIL3,Ideology,Conservative,7.0,85.0,2016
-OR,EDUCCOLL,Are you a college graduate?,Yes,59.0,29.0,2016
-OR,EDUCCOLL,Are you a college graduate?,No,43.0,50.0,2016
 OR,INCOME3,Income,Under $50K,46.0,40.0,2016
 OR,INCOME3,Income,$50K-$100K,48.0,44.0,2016
 OR,INCOME3,Income,$100K or more,55.0,36.0,2016
@@ -842,8 +712,6 @@ PA,RACE,Race,Latino,74.0,22.0,2016
 PA,PHIL3,Ideology,Liberal,85.0,12.0,2016
 PA,PHIL3,Ideology,Moderate,53.0,43.0,2016
 PA,PHIL3,Ideology,Conservative,12.0,85.0,2016
-PA,EDUCCOLL,Are you a college graduate?,Yes,52.0,45.0,2016
-PA,EDUCCOLL,Are you a college graduate?,No,45.0,52.0,2016
 PA,INCOME3,Income,Under $50K,54.0,42.0,2016
 PA,INCOME3,Income,$50K-$100K,41.0,55.0,2016
 PA,INCOME3,Income,$100K or more,45.0,52.0,2016
@@ -861,13 +729,9 @@ VA,RACE,Race,Latino,65.0,30.0,2016
 VA,PHIL3,Ideology,Liberal,85.0,11.0,2016
 VA,PHIL3,Ideology,Moderate,58.0,36.0,2016
 VA,PHIL3,Ideology,Conservative,12.0,83.0,2016
-VA,EDUCCOLL,Are you a college graduate?,Yes,55.0,39.0,2016
-VA,EDUCCOLL,Are you a college graduate?,No,44.0,51.0,2016
 VA,INCOME3,Income,Under $50K,53.0,41.0,2016
 VA,INCOME3,Income,$50K-$100K,47.0,49.0,2016
 VA,INCOME3,Income,$100K or more,51.0,44.0,2016
-VA,WHTEVANG,White born-again or evangelical Christian?,Yes,14.0,80.0,2016
-VA,WHTEVANG,White born-again or evangelical Christian?,No,59.0,35.0,2016
 VA,MARRIED,Marital status,Married,44.0,52.0,2016
 VA,MARRIED,Marital status,Unmarried,54.0,36.0,2016
 WA,SEX,Gender,Male,45.0,47.0,2016
@@ -879,8 +743,6 @@ WA,RACE,Race,White,51.0,40.0,2016
 WA,PHIL3,Ideology,Liberal,86.0,7.0,2016
 WA,PHIL3,Ideology,Moderate,61.0,29.0,2016
 WA,PHIL3,Ideology,Conservative,14.0,82.0,2016
-WA,EDUCCOLL,Are you a college graduate?,Yes,57.0,34.0,2016
-WA,EDUCCOLL,Are you a college graduate?,No,51.0,42.0,2016
 WA,INCOME3,Income,Under $50K,52.0,36.0,2016
 WA,INCOME3,Income,$50K-$100K,50.0,44.0,2016
 WA,INCOME3,Income,$100K or more,59.0,34.0,2016
@@ -896,12 +758,8 @@ WI,RACE,Race,Latino,63.0,34.0,2016
 WI,PHIL3,Ideology,Liberal,86.0,10.0,2016
 WI,PHIL3,Ideology,Moderate,52.0,42.0,2016
 WI,PHIL3,Ideology,Conservative,11.0,85.0,2016
-WI,EDUCCOLL,Are you a college graduate?,Yes,55.0,39.0,2016
-WI,EDUCCOLL,Are you a college graduate?,No,40.0,56.0,2016
 WI,INCOME3,Income,Under $50K,49.0,45.0,2016
 WI,INCOME3,Income,$50K-$100K,46.0,52.0,2016
 WI,INCOME3,Income,$100K or more,48.0,46.0,2016
-WI,WHTEVANG,White born-again or evangelical Christian?,Yes,23.0,73.0,2016
-WI,WHTEVANG,White born-again or evangelical Christian?,No,57.0,38.0,2016
 WI,MARRIED,Marital status,Married,40.0,55.0,2016
 WI,MARRIED,Marital status,Unmarried,51.0,43.0,2016
