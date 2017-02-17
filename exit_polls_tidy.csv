@@ -5,23 +5,8 @@ AZ,AGE,Age,18-29,63.0,36.0,2012
 AZ,AGE,Age,30-44,37.0,59.0,2012
 AZ,AGE,Age,45-64,38.0,61.0,2012
 AZ,AGE,Age,65 and older,29.0,71.0,2012
-AZ,AGE65,Age,18-24,66.0,32.0,2012
-AZ,AGE65,Age,25-29,59.0,39.0,2012
-AZ,AGE65,Age,30-39,37.0,58.0,2012
-AZ,AGE65,Age,40-49,40.0,58.0,2012
-AZ,AGE65,Age,50-64,36.0,64.0,2012
-AZ,AGE65,Age,65 and older,29.0,71.0,2012
 AZ,RACE,Race,White,32.0,66.0,2012
-AZ,RACE,Race,Black,0.0,0.0,2012
 AZ,RACE,Race,Latino,74.0,25.0,2012
-AZ,RACE,Race,Asian,0.0,0.0,2012
-AZ,SEXBYRACE,Race and gender,White men,30.0,67.0,2012
-AZ,SEXBYRACE,Race and gender,White women,35.0,65.0,2012
-AZ,SEXBYRACE,Race and gender,Black men,0.0,0.0,2012
-AZ,SEXBYRACE,Race and gender,Black women,0.0,0.0,2012
-AZ,SEXBYRACE,Race and gender,Latino men,71.0,27.0,2012
-AZ,SEXBYRACE,Race and gender,Latino women,77.0,22.0,2012
-AZ,SEXBYRACE,Race and gender,Others,0.0,0.0,2012
 AZ,PHIL3,Ideology,Liberal,86.0,12.0,2012
 AZ,PHIL3,Ideology,Moderate,51.0,46.0,2012
 AZ,PHIL3,Ideology,Conservative,12.0,87.0,2012
@@ -30,38 +15,16 @@ AZ,EDUCCOLL,Are you a college graduate?,No,44.0,55.0,2012
 AZ,INCOME3,Income,Under $50K,47.0,51.0,2012
 AZ,INCOME3,Income,$50K-$100K,41.0,57.0,2012
 AZ,INCOME3,Income,$100K or more,43.0,56.0,2012
-AZ,INC50K,Income,Under $50K,47.0,51.0,2012
-AZ,INC50K,Income,$50K or more,42.0,56.0,2012
-AZ,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-AZ,NEC,Condition of national economy,Good,0.0,0.0,2012
-AZ,NEC,Condition of national economy,Poor,17.0,77.0,2012
-AZ,OBAMA2,Opinion of Barack Obama as president,Approve,91.0,7.0,2012
-AZ,OBAMA2,Opinion of Barack Obama as president,Disapprove,3.0,94.0,2012
-AZ,GEOCOD,Region,Pima County,48.0,50.0,2012
-AZ,GEOCOD,Region,Rest of Arizona,34.0,65.0,2012
 CA,SEX,Gender,Male,54.0,43.0,2012
 CA,SEX,Gender,Female,64.0,34.0,2012
 CA,AGE,Age,18-29,71.0,27.0,2012
 CA,AGE,Age,30-44,60.0,36.0,2012
 CA,AGE,Age,45-64,53.0,46.0,2012
 CA,AGE,Age,65 and older,48.0,52.0,2012
-CA,AGE65,Age,18-24,69.0,29.0,2012
-CA,AGE65,Age,25-29,72.0,26.0,2012
-CA,AGE65,Age,30-39,59.0,37.0,2012
-CA,AGE65,Age,40-49,59.0,39.0,2012
-CA,AGE65,Age,50-64,52.0,47.0,2012
-CA,AGE65,Age,65 and older,48.0,52.0,2012
 CA,RACE,Race,White,45.0,53.0,2012
 CA,RACE,Race,Black,96.0,3.0,2012
 CA,RACE,Race,Latino,72.0,27.0,2012
 CA,RACE,Race,Asian,79.0,21.0,2012
-CA,SEXBYRACE,Race and gender,White men,41.0,56.0,2012
-CA,SEXBYRACE,Race and gender,White women,50.0,49.0,2012
-CA,SEXBYRACE,Race and gender,Black men,0.0,0.0,2012
-CA,SEXBYRACE,Race and gender,Black women,94.0,5.0,2012
-CA,SEXBYRACE,Race and gender,Latino men,68.0,30.0,2012
-CA,SEXBYRACE,Race and gender,Latino women,75.0,24.0,2012
-CA,SEXBYRACE,Race and gender,Others,73.0,24.0,2012
 CA,PHIL3,Ideology,Liberal,94.0,5.0,2012
 CA,PHIL3,Ideology,Moderate,60.0,38.0,2012
 CA,PHIL3,Ideology,Conservative,24.0,75.0,2012
@@ -70,48 +33,18 @@ CA,EDUCCOLL,Are you a college graduate?,No,60.0,39.0,2012
 CA,INCOME3,Income,Under $50K,64.0,34.0,2012
 CA,INCOME3,Income,$50K-$100K,59.0,39.0,2012
 CA,INCOME3,Income,$100K or more,52.0,46.0,2012
-CA,INC50K,Income,Under $50K,64.0,34.0,2012
-CA,INC50K,Income,$50K or more,55.0,43.0,2012
 CA,REL5,Religion,Protestant,46.0,52.0,2012
 CA,REL5,Religion,Catholic,62.0,38.0,2012
-CA,REL5,Religion,Jewish,0.0,0.0,2012
-CA,WHTEVANG,White born-again or evangelical Christian?,Yes,0.0,0.0,2012
 CA,WHTEVANG,White born-again or evangelical Christian?,No,66.0,32.0,2012
-CA,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-CA,NEC,Condition of national economy,Good,96.0,4.0,2012
-CA,NEC,Condition of national economy,Poor,21.0,74.0,2012
-CA,OBAMA2,Opinion of Barack Obama as president,Approve,89.0,10.0,2012
-CA,OBAMA2,Opinion of Barack Obama as president,Disapprove,3.0,91.0,2012
 CA,MARRIED,Marital status,Married,51.0,48.0,2012
 CA,MARRIED,Marital status,Unmarried,67.0,30.0,2012
-CA,UNIONHH12,Union household?,Union,67.0,31.0,2012
-CA,UNIONHH12,Union household?,Not Union,57.0,42.0,2012
-CA,BREAK12B,Were debates a factor in your vote?,Yes,70.0,29.0,2012
-CA,BREAK12B,Were debates a factor in your vote?,No,36.0,60.0,2012
-CA,GEOCOD,Region,Southern California,49.0,49.0,2012
 CO,SEX,Gender,Male,51.0,46.0,2012
 CO,SEX,Gender,Female,51.0,48.0,2012
-CO,AGE,Age,18-29,0.0,0.0,2012
 CO,AGE,Age,30-44,50.0,48.0,2012
 CO,AGE,Age,45-64,51.0,47.0,2012
 CO,AGE,Age,65 and older,42.0,57.0,2012
-CO,AGE65,Age,18-24,0.0,0.0,2012
-CO,AGE65,Age,25-29,0.0,0.0,2012
-CO,AGE65,Age,30-39,51.0,47.0,2012
-CO,AGE65,Age,40-49,49.0,50.0,2012
-CO,AGE65,Age,50-64,52.0,47.0,2012
-CO,AGE65,Age,65 and older,42.0,57.0,2012
 CO,RACE,Race,White,44.0,54.0,2012
-CO,RACE,Race,Black,0.0,0.0,2012
 CO,RACE,Race,Latino,75.0,23.0,2012
-CO,RACE,Race,Asian,0.0,0.0,2012
-CO,SEXBYRACE,Race and gender,White men,41.0,55.0,2012
-CO,SEXBYRACE,Race and gender,White women,46.0,53.0,2012
-CO,SEXBYRACE,Race and gender,Black men,0.0,0.0,2012
-CO,SEXBYRACE,Race and gender,Black women,0.0,0.0,2012
-CO,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-CO,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2012
-CO,SEXBYRACE,Race and gender,Others,0.0,0.0,2012
 CO,PHIL3,Ideology,Liberal,91.0,8.0,2012
 CO,PHIL3,Ideology,Moderate,51.0,44.0,2012
 CO,PHIL3,Ideology,Conservative,15.0,83.0,2012
@@ -120,34 +53,15 @@ CO,EDUCCOLL,Are you a college graduate?,No,54.0,44.0,2012
 CO,INCOME3,Income,Under $50K,60.0,38.0,2012
 CO,INCOME3,Income,$50K-$100K,50.0,48.0,2012
 CO,INCOME3,Income,$100K or more,46.0,51.0,2012
-CO,INC50K,Income,Under $50K,60.0,38.0,2012
-CO,INC50K,Income,$50K or more,49.0,49.0,2012
-CO,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-CO,NEC,Condition of national economy,Good,92.0,6.0,2012
-CO,NEC,Condition of national economy,Poor,11.0,88.0,2012
 FL,SEX,Gender,Male,46.0,52.0,2012
 FL,SEX,Gender,Female,53.0,46.0,2012
 FL,AGE,Age,18-29,66.0,32.0,2012
 FL,AGE,Age,30-44,52.0,46.0,2012
 FL,AGE,Age,45-64,48.0,52.0,2012
 FL,AGE,Age,65 and older,41.0,58.0,2012
-FL,AGE65,Age,18-24,68.0,29.0,2012
-FL,AGE65,Age,25-29,64.0,36.0,2012
-FL,AGE65,Age,30-39,55.0,44.0,2012
-FL,AGE65,Age,40-49,47.0,52.0,2012
-FL,AGE65,Age,50-64,48.0,51.0,2012
-FL,AGE65,Age,65 and older,41.0,58.0,2012
 FL,RACE,Race,White,37.0,61.0,2012
 FL,RACE,Race,Black,95.0,4.0,2012
 FL,RACE,Race,Latino,60.0,39.0,2012
-FL,RACE,Race,Asian,0.0,0.0,2012
-FL,SEXBYRACE,Race and gender,White men,33.0,65.0,2012
-FL,SEXBYRACE,Race and gender,White women,41.0,58.0,2012
-FL,SEXBYRACE,Race and gender,Black men,94.0,5.0,2012
-FL,SEXBYRACE,Race and gender,Black women,96.0,4.0,2012
-FL,SEXBYRACE,Race and gender,Latino men,58.0,40.0,2012
-FL,SEXBYRACE,Race and gender,Latino women,61.0,38.0,2012
-FL,SEXBYRACE,Race and gender,Others,70.0,29.0,2012
 FL,PHIL3,Ideology,Liberal,86.0,13.0,2012
 FL,PHIL3,Ideology,Moderate,53.0,46.0,2012
 FL,PHIL3,Ideology,Conservative,20.0,78.0,2012
@@ -156,42 +70,20 @@ FL,EDUCCOLL,Are you a college graduate?,No,52.0,47.0,2012
 FL,INCOME3,Income,Under $50K,59.0,40.0,2012
 FL,INCOME3,Income,$50K-$100K,44.0,54.0,2012
 FL,INCOME3,Income,$100K or more,43.0,57.0,2012
-FL,INC50K,Income,Under $50K,59.0,40.0,2012
-FL,INC50K,Income,$50K or more,43.0,55.0,2012
 FL,REL5,Religion,Protestant,42.0,58.0,2012
 FL,REL5,Religion,Catholic,47.0,52.0,2012
-FL,REL5,Religion,Jewish,66.0,30.0,2012
 FL,WHTEVANG,White born-again or evangelical Christian?,Yes,21.0,79.0,2012
 FL,WHTEVANG,White born-again or evangelical Christian?,No,62.0,37.0,2012
-FL,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-FL,NEC,Condition of national economy,Good,91.0,7.0,2012
-FL,NEC,Condition of national economy,Poor,11.0,88.0,2012
 FL,MARRIED,Marital status,Married,43.0,56.0,2012
 FL,MARRIED,Marital status,Unmarried,61.0,38.0,2012
-FL,GEOCOD,Region,Tampa Bay Area,49.0,50.0,2012
 IL,SEX,Gender,Male,52.0,46.0,2012
 IL,SEX,Gender,Female,63.0,35.0,2012
 IL,AGE,Age,18-29,68.0,28.0,2012
 IL,AGE,Age,30-44,57.0,41.0,2012
 IL,AGE,Age,45-64,54.0,45.0,2012
 IL,AGE,Age,65 and older,57.0,43.0,2012
-IL,AGE65,Age,18-24,71.0,26.0,2012
-IL,AGE65,Age,25-29,0.0,0.0,2012
-IL,AGE65,Age,30-39,57.0,41.0,2012
-IL,AGE65,Age,40-49,55.0,44.0,2012
-IL,AGE65,Age,50-64,54.0,45.0,2012
-IL,AGE65,Age,65 and older,57.0,43.0,2012
 IL,RACE,Race,White,46.0,52.0,2012
 IL,RACE,Race,Black,96.0,4.0,2012
-IL,RACE,Race,Latino,81.0,18.0,2012
-IL,RACE,Race,Asian,0.0,0.0,2012
-IL,SEXBYRACE,Race and gender,White men,40.0,58.0,2012
-IL,SEXBYRACE,Race and gender,White women,52.0,46.0,2012
-IL,SEXBYRACE,Race and gender,Black men,0.0,0.0,2012
-IL,SEXBYRACE,Race and gender,Black women,93.0,6.0,2012
-IL,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-IL,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2012
-IL,SEXBYRACE,Race and gender,Others,0.0,0.0,2012
 IL,PHIL3,Ideology,Liberal,95.0,3.0,2012
 IL,PHIL3,Ideology,Moderate,60.0,38.0,2012
 IL,PHIL3,Ideology,Conservative,14.0,85.0,2012
@@ -200,49 +92,18 @@ IL,EDUCCOLL,Are you a college graduate?,No,64.0,34.0,2012
 IL,INCOME3,Income,Under $50K,72.0,27.0,2012
 IL,INCOME3,Income,$50K-$100K,57.0,41.0,2012
 IL,INCOME3,Income,$100K or more,44.0,55.0,2012
-IL,INC50K,Income,Under $50K,72.0,27.0,2012
-IL,INC50K,Income,$50K or more,50.0,48.0,2012
 IL,REL5,Religion,Protestant,53.0,46.0,2012
-IL,REL5,Religion,Catholic,48.0,51.0,2012
-IL,REL5,Religion,Jewish,0.0,0.0,2012
-IL,WHTEVANG,White born-again or evangelical Christian?,Yes,0.0,0.0,2012
 IL,WHTEVANG,White born-again or evangelical Christian?,No,62.0,35.0,2012
-IL,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-IL,NEC,Condition of national economy,Good,0.0,0.0,2012
-IL,NEC,Condition of national economy,Poor,0.0,0.0,2012
-IL,OBAMA2,Opinion of Barack Obama as president,Approve,89.0,9.0,2012
-IL,OBAMA2,Opinion of Barack Obama as president,Disapprove,0.0,0.0,2012
 IL,MARRIED,Marital status,Married,50.0,49.0,2012
 IL,MARRIED,Marital status,Unmarried,72.0,26.0,2012
-IL,UNIONHH12,Union household?,Union,0.0,0.0,2012
-IL,UNIONHH12,Union household?,Not Union,59.0,41.0,2012
-IL,BREAK12B,Were debates a factor in your vote?,Yes,77.0,22.0,2012
-IL,BREAK12B,Were debates a factor in your vote?,No,0.0,0.0,2012
-IL,GEOCOD,Region,Chicago,83.0,14.0,2012
-IL,GEOCOD,Region,Collar Counties,46.0,53.0,2012
 IN,SEX,Gender,Male,40.0,57.0,2012
 IN,SEX,Gender,Female,48.0,52.0,2012
 IN,AGE,Age,18-29,46.0,49.0,2012
 IN,AGE,Age,30-44,48.0,49.0,2012
 IN,AGE,Age,45-64,44.0,56.0,2012
 IN,AGE,Age,65 and older,34.0,65.0,2012
-IN,AGE65,Age,18-24,48.0,46.0,2012
-IN,AGE65,Age,25-29,44.0,52.0,2012
-IN,AGE65,Age,30-39,51.0,46.0,2012
-IN,AGE65,Age,40-49,48.0,51.0,2012
-IN,AGE65,Age,50-64,40.0,59.0,2012
-IN,AGE65,Age,65 and older,34.0,65.0,2012
 IN,RACE,Race,White,38.0,60.0,2012
 IN,RACE,Race,Black,89.0,10.0,2012
-IN,RACE,Race,Latino,0.0,0.0,2012
-IN,RACE,Race,Asian,0.0,0.0,2012
-IN,SEXBYRACE,Race and gender,White men,35.0,62.0,2012
-IN,SEXBYRACE,Race and gender,White women,41.0,59.0,2012
-IN,SEXBYRACE,Race and gender,Black men,0.0,0.0,2012
-IN,SEXBYRACE,Race and gender,Black women,96.0,3.0,2012
-IN,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-IN,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2012
-IN,SEXBYRACE,Race and gender,Others,0.0,0.0,2012
 IN,PHIL3,Ideology,Liberal,85.0,12.0,2012
 IN,PHIL3,Ideology,Moderate,55.0,44.0,2012
 IN,PHIL3,Ideology,Conservative,13.0,85.0,2012
@@ -251,36 +112,17 @@ IN,EDUCCOLL,Are you a college graduate?,No,45.0,53.0,2012
 IN,INCOME3,Income,Under $50K,54.0,43.0,2012
 IN,INCOME3,Income,$50K-$100K,42.0,57.0,2012
 IN,INCOME3,Income,$100K or more,34.0,64.0,2012
-IN,INC50K,Income,Under $50K,54.0,43.0,2012
-IN,INC50K,Income,$50K or more,39.0,59.0,2012
 IN,WHTEVANG,White born-again or evangelical Christian?,Yes,19.0,80.0,2012
 IN,WHTEVANG,White born-again or evangelical Christian?,No,58.0,39.0,2012
 IN,MARRIED,Marital status,Married,37.0,62.0,2012
 IN,MARRIED,Marital status,Unmarried,55.0,42.0,2012
-IN,GEOCOD,Region,Marion County,60.0,38.0,2012
 IA,SEX,Gender,Male,44.0,53.0,2012
 IA,SEX,Gender,Female,59.0,40.0,2012
 IA,AGE,Age,18-29,56.0,40.0,2012
 IA,AGE,Age,30-44,52.0,47.0,2012
 IA,AGE,Age,45-64,52.0,46.0,2012
 IA,AGE,Age,65 and older,50.0,50.0,2012
-IA,AGE65,Age,18-24,61.0,36.0,2012
-IA,AGE65,Age,25-29,51.0,44.0,2012
-IA,AGE65,Age,30-39,54.0,44.0,2012
-IA,AGE65,Age,40-49,46.0,52.0,2012
-IA,AGE65,Age,50-64,55.0,43.0,2012
-IA,AGE65,Age,65 and older,50.0,50.0,2012
 IA,RACE,Race,White,51.0,47.0,2012
-IA,RACE,Race,Black,0.0,0.0,2012
-IA,RACE,Race,Latino,0.0,0.0,2012
-IA,RACE,Race,Asian,0.0,0.0,2012
-IA,SEXBYRACE,Race and gender,White men,42.0,55.0,2012
-IA,SEXBYRACE,Race and gender,White women,58.0,41.0,2012
-IA,SEXBYRACE,Race and gender,Black men,0.0,0.0,2012
-IA,SEXBYRACE,Race and gender,Black women,0.0,0.0,2012
-IA,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-IA,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2012
-IA,SEXBYRACE,Race and gender,Others,0.0,0.0,2012
 IA,PHIL3,Ideology,Liberal,89.0,10.0,2012
 IA,PHIL3,Ideology,Moderate,63.0,35.0,2012
 IA,PHIL3,Ideology,Conservative,17.0,81.0,2012
@@ -289,45 +131,19 @@ IA,EDUCCOLL,Are you a college graduate?,No,52.0,46.0,2012
 IA,INCOME3,Income,Under $50K,59.0,38.0,2012
 IA,INCOME3,Income,$50K-$100K,50.0,49.0,2012
 IA,INCOME3,Income,$100K or more,45.0,54.0,2012
-IA,INC50K,Income,Under $50K,59.0,38.0,2012
-IA,INC50K,Income,$50K or more,48.0,50.0,2012
 IA,REL5,Religion,Protestant,46.0,53.0,2012
 IA,REL5,Religion,Catholic,47.0,52.0,2012
-IA,REL5,Religion,Jewish,0.0,0.0,2012
 IA,WHTEVANG,White born-again or evangelical Christian?,Yes,35.0,64.0,2012
 IA,WHTEVANG,White born-again or evangelical Christian?,No,60.0,38.0,2012
-IA,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-IA,NEC,Condition of national economy,Good,92.0,6.0,2012
-IA,NEC,Condition of national economy,Poor,11.0,87.0,2012
 IA,MARRIED,Marital status,Married,46.0,52.0,2012
 IA,MARRIED,Marital status,Unmarried,63.0,35.0,2012
-IA,GEOCOD,Region,Eastern Iowa,62.0,36.0,2012
-IA,GEOCOD,Region,East Central Iowa,50.0,48.0,2012
-IA,GEOCOD,Region,Central Iowa,55.0,42.0,2012
-IA,GEOCOD,Region,Western Iowa,38.0,61.0,2012
 ME,SEX,Gender,Male,50.0,46.0,2012
 ME,SEX,Gender,Female,64.0,34.0,2012
 ME,AGE,Age,18-29,63.0,32.0,2012
 ME,AGE,Age,30-44,56.0,39.0,2012
 ME,AGE,Age,45-64,57.0,41.0,2012
 ME,AGE,Age,65 and older,55.0,43.0,2012
-ME,AGE65,Age,18-24,65.0,30.0,2012
-ME,AGE65,Age,25-29,60.0,35.0,2012
-ME,AGE65,Age,30-39,59.0,36.0,2012
-ME,AGE65,Age,40-49,51.0,44.0,2012
-ME,AGE65,Age,50-64,58.0,40.0,2012
-ME,AGE65,Age,65 and older,55.0,43.0,2012
 ME,RACE,Race,White,57.0,40.0,2012
-ME,RACE,Race,Black,0.0,0.0,2012
-ME,RACE,Race,Latino,0.0,0.0,2012
-ME,RACE,Race,Asian,0.0,0.0,2012
-ME,SEXBYRACE,Race and gender,White men,49.0,47.0,2012
-ME,SEXBYRACE,Race and gender,White women,64.0,34.0,2012
-ME,SEXBYRACE,Race and gender,Black men,0.0,0.0,2012
-ME,SEXBYRACE,Race and gender,Black women,0.0,0.0,2012
-ME,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-ME,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2012
-ME,SEXBYRACE,Race and gender,Others,0.0,0.0,2012
 ME,PHIL3,Ideology,Liberal,88.0,9.0,2012
 ME,PHIL3,Ideology,Moderate,61.0,36.0,2012
 ME,PHIL3,Ideology,Conservative,19.0,78.0,2012
@@ -336,11 +152,6 @@ ME,EDUCCOLL,Are you a college graduate?,No,53.0,43.0,2012
 ME,INCOME3,Income,Under $50K,59.0,37.0,2012
 ME,INCOME3,Income,$50K-$100K,54.0,43.0,2012
 ME,INCOME3,Income,$100K or more,57.0,41.0,2012
-ME,INC50K,Income,Under $50K,59.0,37.0,2012
-ME,INC50K,Income,$50K or more,56.0,42.0,2012
-ME,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-ME,NEC,Condition of national economy,Good,92.0,8.0,2012
-ME,NEC,Condition of national economy,Poor,22.0,74.0,2012
 ME,MARRIED,Marital status,Married,53.0,45.0,2012
 ME,MARRIED,Marital status,Unmarried,65.0,30.0,2012
 MI,SEX,Gender,Male,50.0,48.0,2012
@@ -349,23 +160,9 @@ MI,AGE,Age,18-29,63.0,35.0,2012
 MI,AGE,Age,30-44,56.0,43.0,2012
 MI,AGE,Age,45-64,51.0,49.0,2012
 MI,AGE,Age,65 and older,48.0,52.0,2012
-MI,AGE65,Age,18-24,65.0,32.0,2012
-MI,AGE65,Age,25-29,60.0,39.0,2012
-MI,AGE65,Age,30-39,59.0,39.0,2012
-MI,AGE65,Age,40-49,51.0,48.0,2012
-MI,AGE65,Age,50-64,51.0,49.0,2012
-MI,AGE65,Age,65 and older,48.0,52.0,2012
 MI,RACE,Race,White,44.0,55.0,2012
 MI,RACE,Race,Black,95.0,5.0,2012
 MI,RACE,Race,Latino,63.0,34.0,2012
-MI,RACE,Race,Asian,0.0,0.0,2012
-MI,SEXBYRACE,Race and gender,White men,41.0,58.0,2012
-MI,SEXBYRACE,Race and gender,White women,47.0,53.0,2012
-MI,SEXBYRACE,Race and gender,Black men,92.0,7.0,2012
-MI,SEXBYRACE,Race and gender,Black women,96.0,3.0,2012
-MI,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-MI,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2012
-MI,SEXBYRACE,Race and gender,Others,71.0,28.0,2012
 MI,PHIL3,Ideology,Liberal,91.0,7.0,2012
 MI,PHIL3,Ideology,Moderate,60.0,39.0,2012
 MI,PHIL3,Ideology,Conservative,16.0,83.0,2012
@@ -374,43 +171,19 @@ MI,EDUCCOLL,Are you a college graduate?,No,56.0,43.0,2012
 MI,INCOME3,Income,Under $50K,62.0,36.0,2012
 MI,INCOME3,Income,$50K-$100K,49.0,50.0,2012
 MI,INCOME3,Income,$100K or more,48.0,52.0,2012
-MI,INC50K,Income,Under $50K,62.0,36.0,2012
-MI,INC50K,Income,$50K or more,48.0,51.0,2012
 MI,REL5,Religion,Protestant,48.0,51.0,2012
 MI,REL5,Religion,Catholic,44.0,55.0,2012
-MI,REL5,Religion,Jewish,0.0,0.0,2012
 MI,WHTEVANG,White born-again or evangelical Christian?,Yes,24.0,74.0,2012
 MI,WHTEVANG,White born-again or evangelical Christian?,No,64.0,35.0,2012
-MI,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-MI,NEC,Condition of national economy,Good,92.0,7.0,2012
-MI,NEC,Condition of national economy,Poor,13.0,86.0,2012
 MI,MARRIED,Marital status,Married,45.0,54.0,2012
 MI,MARRIED,Marital status,Unmarried,66.0,32.0,2012
-MI,UNIONHH12,Union household?,Union,66.0,33.0,2012
-MI,UNIONHH12,Union household?,Not Union,50.0,49.0,2012
 MN,SEX,Gender,Male,44.0,51.0,2012
 MN,SEX,Gender,Female,60.0,38.0,2012
 MN,AGE,Age,18-29,63.0,33.0,2012
 MN,AGE,Age,30-44,50.0,46.0,2012
 MN,AGE,Age,45-64,49.0,49.0,2012
 MN,AGE,Age,65 and older,52.0,48.0,2012
-MN,AGE65,Age,18-24,65.0,31.0,2012
-MN,AGE65,Age,25-29,60.0,35.0,2012
-MN,AGE65,Age,30-39,54.0,40.0,2012
-MN,AGE65,Age,40-49,41.0,57.0,2012
-MN,AGE65,Age,50-64,52.0,46.0,2012
-MN,AGE65,Age,65 and older,52.0,48.0,2012
 MN,RACE,Race,White,48.0,49.0,2012
-MN,RACE,Race,Black,0.0,0.0,2012
-MN,RACE,Race,Latino,0.0,0.0,2012
-MN,RACE,Race,Asian,0.0,0.0,2012
-MN,SEXBYRACE,Race and gender,White men,41.0,54.0,2012
-MN,SEXBYRACE,Race and gender,White women,56.0,43.0,2012
-MN,SEXBYRACE,Race and gender,Black men,0.0,0.0,2012
-MN,SEXBYRACE,Race and gender,Black women,0.0,0.0,2012
-MN,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-MN,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2012
-MN,SEXBYRACE,Race and gender,Others,0.0,0.0,2012
 MN,PHIL3,Ideology,Liberal,91.0,6.0,2012
 MN,PHIL3,Ideology,Moderate,57.0,40.0,2012
 MN,PHIL3,Ideology,Conservative,14.0,85.0,2012
@@ -419,34 +192,16 @@ MN,EDUCCOLL,Are you a college graduate?,No,52.0,46.0,2012
 MN,INCOME3,Income,Under $50K,59.0,37.0,2012
 MN,INCOME3,Income,$50K-$100K,50.0,48.0,2012
 MN,INCOME3,Income,$100K or more,46.0,52.0,2012
-MN,INC50K,Income,Under $50K,59.0,37.0,2012
-MN,INC50K,Income,$50K or more,48.0,50.0,2012
 MN,MARRIED,Marital status,Married,47.0,51.0,2012
 MN,MARRIED,Marital status,Unmarried,63.0,32.0,2012
-MN,GEOCOD,Region,Twin Cities,64.0,34.0,2012
 MO,SEX,Gender,Male,43.0,54.0,2012
 MO,SEX,Gender,Female,45.0,53.0,2012
 MO,AGE,Age,18-29,58.0,39.0,2012
 MO,AGE,Age,30-44,42.0,55.0,2012
 MO,AGE,Age,45-64,44.0,55.0,2012
 MO,AGE,Age,65 and older,33.0,66.0,2012
-MO,AGE65,Age,18-24,53.0,42.0,2012
-MO,AGE65,Age,25-29,63.0,35.0,2012
-MO,AGE65,Age,30-39,42.0,55.0,2012
-MO,AGE65,Age,40-49,45.0,54.0,2012
-MO,AGE65,Age,50-64,42.0,56.0,2012
-MO,AGE65,Age,65 and older,33.0,66.0,2012
 MO,RACE,Race,White,32.0,65.0,2012
 MO,RACE,Race,Black,94.0,6.0,2012
-MO,RACE,Race,Latino,0.0,0.0,2012
-MO,RACE,Race,Asian,0.0,0.0,2012
-MO,SEXBYRACE,Race and gender,White men,31.0,66.0,2012
-MO,SEXBYRACE,Race and gender,White women,34.0,65.0,2012
-MO,SEXBYRACE,Race and gender,Black men,93.0,7.0,2012
-MO,SEXBYRACE,Race and gender,Black women,95.0,5.0,2012
-MO,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-MO,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2012
-MO,SEXBYRACE,Race and gender,Others,0.0,0.0,2012
 MO,PHIL3,Ideology,Liberal,81.0,16.0,2012
 MO,PHIL3,Ideology,Moderate,53.0,44.0,2012
 MO,PHIL3,Ideology,Conservative,15.0,84.0,2012
@@ -455,39 +210,20 @@ MO,EDUCCOLL,Are you a college graduate?,No,45.0,54.0,2012
 MO,INCOME3,Income,Under $50K,52.0,45.0,2012
 MO,INCOME3,Income,$50K-$100K,39.0,59.0,2012
 MO,INCOME3,Income,$100K or more,38.0,61.0,2012
-MO,INC50K,Income,Under $50K,52.0,45.0,2012
-MO,INC50K,Income,$50K or more,39.0,60.0,2012
 MO,WHTEVANG,White born-again or evangelical Christian?,Yes,22.0,76.0,2012
 MO,WHTEVANG,White born-again or evangelical Christian?,No,60.0,37.0,2012
-MO,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-MO,NEC,Condition of national economy,Good,82.0,17.0,2012
-MO,NEC,Condition of national economy,Poor,8.0,89.0,2012
 MO,MARRIED,Marital status,Married,36.0,62.0,2012
 MO,MARRIED,Marital status,Unmarried,56.0,41.0,2012
-MO,GEOCOD,Region,Kansas City Area,51.0,47.0,2012
 NV,SEX,Gender,Male,48.0,49.0,2012
 NV,SEX,Gender,Female,57.0,41.0,2012
 NV,AGE,Age,18-29,68.0,30.0,2012
 NV,AGE,Age,30-44,54.0,42.0,2012
 NV,AGE,Age,45-64,49.0,49.0,2012
 NV,AGE,Age,65 and older,44.0,55.0,2012
-NV,AGE65,Age,18-24,73.0,23.0,2012
-NV,AGE65,Age,25-29,60.0,40.0,2012
-NV,AGE65,Age,30-39,53.0,43.0,2012
-NV,AGE65,Age,40-49,50.0,47.0,2012
-NV,AGE65,Age,50-64,50.0,47.0,2012
-NV,AGE65,Age,65 and older,44.0,55.0,2012
 NV,RACE,Race,White,43.0,56.0,2012
 NV,RACE,Race,Black,92.0,6.0,2012
 NV,RACE,Race,Latino,71.0,24.0,2012
 NV,RACE,Race,Asian,50.0,47.0,2012
-NV,SEXBYRACE,Race and gender,White men,38.0,60.0,2012
-NV,SEXBYRACE,Race and gender,White women,46.0,52.0,2012
-NV,SEXBYRACE,Race and gender,Black men,86.0,9.0,2012
-NV,SEXBYRACE,Race and gender,Black women,96.0,4.0,2012
-NV,SEXBYRACE,Race and gender,Latino men,70.0,26.0,2012
-NV,SEXBYRACE,Race and gender,Latino women,72.0,21.0,2012
-NV,SEXBYRACE,Race and gender,Others,50.0,46.0,2012
 NV,PHIL3,Ideology,Liberal,91.0,7.0,2012
 NV,PHIL3,Ideology,Moderate,58.0,39.0,2012
 NV,PHIL3,Ideology,Conservative,19.0,79.0,2012
@@ -496,46 +232,19 @@ NV,EDUCCOLL,Are you a college graduate?,No,56.0,42.0,2012
 NV,INCOME3,Income,Under $50K,68.0,29.0,2012
 NV,INCOME3,Income,$50K-$100K,47.0,52.0,2012
 NV,INCOME3,Income,$100K or more,37.0,61.0,2012
-NV,INC50K,Income,Under $50K,68.0,29.0,2012
-NV,INC50K,Income,$50K or more,43.0,55.0,2012
 NV,REL5,Religion,Protestant,43.0,57.0,2012
 NV,REL5,Religion,Catholic,51.0,46.0,2012
-NV,REL5,Religion,Jewish,0.0,0.0,2012
 NV,WHTEVANG,White born-again or evangelical Christian?,Yes,28.0,69.0,2012
 NV,WHTEVANG,White born-again or evangelical Christian?,No,59.0,40.0,2012
-NV,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-NV,NEC,Condition of national economy,Good,96.0,4.0,2012
-NV,NEC,Condition of national economy,Poor,14.0,83.0,2012
 NV,MARRIED,Marital status,Married,44.0,54.0,2012
 NV,MARRIED,Marital status,Unmarried,64.0,33.0,2012
-NV,UNIONHH12,Union household?,Union,60.0,39.0,2012
-NV,UNIONHH12,Union household?,Not Union,49.0,48.0,2012
-NV,GEOCOD,Region,Washoe County,50.0,49.0,2012
-NV,GEOCOD,Region,Clark County,56.0,41.0,2012
-NV,GEOCOD,Region,Rest of Nevada,35.0,62.0,2012
 NH,SEX,Gender,Male,47.0,51.0,2012
 NH,SEX,Gender,Female,58.0,42.0,2012
 NH,AGE,Age,18-29,62.0,34.0,2012
 NH,AGE,Age,30-44,48.0,50.0,2012
 NH,AGE,Age,45-64,49.0,50.0,2012
 NH,AGE,Age,65 and older,55.0,45.0,2012
-NH,AGE65,Age,18-24,67.0,30.0,2012
-NH,AGE65,Age,25-29,56.0,42.0,2012
-NH,AGE65,Age,30-39,53.0,45.0,2012
-NH,AGE65,Age,40-49,45.0,54.0,2012
-NH,AGE65,Age,50-64,50.0,49.0,2012
-NH,AGE65,Age,65 and older,55.0,45.0,2012
 NH,RACE,Race,White,51.0,47.0,2012
-NH,RACE,Race,Black,0.0,0.0,2012
-NH,RACE,Race,Latino,0.0,0.0,2012
-NH,RACE,Race,Asian,0.0,0.0,2012
-NH,SEXBYRACE,Race and gender,White men,46.0,52.0,2012
-NH,SEXBYRACE,Race and gender,White women,56.0,43.0,2012
-NH,SEXBYRACE,Race and gender,Black men,0.0,0.0,2012
-NH,SEXBYRACE,Race and gender,Black women,0.0,0.0,2012
-NH,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-NH,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2012
-NH,SEXBYRACE,Race and gender,Others,0.0,0.0,2012
 NH,PHIL3,Ideology,Liberal,92.0,6.0,2012
 NH,PHIL3,Ideology,Moderate,56.0,42.0,2012
 NH,PHIL3,Ideology,Conservative,12.0,86.0,2012
@@ -544,39 +253,18 @@ NH,EDUCCOLL,Are you a college graduate?,No,50.0,48.0,2012
 NH,INCOME3,Income,Under $50K,60.0,38.0,2012
 NH,INCOME3,Income,$50K-$100K,51.0,47.0,2012
 NH,INCOME3,Income,$100K or more,47.0,51.0,2012
-NH,INC50K,Income,Under $50K,60.0,38.0,2012
-NH,INC50K,Income,$50K or more,49.0,49.0,2012
 NH,WHTEVANG,White born-again or evangelical Christian?,Yes,25.0,73.0,2012
 NH,WHTEVANG,White born-again or evangelical Christian?,No,55.0,43.0,2012
-NH,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-NH,NEC,Condition of national economy,Good,90.0,10.0,2012
-NH,NEC,Condition of national economy,Poor,10.0,88.0,2012
 NH,MARRIED,Marital status,Married,49.0,50.0,2012
 NH,MARRIED,Marital status,Unmarried,58.0,40.0,2012
-NH,GEOCOD,Region,Seacoast,57.0,42.0,2012
 NJ,SEX,Gender,Male,55.0,43.0,2012
 NJ,SEX,Gender,Female,62.0,38.0,2012
 NJ,AGE,Age,18-29,63.0,36.0,2012
 NJ,AGE,Age,30-44,59.0,40.0,2012
 NJ,AGE,Age,45-64,60.0,39.0,2012
 NJ,AGE,Age,65 and older,48.0,52.0,2012
-NJ,AGE65,Age,18-24,0.0,0.0,2012
-NJ,AGE65,Age,25-29,0.0,0.0,2012
-NJ,AGE65,Age,30-39,0.0,0.0,2012
-NJ,AGE65,Age,40-49,66.0,34.0,2012
-NJ,AGE65,Age,50-64,57.0,41.0,2012
-NJ,AGE65,Age,65 and older,48.0,52.0,2012
 NJ,RACE,Race,White,43.0,56.0,2012
 NJ,RACE,Race,Black,96.0,4.0,2012
-NJ,RACE,Race,Latino,0.0,0.0,2012
-NJ,RACE,Race,Asian,0.0,0.0,2012
-NJ,SEXBYRACE,Race and gender,White men,44.0,54.0,2012
-NJ,SEXBYRACE,Race and gender,White women,42.0,58.0,2012
-NJ,SEXBYRACE,Race and gender,Black men,0.0,0.0,2012
-NJ,SEXBYRACE,Race and gender,Black women,96.0,4.0,2012
-NJ,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-NJ,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2012
-NJ,SEXBYRACE,Race and gender,Others,0.0,0.0,2012
 NJ,PHIL3,Ideology,Liberal,89.0,10.0,2012
 NJ,PHIL3,Ideology,Moderate,60.0,39.0,2012
 NJ,PHIL3,Ideology,Conservative,22.0,76.0,2012
@@ -585,40 +273,16 @@ NJ,EDUCCOLL,Are you a college graduate?,No,55.0,43.0,2012
 NJ,INCOME3,Income,Under $50K,63.0,36.0,2012
 NJ,INCOME3,Income,$50K-$100K,55.0,45.0,2012
 NJ,INCOME3,Income,$100K or more,61.0,38.0,2012
-NJ,INC50K,Income,Under $50K,63.0,36.0,2012
-NJ,INC50K,Income,$50K or more,58.0,41.0,2012
 NJ,MARRIED,Marital status,Married,55.0,43.0,2012
 NJ,MARRIED,Marital status,Unmarried,65.0,33.0,2012
-NJ,UNIONHH12,Union household?,Union,0.0,0.0,2012
-NJ,UNIONHH12,Union household?,Not Union,0.0,0.0,2012
-NJ,GEOCOD,Region,Urban North,75.0,25.0,2012
-NJ,GEOCOD,Region,Suburban North,0.0,0.0,2012
-NJ,GEOCOD,Region,Northwest,44.0,54.0,2012
-NJ,GEOCOD,Region,Central,57.0,41.0,2012
-NJ,GEOCOD,Region,South,55.0,44.0,2012
 NM,SEX,Gender,Male,50.0,45.0,2012
 NM,SEX,Gender,Female,55.0,41.0,2012
 NM,AGE,Age,18-29,64.0,32.0,2012
 NM,AGE,Age,30-44,49.0,44.0,2012
 NM,AGE,Age,45-64,49.0,46.0,2012
 NM,AGE,Age,65 and older,53.0,46.0,2012
-NM,AGE65,Age,18-24,67.0,30.0,2012
-NM,AGE65,Age,25-29,61.0,34.0,2012
-NM,AGE65,Age,30-39,48.0,43.0,2012
-NM,AGE65,Age,40-49,48.0,46.0,2012
-NM,AGE65,Age,50-64,50.0,46.0,2012
-NM,AGE65,Age,65 and older,53.0,46.0,2012
 NM,RACE,Race,White,41.0,56.0,2012
-NM,RACE,Race,Black,0.0,0.0,2012
 NM,RACE,Race,Latino,65.0,29.0,2012
-NM,RACE,Race,Asian,0.0,0.0,2012
-NM,SEXBYRACE,Race and gender,White men,39.0,56.0,2012
-NM,SEXBYRACE,Race and gender,White women,43.0,55.0,2012
-NM,SEXBYRACE,Race and gender,Black men,0.0,0.0,2012
-NM,SEXBYRACE,Race and gender,Black women,0.0,0.0,2012
-NM,SEXBYRACE,Race and gender,Latino men,63.0,31.0,2012
-NM,SEXBYRACE,Race and gender,Latino women,67.0,27.0,2012
-NM,SEXBYRACE,Race and gender,Others,64.0,32.0,2012
 NM,PHIL3,Ideology,Liberal,88.0,6.0,2012
 NM,PHIL3,Ideology,Moderate,61.0,34.0,2012
 NM,PHIL3,Ideology,Conservative,19.0,76.0,2012
@@ -627,37 +291,17 @@ NM,EDUCCOLL,Are you a college graduate?,No,55.0,40.0,2012
 NM,INCOME3,Income,Under $50K,59.0,36.0,2012
 NM,INCOME3,Income,$50K-$100K,49.0,47.0,2012
 NM,INCOME3,Income,$100K or more,42.0,53.0,2012
-NM,INC50K,Income,Under $50K,59.0,36.0,2012
-NM,INC50K,Income,$50K or more,47.0,49.0,2012
-NM,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-NM,NEC,Condition of national economy,Good,89.0,9.0,2012
-NM,NEC,Condition of national economy,Poor,15.0,77.0,2012
 NM,MARRIED,Marital status,Married,45.0,51.0,2012
 NM,MARRIED,Marital status,Unmarried,63.0,32.0,2012
-NM,GEOCOD,Region,Albuquerque Area,55.0,41.0,2012
 NY,SEX,Gender,Male,56.0,42.0,2012
 NY,SEX,Gender,Female,68.0,31.0,2012
 NY,AGE,Age,18-29,72.0,25.0,2012
 NY,AGE,Age,30-44,61.0,37.0,2012
 NY,AGE,Age,45-64,61.0,38.0,2012
 NY,AGE,Age,65 and older,59.0,40.0,2012
-NY,AGE65,Age,18-24,72.0,23.0,2012
-NY,AGE65,Age,25-29,72.0,28.0,2012
-NY,AGE65,Age,30-39,66.0,32.0,2012
-NY,AGE65,Age,40-49,55.0,43.0,2012
-NY,AGE65,Age,50-64,62.0,37.0,2012
-NY,AGE65,Age,65 and older,59.0,40.0,2012
 NY,RACE,Race,White,49.0,49.0,2012
 NY,RACE,Race,Black,94.0,5.0,2012
 NY,RACE,Race,Latino,89.0,11.0,2012
-NY,RACE,Race,Asian,0.0,0.0,2012
-NY,SEXBYRACE,Race and gender,White men,43.0,55.0,2012
-NY,SEXBYRACE,Race and gender,White women,55.0,44.0,2012
-NY,SEXBYRACE,Race and gender,Black men,0.0,0.0,2012
-NY,SEXBYRACE,Race and gender,Black women,93.0,6.0,2012
-NY,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-NY,SEXBYRACE,Race and gender,Latino women,96.0,4.0,2012
-NY,SEXBYRACE,Race and gender,Others,0.0,0.0,2012
 NY,PHIL3,Ideology,Liberal,93.0,5.0,2012
 NY,PHIL3,Ideology,Moderate,63.0,36.0,2012
 NY,PHIL3,Ideology,Conservative,20.0,79.0,2012
@@ -666,51 +310,20 @@ NY,EDUCCOLL,Are you a college graduate?,No,66.0,34.0,2012
 NY,INCOME3,Income,Under $50K,74.0,25.0,2012
 NY,INCOME3,Income,$50K-$100K,60.0,38.0,2012
 NY,INCOME3,Income,$100K or more,51.0,48.0,2012
-NY,INC50K,Income,Under $50K,74.0,25.0,2012
-NY,INC50K,Income,$50K or more,55.0,43.0,2012
 NY,REL5,Religion,Protestant,66.0,32.0,2012
 NY,REL5,Religion,Catholic,47.0,53.0,2012
-NY,REL5,Religion,Jewish,0.0,0.0,2012
-NY,WHTEVANG,White born-again or evangelical Christian?,Yes,0.0,0.0,2012
 NY,WHTEVANG,White born-again or evangelical Christian?,No,67.0,33.0,2012
-NY,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-NY,NEC,Condition of national economy,Good,0.0,0.0,2012
-NY,NEC,Condition of national economy,Poor,0.0,0.0,2012
-NY,OBAMA2,Opinion of Barack Obama as president,Approve,97.0,3.0,2012
-NY,OBAMA2,Opinion of Barack Obama as president,Disapprove,0.0,0.0,2012
 NY,MARRIED,Marital status,Married,53.0,45.0,2012
 NY,MARRIED,Marital status,Unmarried,74.0,25.0,2012
-NY,UNIONHH12,Union household?,Union,0.0,0.0,2012
-NY,UNIONHH12,Union household?,Not Union,62.0,38.0,2012
-NY,BREAK12B,Were debates a factor in your vote?,Yes,71.0,29.0,2012
-NY,BREAK12B,Were debates a factor in your vote?,No,0.0,0.0,2012
-NY,GEOCOD,Region,New York City,81.0,18.0,2012
-NY,GEOCOD,Region,Long Island,52.0,47.0,2012
-NY,GEOCOD,Region,Urban Upstate,56.0,42.0,2012
-NY,GEOCOD,Region,Rural Upstate,48.0,51.0,2012
 NC,SEX,Gender,Male,45.0,54.0,2012
 NC,SEX,Gender,Female,51.0,49.0,2012
 NC,AGE,Age,18-29,67.0,32.0,2012
 NC,AGE,Age,30-44,51.0,48.0,2012
 NC,AGE,Age,45-64,47.0,53.0,2012
 NC,AGE,Age,65 and older,35.0,64.0,2012
-NC,AGE65,Age,18-24,67.0,31.0,2012
-NC,AGE65,Age,25-29,66.0,33.0,2012
-NC,AGE65,Age,30-39,58.0,41.0,2012
-NC,AGE65,Age,40-49,43.0,57.0,2012
-NC,AGE65,Age,50-64,47.0,52.0,2012
-NC,AGE65,Age,65 and older,35.0,64.0,2012
 NC,RACE,Race,White,31.0,68.0,2012
 NC,RACE,Race,Black,96.0,4.0,2012
 NC,RACE,Race,Latino,68.0,31.0,2012
-NC,RACE,Race,Asian,0.0,0.0,2012
-NC,SEXBYRACE,Race and gender,White men,30.0,68.0,2012
-NC,SEXBYRACE,Race and gender,White women,33.0,67.0,2012
-NC,SEXBYRACE,Race and gender,Black men,92.0,8.0,2012
-NC,SEXBYRACE,Race and gender,Black women,99.0,1.0,2012
-NC,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-NC,SEXBYRACE,Race and gender,Latino women,68.0,32.0,2012
-NC,SEXBYRACE,Race and gender,Others,53.0,44.0,2012
 NC,PHIL3,Ideology,Liberal,85.0,14.0,2012
 NC,PHIL3,Ideology,Moderate,57.0,42.0,2012
 NC,PHIL3,Ideology,Conservative,17.0,82.0,2012
@@ -719,43 +332,21 @@ NC,EDUCCOLL,Are you a college graduate?,No,47.0,52.0,2012
 NC,INCOME3,Income,Under $50K,55.0,44.0,2012
 NC,INCOME3,Income,$50K-$100K,45.0,54.0,2012
 NC,INCOME3,Income,$100K or more,44.0,55.0,2012
-NC,INC50K,Income,Under $50K,55.0,44.0,2012
-NC,INC50K,Income,$50K or more,45.0,55.0,2012
 NC,WHTEVANG,White born-again or evangelical Christian?,Yes,20.0,79.0,2012
 NC,WHTEVANG,White born-again or evangelical Christian?,No,65.0,35.0,2012
-NC,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-NC,NEC,Condition of national economy,Good,92.0,7.0,2012
-NC,NEC,Condition of national economy,Poor,7.0,92.0,2012
 NC,MARRIED,Marital status,Married,39.0,60.0,2012
 NC,MARRIED,Marital status,Unmarried,61.0,37.0,2012
-NC,CHILD12,Parent?,Yes,52.0,48.0,2012
-NC,CHILD12,Parent?,No,47.0,52.0,2012
 NC,PARENTS,Parents by gender,Fathers,50.0,50.0,2012
 NC,PARENTS,Parents by gender,Mothers,53.0,46.0,2012
-NC,GEOCOD,Region,Charlotte Area,50.0,49.0,2012
 OH,SEX,Gender,Male,45.0,52.0,2012
 OH,SEX,Gender,Female,55.0,44.0,2012
 OH,AGE,Age,18-29,63.0,35.0,2012
 OH,AGE,Age,30-44,51.0,46.0,2012
 OH,AGE,Age,45-64,47.0,51.0,2012
 OH,AGE,Age,65 and older,44.0,55.0,2012
-OH,AGE65,Age,18-24,62.0,35.0,2012
-OH,AGE65,Age,25-29,63.0,35.0,2012
-OH,AGE65,Age,30-39,55.0,41.0,2012
-OH,AGE65,Age,40-49,45.0,53.0,2012
-OH,AGE65,Age,50-64,48.0,50.0,2012
-OH,AGE65,Age,65 and older,44.0,55.0,2012
 OH,RACE,Race,White,41.0,57.0,2012
 OH,RACE,Race,Black,96.0,3.0,2012
 OH,RACE,Race,Latino,54.0,42.0,2012
-OH,RACE,Race,Asian,0.0,0.0,2012
-OH,SEXBYRACE,Race and gender,White men,36.0,62.0,2012
-OH,SEXBYRACE,Race and gender,White women,46.0,53.0,2012
-OH,SEXBYRACE,Race and gender,Black men,95.0,4.0,2012
-OH,SEXBYRACE,Race and gender,Black women,97.0,3.0,2012
-OH,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-OH,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2012
-OH,SEXBYRACE,Race and gender,Others,0.0,0.0,2012
 OH,PHIL3,Ideology,Liberal,88.0,10.0,2012
 OH,PHIL3,Ideology,Moderate,57.0,41.0,2012
 OH,PHIL3,Ideology,Conservative,18.0,81.0,2012
@@ -764,49 +355,20 @@ OH,EDUCCOLL,Are you a college graduate?,No,53.0,46.0,2012
 OH,INCOME3,Income,Under $50K,59.0,39.0,2012
 OH,INCOME3,Income,$50K-$100K,47.0,52.0,2012
 OH,INCOME3,Income,$100K or more,40.0,59.0,2012
-OH,INC50K,Income,Under $50K,59.0,39.0,2012
-OH,INC50K,Income,$50K or more,44.0,54.0,2012
 OH,REL5,Religion,Protestant,48.0,51.0,2012
 OH,REL5,Religion,Catholic,44.0,55.0,2012
-OH,REL5,Religion,Jewish,0.0,0.0,2012
 OH,WHTEVANG,White born-again or evangelical Christian?,Yes,30.0,69.0,2012
 OH,WHTEVANG,White born-again or evangelical Christian?,No,60.0,38.0,2012
-OH,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-OH,NEC,Condition of national economy,Good,93.0,6.0,2012
-OH,NEC,Condition of national economy,Poor,11.0,88.0,2012
 OH,MARRIED,Marital status,Married,42.0,56.0,2012
 OH,MARRIED,Marital status,Unmarried,62.0,36.0,2012
-OH,CHILD12,Parent?,Yes,55.0,44.0,2012
-OH,CHILD12,Parent?,No,52.0,46.0,2012
 OH,PARENTS,Parents by gender,Fathers,54.0,45.0,2012
 OH,PARENTS,Parents by gender,Mothers,56.0,43.0,2012
-OH,UNIONHH12,Union household?,Union,60.0,37.0,2012
-OH,UNIONHH12,Union household?,Not Union,48.0,50.0,2012
-OH,GEOCOD,Region,Cleveland Area,60.0,38.0,2012
-OH,GEOCOD,Region,Columbus Area,52.0,46.0,2012
 OR,SEX,Gender,Male,50.0,46.0,2012
 OR,SEX,Gender,Female,58.0,41.0,2012
-OR,AGE,Age,18-29,0.0,0.0,2012
 OR,AGE,Age,30-44,51.0,45.0,2012
 OR,AGE,Age,45-64,52.0,46.0,2012
 OR,AGE,Age,65 and older,53.0,45.0,2012
-OR,AGE65,Age,18-24,0.0,0.0,2012
-OR,AGE65,Age,25-29,0.0,0.0,2012
-OR,AGE65,Age,30-39,47.0,49.0,2012
-OR,AGE65,Age,40-49,53.0,42.0,2012
-OR,AGE65,Age,50-64,53.0,45.0,2012
-OR,AGE65,Age,65 and older,53.0,45.0,2012
 OR,RACE,Race,White,54.0,44.0,2012
-OR,RACE,Race,Black,0.0,0.0,2012
-OR,RACE,Race,Latino,0.0,0.0,2012
-OR,RACE,Race,Asian,0.0,0.0,2012
-OR,SEXBYRACE,Race and gender,White men,51.0,46.0,2012
-OR,SEXBYRACE,Race and gender,White women,57.0,42.0,2012
-OR,SEXBYRACE,Race and gender,Black men,0.0,0.0,2012
-OR,SEXBYRACE,Race and gender,Black women,0.0,0.0,2012
-OR,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-OR,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2012
-OR,SEXBYRACE,Race and gender,Others,0.0,0.0,2012
 OR,PHIL3,Ideology,Liberal,90.0,6.0,2012
 OR,PHIL3,Ideology,Moderate,58.0,40.0,2012
 OR,PHIL3,Ideology,Conservative,13.0,85.0,2012
@@ -815,36 +377,15 @@ OR,EDUCCOLL,Are you a college graduate?,No,49.0,48.0,2012
 OR,INCOME3,Income,Under $50K,59.0,38.0,2012
 OR,INCOME3,Income,$50K-$100K,45.0,53.0,2012
 OR,INCOME3,Income,$100K or more,64.0,34.0,2012
-OR,INC50K,Income,Under $50K,59.0,38.0,2012
-OR,INC50K,Income,$50K or more,52.0,46.0,2012
-OR,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-OR,NEC,Condition of national economy,Good,93.0,4.0,2012
-OR,NEC,Condition of national economy,Poor,20.0,76.0,2012
-OR,GEOCOD,Region,Multnomah County,74.0,23.0,2012
-OR,GEOCOD,Region,Portland Suburbs,53.0,44.0,2012
 PA,SEX,Gender,Male,48.0,51.0,2012
 PA,SEX,Gender,Female,56.0,43.0,2012
 PA,AGE,Age,18-29,63.0,35.0,2012
 PA,AGE,Age,30-44,55.0,43.0,2012
 PA,AGE,Age,45-64,48.0,51.0,2012
 PA,AGE,Age,65 and older,43.0,57.0,2012
-PA,AGE65,Age,18-24,64.0,34.0,2012
-PA,AGE65,Age,25-29,62.0,36.0,2012
-PA,AGE65,Age,30-39,57.0,41.0,2012
-PA,AGE65,Age,40-49,51.0,48.0,2012
-PA,AGE65,Age,50-64,47.0,52.0,2012
-PA,AGE65,Age,65 and older,43.0,57.0,2012
 PA,RACE,Race,White,42.0,57.0,2012
 PA,RACE,Race,Black,93.0,6.0,2012
 PA,RACE,Race,Latino,80.0,18.0,2012
-PA,RACE,Race,Asian,0.0,0.0,2012
-PA,SEXBYRACE,Race and gender,White men,39.0,60.0,2012
-PA,SEXBYRACE,Race and gender,White women,45.0,54.0,2012
-PA,SEXBYRACE,Race and gender,Black men,90.0,8.0,2012
-PA,SEXBYRACE,Race and gender,Black women,96.0,4.0,2012
-PA,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-PA,SEXBYRACE,Race and gender,Latino women,84.0,14.0,2012
-PA,SEXBYRACE,Race and gender,Others,0.0,0.0,2012
 PA,PHIL3,Ideology,Liberal,90.0,9.0,2012
 PA,PHIL3,Ideology,Moderate,54.0,45.0,2012
 PA,PHIL3,Ideology,Conservative,16.0,84.0,2012
@@ -853,11 +394,6 @@ PA,EDUCCOLL,Are you a college graduate?,No,57.0,42.0,2012
 PA,INCOME3,Income,Under $50K,67.0,31.0,2012
 PA,INCOME3,Income,$50K-$100K,41.0,58.0,2012
 PA,INCOME3,Income,$100K or more,45.0,54.0,2012
-PA,INC50K,Income,Under $50K,67.0,31.0,2012
-PA,INC50K,Income,$50K or more,43.0,56.0,2012
-PA,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-PA,NEC,Condition of national economy,Good,90.0,9.0,2012
-PA,NEC,Condition of national economy,Poor,12.0,86.0,2012
 PA,MARRIED,Marital status,Married,43.0,55.0,2012
 PA,MARRIED,Marital status,Unmarried,64.0,34.0,2012
 VA,SEX,Gender,Male,47.0,51.0,2012
@@ -866,23 +402,9 @@ VA,AGE,Age,18-29,61.0,36.0,2012
 VA,AGE,Age,30-44,54.0,45.0,2012
 VA,AGE,Age,45-64,46.0,53.0,2012
 VA,AGE,Age,65 and older,46.0,54.0,2012
-VA,AGE65,Age,18-24,59.0,38.0,2012
-VA,AGE65,Age,25-29,63.0,34.0,2012
-VA,AGE65,Age,30-39,55.0,43.0,2012
-VA,AGE65,Age,40-49,50.0,49.0,2012
-VA,AGE65,Age,50-64,45.0,54.0,2012
-VA,AGE65,Age,65 and older,46.0,54.0,2012
 VA,RACE,Race,White,37.0,61.0,2012
 VA,RACE,Race,Black,93.0,6.0,2012
 VA,RACE,Race,Latino,64.0,33.0,2012
-VA,RACE,Race,Asian,66.0,32.0,2012
-VA,SEXBYRACE,Race and gender,White men,34.0,64.0,2012
-VA,SEXBYRACE,Race and gender,White women,40.0,59.0,2012
-VA,SEXBYRACE,Race and gender,Black men,91.0,9.0,2012
-VA,SEXBYRACE,Race and gender,Black women,95.0,4.0,2012
-VA,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-VA,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2012
-VA,SEXBYRACE,Race and gender,Others,63.0,36.0,2012
 VA,PHIL3,Ideology,Liberal,92.0,7.0,2012
 VA,PHIL3,Ideology,Moderate,56.0,42.0,2012
 VA,PHIL3,Ideology,Conservative,11.0,87.0,2012
@@ -891,39 +413,16 @@ VA,EDUCCOLL,Are you a college graduate?,No,49.0,50.0,2012
 VA,INCOME3,Income,Under $50K,60.0,38.0,2012
 VA,INCOME3,Income,$50K-$100K,46.0,53.0,2012
 VA,INCOME3,Income,$100K or more,47.0,51.0,2012
-VA,INC50K,Income,Under $50K,60.0,38.0,2012
-VA,INC50K,Income,$50K or more,47.0,52.0,2012
 VA,WHTEVANG,White born-again or evangelical Christian?,Yes,17.0,83.0,2012
 VA,WHTEVANG,White born-again or evangelical Christian?,No,64.0,35.0,2012
-VA,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-VA,NEC,Condition of national economy,Good,92.0,6.0,2012
-VA,NEC,Condition of national economy,Poor,6.0,92.0,2012
 VA,MARRIED,Marital status,Married,44.0,55.0,2012
 VA,MARRIED,Marital status,Unmarried,61.0,37.0,2012
-VA,GEOCOD,Region,D.C. Suburbs,63.0,36.0,2012
 WA,SEX,Gender,Male,53.0,44.0,2012
 WA,SEX,Gender,Female,59.0,41.0,2012
-WA,AGE,Age,18-29,66.0,32.0,2012
 WA,AGE,Age,30-44,60.0,38.0,2012
 WA,AGE,Age,45-64,50.0,49.0,2012
 WA,AGE,Age,65 and older,51.0,47.0,2012
-WA,AGE65,Age,18-24,0.0,0.0,2012
-WA,AGE65,Age,25-29,0.0,0.0,2012
-WA,AGE65,Age,30-39,58.0,39.0,2012
-WA,AGE65,Age,40-49,56.0,44.0,2012
-WA,AGE65,Age,50-64,50.0,48.0,2012
-WA,AGE65,Age,65 and older,51.0,47.0,2012
 WA,RACE,Race,White,53.0,46.0,2012
-WA,RACE,Race,Black,0.0,0.0,2012
-WA,RACE,Race,Latino,0.0,0.0,2012
-WA,RACE,Race,Asian,0.0,0.0,2012
-WA,SEXBYRACE,Race and gender,White men,50.0,47.0,2012
-WA,SEXBYRACE,Race and gender,White women,55.0,44.0,2012
-WA,SEXBYRACE,Race and gender,Black men,0.0,0.0,2012
-WA,SEXBYRACE,Race and gender,Black women,0.0,0.0,2012
-WA,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-WA,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2012
-WA,SEXBYRACE,Race and gender,Others,0.0,0.0,2012
 WA,PHIL3,Ideology,Liberal,93.0,5.0,2012
 WA,PHIL3,Ideology,Moderate,59.0,40.0,2012
 WA,PHIL3,Ideology,Conservative,19.0,78.0,2012
@@ -932,35 +431,15 @@ WA,EDUCCOLL,Are you a college graduate?,No,54.0,44.0,2012
 WA,INCOME3,Income,Under $50K,64.0,34.0,2012
 WA,INCOME3,Income,$50K-$100K,49.0,48.0,2012
 WA,INCOME3,Income,$100K or more,59.0,41.0,2012
-WA,INC50K,Income,Under $50K,64.0,34.0,2012
-WA,INC50K,Income,$50K or more,53.0,45.0,2012
-WA,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-WA,NEC,Condition of national economy,Good,91.0,8.0,2012
-WA,NEC,Condition of national economy,Poor,23.0,75.0,2012
-WA,GEOCOD,Region,King County,69.0,29.0,2012
 WI,SEX,Gender,Male,47.0,51.0,2012
 WI,SEX,Gender,Female,57.0,42.0,2012
 WI,AGE,Age,18-29,60.0,37.0,2012
 WI,AGE,Age,30-44,51.0,48.0,2012
 WI,AGE,Age,45-64,51.0,48.0,2012
 WI,AGE,Age,65 and older,48.0,52.0,2012
-WI,AGE65,Age,18-24,61.0,35.0,2012
-WI,AGE65,Age,25-29,58.0,40.0,2012
-WI,AGE65,Age,30-39,53.0,46.0,2012
-WI,AGE65,Age,40-49,45.0,54.0,2012
-WI,AGE65,Age,50-64,53.0,46.0,2012
-WI,AGE65,Age,65 and older,48.0,52.0,2012
 WI,RACE,Race,White,48.0,51.0,2012
 WI,RACE,Race,Black,94.0,6.0,2012
 WI,RACE,Race,Latino,66.0,31.0,2012
-WI,RACE,Race,Asian,0.0,0.0,2012
-WI,SEXBYRACE,Race and gender,White men,42.0,56.0,2012
-WI,SEXBYRACE,Race and gender,White women,53.0,46.0,2012
-WI,SEXBYRACE,Race and gender,Black men,92.0,6.0,2012
-WI,SEXBYRACE,Race and gender,Black women,95.0,5.0,2012
-WI,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2012
-WI,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2012
-WI,SEXBYRACE,Race and gender,Others,0.0,0.0,2012
 WI,PHIL3,Ideology,Liberal,90.0,8.0,2012
 WI,PHIL3,Ideology,Moderate,61.0,37.0,2012
 WI,PHIL3,Ideology,Conservative,14.0,85.0,2012
@@ -969,43 +448,18 @@ WI,EDUCCOLL,Are you a college graduate?,No,51.0,47.0,2012
 WI,INCOME3,Income,Under $50K,62.0,37.0,2012
 WI,INCOME3,Income,$50K-$100K,49.0,50.0,2012
 WI,INCOME3,Income,$100K or more,39.0,59.0,2012
-WI,INC50K,Income,Under $50K,62.0,37.0,2012
-WI,INC50K,Income,$50K or more,46.0,53.0,2012
 WI,WHTEVANG,White born-again or evangelical Christian?,Yes,27.0,71.0,2012
 WI,WHTEVANG,White born-again or evangelical Christian?,No,60.0,38.0,2012
-WI,NEC,Condition of national economy,Excellent,0.0,0.0,2012
-WI,NEC,Condition of national economy,Good,93.0,7.0,2012
-WI,NEC,Condition of national economy,Poor,9.0,88.0,2012
 WI,MARRIED,Marital status,Married,45.0,54.0,2012
 WI,MARRIED,Marital status,Unmarried,61.0,37.0,2012
-WI,UNIONHH12,Union household?,Union,66.0,33.0,2012
-WI,UNIONHH12,Union household?,Not Union,50.0,49.0,2012
-WI,FAVRYAN2,Opinion of Paul Ryan,Favorable,12.0,87.0,2012
-WI,FAVRYAN2,Opinion of Paul Ryan,Unfavorable,93.0,5.0,2012
-WI,GEOCOD,Region,Milwaukee County,67.0,32.0,2012
 AZ,SEX,Gender,Male,40.0,53.0,2016
 AZ,SEX,Gender,Female,49.0,45.0,2016
 AZ,AGE,Age,18-29,53.0,35.0,2016
 AZ,AGE,Age,30-44,47.0,41.0,2016
 AZ,AGE,Age,45-64,41.0,54.0,2016
 AZ,AGE,Age,65 and older,42.0,55.0,2016
-AZ,AGE65,Age,18-24,0.0,0.0,2016
-AZ,AGE65,Age,25-29,0.0,0.0,2016
-AZ,AGE65,Age,30-39,47.0,41.0,2016
-AZ,AGE65,Age,40-49,45.0,48.0,2016
-AZ,AGE65,Age,50-64,41.0,55.0,2016
-AZ,AGE65,Age,65 and older,42.0,55.0,2016
 AZ,RACE,Race,White,40.0,54.0,2016
-AZ,RACE,Race,Black,0.0,0.0,2016
 AZ,RACE,Race,Latino,61.0,31.0,2016
-AZ,RACE,Race,Asian,0.0,0.0,2016
-AZ,SEXBYRACE,Race and gender,White men,36.0,56.0,2016
-AZ,SEXBYRACE,Race and gender,White women,44.0,51.0,2016
-AZ,SEXBYRACE,Race and gender,Black men,0.0,0.0,2016
-AZ,SEXBYRACE,Race and gender,Black women,0.0,0.0,2016
-AZ,SEXBYRACE,Race and gender,Latino men,51.0,42.0,2016
-AZ,SEXBYRACE,Race and gender,Latino women,73.0,17.0,2016
-AZ,SEXBYRACE,Race and gender,Others,0.0,0.0,2016
 AZ,PHIL3,Ideology,Liberal,80.0,12.0,2016
 AZ,PHIL3,Ideology,Moderate,55.0,38.0,2016
 AZ,PHIL3,Ideology,Conservative,13.0,82.0,2016
@@ -1014,38 +468,16 @@ AZ,EDUCCOLL,Are you a college graduate?,No,43.0,50.0,2016
 AZ,INCOME3,Income,Under $50K,50.0,40.0,2016
 AZ,INCOME3,Income,$50K-$100K,48.0,48.0,2016
 AZ,INCOME3,Income,$100K or more,40.0,54.0,2016
-AZ,INC50K,Income,Under $50K,50.0,40.0,2016
-AZ,INC50K,Income,$50K or more,44.0,51.0,2016
-AZ,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-AZ,NEC,Condition of national economy,Good,83.0,12.0,2016
-AZ,NEC,Condition of national economy,Poor,16.0,79.0,2016
-AZ,OBAMA2,Opinion of Barack Obama as president,Approve,85.0,9.0,2016
-AZ,OBAMA2,Opinion of Barack Obama as president,Disapprove,8.0,85.0,2016
-AZ,GEOCOD,Region,Pima County,55.0,40.0,2016
-AZ,GEOCOD,Region,Rest of Arizona,40.0,54.0,2016
 CA,SEX,Gender,Male,57.0,36.0,2016
 CA,SEX,Gender,Female,66.0,30.0,2016
 CA,AGE,Age,18-29,66.0,23.0,2016
 CA,AGE,Age,30-44,67.0,27.0,2016
 CA,AGE,Age,45-64,57.0,39.0,2016
 CA,AGE,Age,65 and older,61.0,36.0,2016
-CA,AGE65,Age,18-24,67.0,18.0,2016
-CA,AGE65,Age,25-29,64.0,29.0,2016
-CA,AGE65,Age,30-39,70.0,23.0,2016
-CA,AGE65,Age,40-49,60.0,36.0,2016
-CA,AGE65,Age,50-64,57.0,40.0,2016
-CA,AGE65,Age,65 and older,61.0,36.0,2016
 CA,RACE,Race,White,50.0,45.0,2016
 CA,RACE,Race,Black,88.0,9.0,2016
 CA,RACE,Race,Latino,71.0,24.0,2016
 CA,RACE,Race,Asian,70.0,17.0,2016
-CA,SEXBYRACE,Race and gender,White men,43.0,50.0,2016
-CA,SEXBYRACE,Race and gender,White women,57.0,40.0,2016
-CA,SEXBYRACE,Race and gender,Black men,0.0,0.0,2016
-CA,SEXBYRACE,Race and gender,Black women,0.0,0.0,2016
-CA,SEXBYRACE,Race and gender,Latino men,68.0,27.0,2016
-CA,SEXBYRACE,Race and gender,Latino women,73.0,22.0,2016
-CA,SEXBYRACE,Race and gender,Others,70.0,20.0,2016
 CA,PHIL3,Ideology,Liberal,88.0,8.0,2016
 CA,PHIL3,Ideology,Moderate,60.0,33.0,2016
 CA,PHIL3,Ideology,Conservative,28.0,68.0,2016
@@ -1054,48 +486,18 @@ CA,EDUCCOLL,Are you a college graduate?,No,57.0,36.0,2016
 CA,INCOME3,Income,Under $50K,71.0,24.0,2016
 CA,INCOME3,Income,$50K-$100K,67.0,26.0,2016
 CA,INCOME3,Income,$100K or more,57.0,40.0,2016
-CA,INC50K,Income,Under $50K,71.0,24.0,2016
-CA,INC50K,Income,$50K or more,61.0,34.0,2016
 CA,REL5,Religion,Protestant,45.0,51.0,2016
 CA,REL5,Religion,Catholic,63.0,32.0,2016
-CA,REL5,Religion,Jewish,0.0,0.0,2016
-CA,WHTEVANG,White born-again or evangelical Christian?,Yes,0.0,0.0,2016
 CA,WHTEVANG,White born-again or evangelical Christian?,No,69.0,26.0,2016
-CA,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-CA,NEC,Condition of national economy,Good,79.0,13.0,2016
-CA,NEC,Condition of national economy,Poor,0.0,0.0,2016
-CA,OBAMA2,Opinion of Barack Obama as president,Approve,89.0,7.0,2016
-CA,OBAMA2,Opinion of Barack Obama as president,Disapprove,18.0,77.0,2016
 CA,MARRIED,Marital status,Married,58.0,38.0,2016
 CA,MARRIED,Marital status,Unmarried,65.0,27.0,2016
-CA,UNIONHH12,Union household?,Union,66.0,31.0,2016
-CA,UNIONHH12,Union household?,Not Union,61.0,32.0,2016
-CA,BREAK12B,Were debates a factor in your vote?,Yes,66.0,30.0,2016
-CA,BREAK12B,Were debates a factor in your vote?,No,0.0,0.0,2016
-CA,GEOCOD,Region,Southern California,48.0,45.0,2016
 CO,SEX,Gender,Male,41.0,49.0,2016
 CO,SEX,Gender,Female,55.0,39.0,2016
-CO,AGE,Age,18-29,50.0,36.0,2016
 CO,AGE,Age,30-44,46.0,45.0,2016
 CO,AGE,Age,45-64,49.0,45.0,2016
 CO,AGE,Age,65 and older,49.0,48.0,2016
-CO,AGE65,Age,18-24,0.0,0.0,2016
-CO,AGE65,Age,25-29,0.0,0.0,2016
-CO,AGE65,Age,30-39,48.0,42.0,2016
-CO,AGE65,Age,40-49,43.0,50.0,2016
-CO,AGE65,Age,50-64,51.0,43.0,2016
-CO,AGE65,Age,65 and older,49.0,48.0,2016
 CO,RACE,Race,White,45.0,47.0,2016
-CO,RACE,Race,Black,0.0,0.0,2016
 CO,RACE,Race,Latino,67.0,30.0,2016
-CO,RACE,Race,Asian,0.0,0.0,2016
-CO,SEXBYRACE,Race and gender,White men,38.0,50.0,2016
-CO,SEXBYRACE,Race and gender,White women,50.0,44.0,2016
-CO,SEXBYRACE,Race and gender,Black men,0.0,0.0,2016
-CO,SEXBYRACE,Race and gender,Black women,0.0,0.0,2016
-CO,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-CO,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2016
-CO,SEXBYRACE,Race and gender,Others,0.0,0.0,2016
 CO,PHIL3,Ideology,Liberal,85.0,10.0,2016
 CO,PHIL3,Ideology,Moderate,53.0,36.0,2016
 CO,PHIL3,Ideology,Conservative,16.0,80.0,2016
@@ -1104,34 +506,15 @@ CO,EDUCCOLL,Are you a college graduate?,No,42.0,50.0,2016
 CO,INCOME3,Income,Under $50K,46.0,41.0,2016
 CO,INCOME3,Income,$50K-$100K,52.0,44.0,2016
 CO,INCOME3,Income,$100K or more,51.0,41.0,2016
-CO,INC50K,Income,Under $50K,46.0,41.0,2016
-CO,INC50K,Income,$50K or more,52.0,42.0,2016
-CO,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-CO,NEC,Condition of national economy,Good,84.0,10.0,2016
-CO,NEC,Condition of national economy,Poor,14.0,78.0,2016
 FL,SEX,Gender,Male,43.0,52.0,2016
 FL,SEX,Gender,Female,50.0,46.0,2016
 FL,AGE,Age,18-29,54.0,36.0,2016
 FL,AGE,Age,30-44,54.0,39.0,2016
 FL,AGE,Age,45-64,43.0,56.0,2016
 FL,AGE,Age,65 and older,40.0,57.0,2016
-FL,AGE65,Age,18-24,63.0,27.0,2016
-FL,AGE65,Age,25-29,43.0,49.0,2016
-FL,AGE65,Age,30-39,56.0,38.0,2016
-FL,AGE65,Age,40-49,46.0,50.0,2016
-FL,AGE65,Age,50-64,43.0,55.0,2016
-FL,AGE65,Age,65 and older,40.0,57.0,2016
 FL,RACE,Race,White,32.0,64.0,2016
 FL,RACE,Race,Black,84.0,8.0,2016
 FL,RACE,Race,Latino,62.0,35.0,2016
-FL,RACE,Race,Asian,0.0,0.0,2016
-FL,SEXBYRACE,Race and gender,White men,28.0,67.0,2016
-FL,SEXBYRACE,Race and gender,White women,36.0,60.0,2016
-FL,SEXBYRACE,Race and gender,Black men,81.0,10.0,2016
-FL,SEXBYRACE,Race and gender,Black women,87.0,6.0,2016
-FL,SEXBYRACE,Race and gender,Latino men,60.0,36.0,2016
-FL,SEXBYRACE,Race and gender,Latino women,63.0,34.0,2016
-FL,SEXBYRACE,Race and gender,Others,65.0,28.0,2016
 FL,PHIL3,Ideology,Liberal,81.0,14.0,2016
 FL,PHIL3,Ideology,Moderate,51.0,43.0,2016
 FL,PHIL3,Ideology,Conservative,17.0,79.0,2016
@@ -1140,42 +523,20 @@ FL,EDUCCOLL,Are you a college graduate?,No,47.0,48.0,2016
 FL,INCOME3,Income,Under $50K,54.0,42.0,2016
 FL,INCOME3,Income,$50K-$100K,45.0,52.0,2016
 FL,INCOME3,Income,$100K or more,40.0,56.0,2016
-FL,INC50K,Income,Under $50K,54.0,42.0,2016
-FL,INC50K,Income,$50K or more,43.0,54.0,2016
 FL,REL5,Religion,Protestant,38.0,60.0,2016
 FL,REL5,Religion,Catholic,44.0,54.0,2016
-FL,REL5,Religion,Jewish,0.0,0.0,2016
 FL,WHTEVANG,White born-again or evangelical Christian?,Yes,14.0,85.0,2016
 FL,WHTEVANG,White born-again or evangelical Christian?,No,53.0,41.0,2016
-FL,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-FL,NEC,Condition of national economy,Good,82.0,15.0,2016
-FL,NEC,Condition of national economy,Poor,16.0,83.0,2016
 FL,MARRIED,Marital status,Married,44.0,51.0,2016
 FL,MARRIED,Marital status,Unmarried,52.0,42.0,2016
-FL,GEOCOD,Region,Tampa Bay Area,47.0,46.0,2016
 IL,SEX,Gender,Male,50.0,43.0,2016
 IL,SEX,Gender,Female,60.0,36.0,2016
 IL,AGE,Age,18-29,67.0,28.0,2016
 IL,AGE,Age,30-44,59.0,33.0,2016
 IL,AGE,Age,45-64,53.0,43.0,2016
 IL,AGE,Age,65 and older,35.0,61.0,2016
-IL,AGE65,Age,18-24,64.0,28.0,2016
-IL,AGE65,Age,25-29,0.0,0.0,2016
-IL,AGE65,Age,30-39,55.0,33.0,2016
-IL,AGE65,Age,40-49,62.0,36.0,2016
-IL,AGE65,Age,50-64,51.0,45.0,2016
-IL,AGE65,Age,65 and older,35.0,61.0,2016
 IL,RACE,Race,White,41.0,52.0,2016
 IL,RACE,Race,Black,87.0,12.0,2016
-IL,RACE,Race,Latino,0.0,0.0,2016
-IL,RACE,Race,Asian,0.0,0.0,2016
-IL,SEXBYRACE,Race and gender,White men,37.0,54.0,2016
-IL,SEXBYRACE,Race and gender,White women,46.0,50.0,2016
-IL,SEXBYRACE,Race and gender,Black men,0.0,0.0,2016
-IL,SEXBYRACE,Race and gender,Black women,0.0,0.0,2016
-IL,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-IL,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2016
-IL,SEXBYRACE,Race and gender,Others,0.0,0.0,2016
 IL,PHIL3,Ideology,Liberal,87.0,8.0,2016
 IL,PHIL3,Ideology,Moderate,63.0,31.0,2016
 IL,PHIL3,Ideology,Conservative,14.0,83.0,2016
@@ -1184,49 +545,18 @@ IL,EDUCCOLL,Are you a college graduate?,No,53.0,42.0,2016
 IL,INCOME3,Income,Under $50K,60.0,37.0,2016
 IL,INCOME3,Income,$50K-$100K,61.0,36.0,2016
 IL,INCOME3,Income,$100K or more,48.0,45.0,2016
-IL,INC50K,Income,Under $50K,60.0,37.0,2016
-IL,INC50K,Income,$50K or more,55.0,40.0,2016
 IL,REL5,Religion,Protestant,45.0,49.0,2016
-IL,REL5,Religion,Catholic,0.0,0.0,2016
-IL,REL5,Religion,Jewish,0.0,0.0,2016
-IL,WHTEVANG,White born-again or evangelical Christian?,Yes,0.0,0.0,2016
 IL,WHTEVANG,White born-again or evangelical Christian?,No,73.0,22.0,2016
-IL,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-IL,NEC,Condition of national economy,Good,0.0,0.0,2016
-IL,NEC,Condition of national economy,Poor,0.0,0.0,2016
-IL,OBAMA2,Opinion of Barack Obama as president,Approve,92.0,4.0,2016
-IL,OBAMA2,Opinion of Barack Obama as president,Disapprove,0.0,0.0,2016
 IL,MARRIED,Marital status,Married,55.0,40.0,2016
 IL,MARRIED,Marital status,Unmarried,67.0,29.0,2016
-IL,UNIONHH12,Union household?,Union,0.0,0.0,2016
-IL,UNIONHH12,Union household?,Not Union,51.0,46.0,2016
-IL,BREAK12B,Were debates a factor in your vote?,Yes,63.0,33.0,2016
-IL,BREAK12B,Were debates a factor in your vote?,No,0.0,0.0,2016
-IL,GEOCOD,Region,Chicago,82.0,12.0,2016
-IL,GEOCOD,Region,Collar Counties,61.0,36.0,2016
 IN,SEX,Gender,Male,33.0,62.0,2016
 IN,SEX,Gender,Female,42.0,53.0,2016
 IN,AGE,Age,18-29,46.0,46.0,2016
 IN,AGE,Age,30-44,37.0,57.0,2016
 IN,AGE,Age,45-64,34.0,63.0,2016
 IN,AGE,Age,65 and older,39.0,58.0,2016
-IN,AGE65,Age,18-24,50.0,44.0,2016
-IN,AGE65,Age,25-29,42.0,48.0,2016
-IN,AGE65,Age,30-39,38.0,56.0,2016
-IN,AGE65,Age,40-49,30.0,63.0,2016
-IN,AGE65,Age,50-64,37.0,62.0,2016
-IN,AGE65,Age,65 and older,39.0,58.0,2016
 IN,RACE,Race,White,32.0,64.0,2016
 IN,RACE,Race,Black,83.0,12.0,2016
-IN,RACE,Race,Latino,0.0,0.0,2016
-IN,RACE,Race,Asian,0.0,0.0,2016
-IN,SEXBYRACE,Race and gender,White men,27.0,68.0,2016
-IN,SEXBYRACE,Race and gender,White women,35.0,60.0,2016
-IN,SEXBYRACE,Race and gender,Black men,0.0,0.0,2016
-IN,SEXBYRACE,Race and gender,Black women,88.0,8.0,2016
-IN,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-IN,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2016
-IN,SEXBYRACE,Race and gender,Others,0.0,0.0,2016
 IN,PHIL3,Ideology,Liberal,79.0,15.0,2016
 IN,PHIL3,Ideology,Moderate,41.0,53.0,2016
 IN,PHIL3,Ideology,Conservative,10.0,86.0,2016
@@ -1235,36 +565,17 @@ IN,EDUCCOLL,Are you a college graduate?,No,33.0,63.0,2016
 IN,INCOME3,Income,Under $50K,40.0,52.0,2016
 IN,INCOME3,Income,$50K-$100K,33.0,63.0,2016
 IN,INCOME3,Income,$100K or more,34.0,62.0,2016
-IN,INC50K,Income,Under $50K,40.0,52.0,2016
-IN,INC50K,Income,$50K or more,33.0,62.0,2016
 IN,WHTEVANG,White born-again or evangelical Christian?,Yes,22.0,75.0,2016
 IN,WHTEVANG,White born-again or evangelical Christian?,No,50.0,45.0,2016
 IN,MARRIED,Marital status,Married,33.0,61.0,2016
 IN,MARRIED,Marital status,Unmarried,45.0,49.0,2016
-IN,GEOCOD,Region,Marion County,57.0,37.0,2016
 IA,SEX,Gender,Male,33.0,61.0,2016
 IA,SEX,Gender,Female,51.0,44.0,2016
 IA,AGE,Age,18-29,42.0,48.0,2016
 IA,AGE,Age,30-44,38.0,52.0,2016
 IA,AGE,Age,45-64,43.0,53.0,2016
 IA,AGE,Age,65 and older,47.0,51.0,2016
-IA,AGE65,Age,18-24,48.0,39.0,2016
-IA,AGE65,Age,25-29,34.0,58.0,2016
-IA,AGE65,Age,30-39,39.0,49.0,2016
-IA,AGE65,Age,40-49,35.0,60.0,2016
-IA,AGE65,Age,50-64,46.0,51.0,2016
-IA,AGE65,Age,65 and older,47.0,51.0,2016
 IA,RACE,Race,White,40.0,54.0,2016
-IA,RACE,Race,Black,0.0,0.0,2016
-IA,RACE,Race,Latino,63.0,26.0,2016
-IA,RACE,Race,Asian,0.0,0.0,2016
-IA,SEXBYRACE,Race and gender,White men,31.0,64.0,2016
-IA,SEXBYRACE,Race and gender,White women,49.0,46.0,2016
-IA,SEXBYRACE,Race and gender,Black men,0.0,0.0,2016
-IA,SEXBYRACE,Race and gender,Black women,0.0,0.0,2016
-IA,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-IA,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2016
-IA,SEXBYRACE,Race and gender,Others,0.0,0.0,2016
 IA,PHIL3,Ideology,Liberal,81.0,12.0,2016
 IA,PHIL3,Ideology,Moderate,51.0,42.0,2016
 IA,PHIL3,Ideology,Conservative,11.0,84.0,2016
@@ -1273,45 +584,19 @@ IA,EDUCCOLL,Are you a college graduate?,No,40.0,54.0,2016
 IA,INCOME3,Income,Under $50K,52.0,38.0,2016
 IA,INCOME3,Income,$50K-$100K,39.0,55.0,2016
 IA,INCOME3,Income,$100K or more,43.0,51.0,2016
-IA,INC50K,Income,Under $50K,52.0,38.0,2016
-IA,INC50K,Income,$50K or more,41.0,53.0,2016
 IA,REL5,Religion,Protestant,31.0,63.0,2016
 IA,REL5,Religion,Catholic,42.0,56.0,2016
-IA,REL5,Religion,Jewish,0.0,0.0,2016
 IA,WHTEVANG,White born-again or evangelical Christian?,Yes,25.0,70.0,2016
 IA,WHTEVANG,White born-again or evangelical Christian?,No,51.0,42.0,2016
-IA,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-IA,NEC,Condition of national economy,Good,70.0,24.0,2016
-IA,NEC,Condition of national economy,Poor,10.0,84.0,2016
 IA,MARRIED,Marital status,Married,38.0,58.0,2016
 IA,MARRIED,Marital status,Unmarried,54.0,43.0,2016
-IA,GEOCOD,Region,Eastern Iowa,50.0,45.0,2016
-IA,GEOCOD,Region,East Central Iowa,41.0,52.0,2016
-IA,GEOCOD,Region,Central Iowa,34.0,63.0,2016
-IA,GEOCOD,Region,Western Iowa,28.0,67.0,2016
 ME,SEX,Gender,Male,41.0,52.0,2016
 ME,SEX,Gender,Female,55.0,39.0,2016
 ME,AGE,Age,18-29,48.0,43.0,2016
 ME,AGE,Age,30-44,42.0,50.0,2016
 ME,AGE,Age,45-64,48.0,47.0,2016
 ME,AGE,Age,65 and older,56.0,39.0,2016
-ME,AGE65,Age,18-24,50.0,42.0,2016
-ME,AGE65,Age,25-29,46.0,44.0,2016
-ME,AGE65,Age,30-39,40.0,50.0,2016
-ME,AGE65,Age,40-49,48.0,46.0,2016
-ME,AGE65,Age,50-64,47.0,48.0,2016
-ME,AGE65,Age,65 and older,56.0,39.0,2016
 ME,RACE,Race,White,47.0,46.0,2016
-ME,RACE,Race,Black,0.0,0.0,2016
-ME,RACE,Race,Latino,0.0,0.0,2016
-ME,RACE,Race,Asian,0.0,0.0,2016
-ME,SEXBYRACE,Race and gender,White men,40.0,53.0,2016
-ME,SEXBYRACE,Race and gender,White women,54.0,39.0,2016
-ME,SEXBYRACE,Race and gender,Black men,0.0,0.0,2016
-ME,SEXBYRACE,Race and gender,Black women,0.0,0.0,2016
-ME,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-ME,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2016
-ME,SEXBYRACE,Race and gender,Others,0.0,0.0,2016
 ME,PHIL3,Ideology,Liberal,84.0,8.0,2016
 ME,PHIL3,Ideology,Moderate,47.0,46.0,2016
 ME,PHIL3,Ideology,Conservative,11.0,84.0,2016
@@ -1320,11 +605,6 @@ ME,EDUCCOLL,Are you a college graduate?,No,38.0,55.0,2016
 ME,INCOME3,Income,Under $50K,44.0,47.0,2016
 ME,INCOME3,Income,$50K-$100K,50.0,44.0,2016
 ME,INCOME3,Income,$100K or more,55.0,41.0,2016
-ME,INC50K,Income,Under $50K,44.0,47.0,2016
-ME,INC50K,Income,$50K or more,52.0,43.0,2016
-ME,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-ME,NEC,Condition of national economy,Good,74.0,20.0,2016
-ME,NEC,Condition of national economy,Poor,17.0,74.0,2016
 ME,MARRIED,Marital status,Married,48.0,46.0,2016
 ME,MARRIED,Marital status,Unmarried,48.0,44.0,2016
 MI,SEX,Gender,Male,41.0,53.0,2016
@@ -1333,23 +613,9 @@ MI,AGE,Age,18-29,57.0,34.0,2016
 MI,AGE,Age,30-44,44.0,48.0,2016
 MI,AGE,Age,45-64,44.0,52.0,2016
 MI,AGE,Age,65 and older,47.0,51.0,2016
-MI,AGE65,Age,18-24,58.0,35.0,2016
-MI,AGE65,Age,25-29,55.0,33.0,2016
-MI,AGE65,Age,30-39,45.0,46.0,2016
-MI,AGE65,Age,40-49,43.0,51.0,2016
-MI,AGE65,Age,50-64,44.0,52.0,2016
-MI,AGE65,Age,65 and older,47.0,51.0,2016
 MI,RACE,Race,White,36.0,57.0,2016
 MI,RACE,Race,Black,92.0,6.0,2016
 MI,RACE,Race,Latino,59.0,38.0,2016
-MI,RACE,Race,Asian,0.0,0.0,2016
-MI,SEXBYRACE,Race and gender,White men,29.0,64.0,2016
-MI,SEXBYRACE,Race and gender,White women,43.0,51.0,2016
-MI,SEXBYRACE,Race and gender,Black men,88.0,9.0,2016
-MI,SEXBYRACE,Race and gender,Black women,96.0,3.0,2016
-MI,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-MI,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2016
-MI,SEXBYRACE,Race and gender,Others,63.0,32.0,2016
 MI,PHIL3,Ideology,Liberal,81.0,14.0,2016
 MI,PHIL3,Ideology,Moderate,52.0,42.0,2016
 MI,PHIL3,Ideology,Conservative,17.0,79.0,2016
@@ -1358,43 +624,19 @@ MI,EDUCCOLL,Are you a college graduate?,No,45.0,49.0,2016
 MI,INCOME3,Income,Under $50K,53.0,42.0,2016
 MI,INCOME3,Income,$50K-$100K,43.0,51.0,2016
 MI,INCOME3,Income,$100K or more,43.0,51.0,2016
-MI,INC50K,Income,Under $50K,53.0,42.0,2016
-MI,INC50K,Income,$50K or more,43.0,51.0,2016
 MI,REL5,Religion,Protestant,39.0,55.0,2016
 MI,REL5,Religion,Catholic,39.0,57.0,2016
-MI,REL5,Religion,Jewish,0.0,0.0,2016
 MI,WHTEVANG,White born-again or evangelical Christian?,Yes,14.0,81.0,2016
 MI,WHTEVANG,White born-again or evangelical Christian?,No,58.0,36.0,2016
-MI,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-MI,NEC,Condition of national economy,Good,74.0,20.0,2016
-MI,NEC,Condition of national economy,Poor,17.0,76.0,2016
 MI,MARRIED,Marital status,Married,39.0,56.0,2016
 MI,MARRIED,Marital status,Unmarried,58.0,35.0,2016
-MI,UNIONHH12,Union household?,Union,53.0,40.0,2016
-MI,UNIONHH12,Union household?,Not Union,48.0,47.0,2016
 MN,SEX,Gender,Male,43.0,49.0,2016
 MN,SEX,Gender,Female,50.0,43.0,2016
 MN,AGE,Age,18-29,45.0,42.0,2016
 MN,AGE,Age,30-44,53.0,39.0,2016
 MN,AGE,Age,45-64,42.0,52.0,2016
 MN,AGE,Age,65 and older,49.0,47.0,2016
-MN,AGE65,Age,18-24,43.0,48.0,2016
-MN,AGE65,Age,25-29,47.0,36.0,2016
-MN,AGE65,Age,30-39,52.0,38.0,2016
-MN,AGE65,Age,40-49,49.0,45.0,2016
-MN,AGE65,Age,50-64,41.0,53.0,2016
-MN,AGE65,Age,65 and older,49.0,47.0,2016
 MN,RACE,Race,White,43.0,50.0,2016
-MN,RACE,Race,Black,0.0,0.0,2016
-MN,RACE,Race,Latino,0.0,0.0,2016
-MN,RACE,Race,Asian,0.0,0.0,2016
-MN,SEXBYRACE,Race and gender,White men,39.0,53.0,2016
-MN,SEXBYRACE,Race and gender,White women,46.0,47.0,2016
-MN,SEXBYRACE,Race and gender,Black men,0.0,0.0,2016
-MN,SEXBYRACE,Race and gender,Black women,0.0,0.0,2016
-MN,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-MN,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2016
-MN,SEXBYRACE,Race and gender,Others,0.0,0.0,2016
 MN,PHIL3,Ideology,Liberal,88.0,7.0,2016
 MN,PHIL3,Ideology,Moderate,48.0,43.0,2016
 MN,PHIL3,Ideology,Conservative,11.0,82.0,2016
@@ -1403,34 +645,16 @@ MN,EDUCCOLL,Are you a college graduate?,No,38.0,55.0,2016
 MN,INCOME3,Income,Under $50K,45.0,45.0,2016
 MN,INCOME3,Income,$50K-$100K,45.0,48.0,2016
 MN,INCOME3,Income,$100K or more,52.0,41.0,2016
-MN,INC50K,Income,Under $50K,45.0,45.0,2016
-MN,INC50K,Income,$50K or more,49.0,44.0,2016
 MN,MARRIED,Marital status,Married,47.0,46.0,2016
 MN,MARRIED,Marital status,Unmarried,48.0,44.0,2016
-MN,GEOCOD,Region,Twin Cities,64.0,28.0,2016
 MO,SEX,Gender,Male,32.0,62.0,2016
 MO,SEX,Gender,Female,43.0,53.0,2016
 MO,AGE,Age,18-29,40.0,51.0,2016
 MO,AGE,Age,30-44,44.0,48.0,2016
 MO,AGE,Age,45-64,34.0,63.0,2016
 MO,AGE,Age,65 and older,36.0,62.0,2016
-MO,AGE65,Age,18-24,35.0,57.0,2016
-MO,AGE65,Age,25-29,48.0,43.0,2016
-MO,AGE65,Age,30-39,47.0,44.0,2016
-MO,AGE65,Age,40-49,35.0,60.0,2016
-MO,AGE65,Age,50-64,35.0,63.0,2016
-MO,AGE65,Age,65 and older,36.0,62.0,2016
 MO,RACE,Race,White,28.0,66.0,2016
 MO,RACE,Race,Black,90.0,8.0,2016
-MO,RACE,Race,Latino,0.0,0.0,2016
-MO,RACE,Race,Asian,0.0,0.0,2016
-MO,SEXBYRACE,Race and gender,White men,22.0,72.0,2016
-MO,SEXBYRACE,Race and gender,White women,34.0,61.0,2016
-MO,SEXBYRACE,Race and gender,Black men,87.0,10.0,2016
-MO,SEXBYRACE,Race and gender,Black women,92.0,6.0,2016
-MO,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-MO,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2016
-MO,SEXBYRACE,Race and gender,Others,0.0,0.0,2016
 MO,PHIL3,Ideology,Liberal,80.0,14.0,2016
 MO,PHIL3,Ideology,Moderate,48.0,45.0,2016
 MO,PHIL3,Ideology,Conservative,8.0,89.0,2016
@@ -1439,39 +663,20 @@ MO,EDUCCOLL,Are you a college graduate?,No,37.0,59.0,2016
 MO,INCOME3,Income,Under $50K,46.0,48.0,2016
 MO,INCOME3,Income,$50K-$100K,34.0,59.0,2016
 MO,INCOME3,Income,$100K or more,30.0,66.0,2016
-MO,INC50K,Income,Under $50K,46.0,48.0,2016
-MO,INC50K,Income,$50K or more,32.0,62.0,2016
 MO,WHTEVANG,White born-again or evangelical Christian?,Yes,14.0,83.0,2016
 MO,WHTEVANG,White born-again or evangelical Christian?,No,50.0,44.0,2016
-MO,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-MO,NEC,Condition of national economy,Good,73.0,22.0,2016
-MO,NEC,Condition of national economy,Poor,4.0,92.0,2016
 MO,MARRIED,Marital status,Married,31.0,64.0,2016
 MO,MARRIED,Marital status,Unmarried,47.0,49.0,2016
-MO,GEOCOD,Region,Kansas City Area,48.0,46.0,2016
 NV,SEX,Gender,Male,42.0,50.0,2016
 NV,SEX,Gender,Female,53.0,41.0,2016
 NV,AGE,Age,18-29,52.0,35.0,2016
 NV,AGE,Age,30-44,52.0,40.0,2016
 NV,AGE,Age,45-64,40.0,54.0,2016
 NV,AGE,Age,65 and older,52.0,47.0,2016
-NV,AGE65,Age,18-24,59.0,30.0,2016
-NV,AGE65,Age,25-29,46.0,39.0,2016
-NV,AGE65,Age,30-39,55.0,38.0,2016
-NV,AGE65,Age,40-49,43.0,48.0,2016
-NV,AGE65,Age,50-64,41.0,55.0,2016
-NV,AGE65,Age,65 and older,52.0,47.0,2016
 NV,RACE,Race,White,38.0,56.0,2016
 NV,RACE,Race,Black,81.0,12.0,2016
 NV,RACE,Race,Latino,60.0,29.0,2016
 NV,RACE,Race,Asian,62.0,36.0,2016
-NV,SEXBYRACE,Race and gender,White men,34.0,60.0,2016
-NV,SEXBYRACE,Race and gender,White women,43.0,52.0,2016
-NV,SEXBYRACE,Race and gender,Black men,64.0,26.0,2016
-NV,SEXBYRACE,Race and gender,Black women,93.0,2.0,2016
-NV,SEXBYRACE,Race and gender,Latino men,57.0,30.0,2016
-NV,SEXBYRACE,Race and gender,Latino women,63.0,29.0,2016
-NV,SEXBYRACE,Race and gender,Others,56.0,40.0,2016
 NV,PHIL3,Ideology,Liberal,82.0,13.0,2016
 NV,PHIL3,Ideology,Moderate,54.0,38.0,2016
 NV,PHIL3,Ideology,Conservative,19.0,77.0,2016
@@ -1480,46 +685,19 @@ NV,EDUCCOLL,Are you a college graduate?,No,48.0,46.0,2016
 NV,INCOME3,Income,Under $50K,60.0,31.0,2016
 NV,INCOME3,Income,$50K-$100K,50.0,42.0,2016
 NV,INCOME3,Income,$100K or more,37.0,58.0,2016
-NV,INC50K,Income,Under $50K,60.0,31.0,2016
-NV,INC50K,Income,$50K or more,44.0,49.0,2016
 NV,REL5,Religion,Protestant,38.0,56.0,2016
 NV,REL5,Religion,Catholic,55.0,40.0,2016
-NV,REL5,Religion,Jewish,0.0,0.0,2016
 NV,WHTEVANG,White born-again or evangelical Christian?,Yes,25.0,68.0,2016
 NV,WHTEVANG,White born-again or evangelical Christian?,No,50.0,43.0,2016
-NV,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-NV,NEC,Condition of national economy,Good,78.0,17.0,2016
-NV,NEC,Condition of national economy,Poor,13.0,83.0,2016
 NV,MARRIED,Marital status,Married,46.0,49.0,2016
 NV,MARRIED,Marital status,Unmarried,49.0,44.0,2016
-NV,UNIONHH12,Union household?,Union,54.0,41.0,2016
-NV,UNIONHH12,Union household?,Not Union,47.0,46.0,2016
-NV,GEOCOD,Region,Washoe County,47.0,45.0,2016
-NV,GEOCOD,Region,Clark County,53.0,41.0,2016
-NV,GEOCOD,Region,Rest of Nevada,25.0,66.0,2016
 NH,SEX,Gender,Male,40.0,53.0,2016
 NH,SEX,Gender,Female,54.0,41.0,2016
 NH,AGE,Age,18-29,49.0,41.0,2016
 NH,AGE,Age,30-44,47.0,43.0,2016
 NH,AGE,Age,45-64,46.0,51.0,2016
 NH,AGE,Age,65 and older,49.0,49.0,2016
-NH,AGE65,Age,18-24,46.0,44.0,2016
-NH,AGE65,Age,25-29,52.0,37.0,2016
-NH,AGE65,Age,30-39,50.0,40.0,2016
-NH,AGE65,Age,40-49,42.0,51.0,2016
-NH,AGE65,Age,50-64,47.0,50.0,2016
-NH,AGE65,Age,65 and older,49.0,49.0,2016
 NH,RACE,Race,White,46.0,48.0,2016
-NH,RACE,Race,Black,0.0,0.0,2016
-NH,RACE,Race,Latino,0.0,0.0,2016
-NH,RACE,Race,Asian,0.0,0.0,2016
-NH,SEXBYRACE,Race and gender,White men,39.0,54.0,2016
-NH,SEXBYRACE,Race and gender,White women,53.0,42.0,2016
-NH,SEXBYRACE,Race and gender,Black men,0.0,0.0,2016
-NH,SEXBYRACE,Race and gender,Black women,0.0,0.0,2016
-NH,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-NH,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2016
-NH,SEXBYRACE,Race and gender,Others,0.0,0.0,2016
 NH,PHIL3,Ideology,Liberal,87.0,9.0,2016
 NH,PHIL3,Ideology,Moderate,52.0,41.0,2016
 NH,PHIL3,Ideology,Conservative,9.0,86.0,2016
@@ -1528,39 +706,18 @@ NH,EDUCCOLL,Are you a college graduate?,No,39.0,55.0,2016
 NH,INCOME3,Income,Under $50K,51.0,43.0,2016
 NH,INCOME3,Income,$50K-$100K,50.0,46.0,2016
 NH,INCOME3,Income,$100K or more,48.0,47.0,2016
-NH,INC50K,Income,Under $50K,51.0,43.0,2016
-NH,INC50K,Income,$50K or more,49.0,47.0,2016
 NH,WHTEVANG,White born-again or evangelical Christian?,Yes,22.0,75.0,2016
 NH,WHTEVANG,White born-again or evangelical Christian?,No,50.0,43.0,2016
-NH,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-NH,NEC,Condition of national economy,Good,73.0,20.0,2016
-NH,NEC,Condition of national economy,Poor,8.0,87.0,2016
 NH,MARRIED,Marital status,Married,47.0,47.0,2016
 NH,MARRIED,Marital status,Unmarried,51.0,42.0,2016
-NH,GEOCOD,Region,Seacoast,53.0,41.0,2016
 NJ,SEX,Gender,Male,51.0,45.0,2016
 NJ,SEX,Gender,Female,58.0,39.0,2016
 NJ,AGE,Age,18-29,61.0,30.0,2016
 NJ,AGE,Age,30-44,57.0,40.0,2016
 NJ,AGE,Age,45-64,54.0,44.0,2016
 NJ,AGE,Age,65 and older,47.0,49.0,2016
-NJ,AGE65,Age,18-24,64.0,28.0,2016
-NJ,AGE65,Age,25-29,59.0,31.0,2016
-NJ,AGE65,Age,30-39,54.0,41.0,2016
-NJ,AGE65,Age,40-49,58.0,41.0,2016
-NJ,AGE65,Age,50-64,53.0,44.0,2016
-NJ,AGE65,Age,65 and older,47.0,49.0,2016
 NJ,RACE,Race,White,42.0,54.0,2016
 NJ,RACE,Race,Black,89.0,9.0,2016
-NJ,RACE,Race,Latino,76.0,23.0,2016
-NJ,RACE,Race,Asian,0.0,0.0,2016
-NJ,SEXBYRACE,Race and gender,White men,37.0,57.0,2016
-NJ,SEXBYRACE,Race and gender,White women,45.0,51.0,2016
-NJ,SEXBYRACE,Race and gender,Black men,0.0,0.0,2016
-NJ,SEXBYRACE,Race and gender,Black women,92.0,8.0,2016
-NJ,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-NJ,SEXBYRACE,Race and gender,Latino women,77.0,22.0,2016
-NJ,SEXBYRACE,Race and gender,Others,77.0,20.0,2016
 NJ,PHIL3,Ideology,Liberal,84.0,13.0,2016
 NJ,PHIL3,Ideology,Moderate,56.0,40.0,2016
 NJ,PHIL3,Ideology,Conservative,17.0,80.0,2016
@@ -1569,40 +726,16 @@ NJ,EDUCCOLL,Are you a college graduate?,No,48.0,49.0,2016
 NJ,INCOME3,Income,Under $50K,64.0,31.0,2016
 NJ,INCOME3,Income,$50K-$100K,54.0,43.0,2016
 NJ,INCOME3,Income,$100K or more,50.0,46.0,2016
-NJ,INC50K,Income,Under $50K,64.0,31.0,2016
-NJ,INC50K,Income,$50K or more,52.0,45.0,2016
 NJ,MARRIED,Marital status,Married,51.0,46.0,2016
 NJ,MARRIED,Marital status,Unmarried,60.0,35.0,2016
-NJ,UNIONHH12,Union household?,Union,59.0,38.0,2016
-NJ,UNIONHH12,Union household?,Not Union,51.0,44.0,2016
-NJ,GEOCOD,Region,Urban North,73.0,24.0,2016
-NJ,GEOCOD,Region,Suburban North,55.0,42.0,2016
-NJ,GEOCOD,Region,Northwest,45.0,51.0,2016
-NJ,GEOCOD,Region,Central,53.0,43.0,2016
-NJ,GEOCOD,Region,South,48.0,48.0,2016
 NM,SEX,Gender,Male,42.0,44.0,2016
 NM,SEX,Gender,Female,54.0,36.0,2016
 NM,AGE,Age,18-29,52.0,27.0,2016
 NM,AGE,Age,30-44,48.0,38.0,2016
 NM,AGE,Age,45-64,45.0,46.0,2016
 NM,AGE,Age,65 and older,53.0,42.0,2016
-NM,AGE65,Age,18-24,53.0,26.0,2016
-NM,AGE65,Age,25-29,49.0,29.0,2016
-NM,AGE65,Age,30-39,45.0,37.0,2016
-NM,AGE65,Age,40-49,48.0,44.0,2016
-NM,AGE65,Age,50-64,46.0,46.0,2016
-NM,AGE65,Age,65 and older,53.0,42.0,2016
 NM,RACE,Race,White,42.0,47.0,2016
-NM,RACE,Race,Black,0.0,0.0,2016
 NM,RACE,Race,Latino,54.0,33.0,2016
-NM,RACE,Race,Asian,0.0,0.0,2016
-NM,SEXBYRACE,Race and gender,White men,38.0,48.0,2016
-NM,SEXBYRACE,Race and gender,White women,45.0,46.0,2016
-NM,SEXBYRACE,Race and gender,Black men,0.0,0.0,2016
-NM,SEXBYRACE,Race and gender,Black women,0.0,0.0,2016
-NM,SEXBYRACE,Race and gender,Latino men,45.0,39.0,2016
-NM,SEXBYRACE,Race and gender,Latino women,61.0,28.0,2016
-NM,SEXBYRACE,Race and gender,Others,54.0,32.0,2016
 NM,PHIL3,Ideology,Liberal,82.0,9.0,2016
 NM,PHIL3,Ideology,Moderate,51.0,33.0,2016
 NM,PHIL3,Ideology,Conservative,15.0,75.0,2016
@@ -1611,37 +744,17 @@ NM,EDUCCOLL,Are you a college graduate?,No,45.0,43.0,2016
 NM,INCOME3,Income,Under $50K,52.0,33.0,2016
 NM,INCOME3,Income,$50K-$100K,44.0,46.0,2016
 NM,INCOME3,Income,$100K or more,47.0,43.0,2016
-NM,INC50K,Income,Under $50K,52.0,33.0,2016
-NM,INC50K,Income,$50K or more,45.0,45.0,2016
-NM,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-NM,NEC,Condition of national economy,Good,85.0,10.0,2016
-NM,NEC,Condition of national economy,Poor,10.0,75.0,2016
 NM,MARRIED,Marital status,Married,41.0,47.0,2016
 NM,MARRIED,Marital status,Unmarried,57.0,30.0,2016
-NM,GEOCOD,Region,Albuquerque Area,51.0,38.0,2016
 NY,SEX,Gender,Male,50.0,46.0,2016
 NY,SEX,Gender,Female,66.0,31.0,2016
 NY,AGE,Age,18-29,71.0,24.0,2016
 NY,AGE,Age,30-44,63.0,33.0,2016
 NY,AGE,Age,45-64,53.0,43.0,2016
 NY,AGE,Age,65 and older,53.0,44.0,2016
-NY,AGE65,Age,18-24,72.0,26.0,2016
-NY,AGE65,Age,25-29,0.0,0.0,2016
-NY,AGE65,Age,30-39,65.0,30.0,2016
-NY,AGE65,Age,40-49,58.0,40.0,2016
-NY,AGE65,Age,50-64,52.0,44.0,2016
-NY,AGE65,Age,65 and older,53.0,44.0,2016
 NY,RACE,Race,White,45.0,51.0,2016
 NY,RACE,Race,Black,92.0,6.0,2016
 NY,RACE,Race,Latino,74.0,23.0,2016
-NY,RACE,Race,Asian,0.0,0.0,2016
-NY,SEXBYRACE,Race and gender,White men,36.0,59.0,2016
-NY,SEXBYRACE,Race and gender,White women,52.0,44.0,2016
-NY,SEXBYRACE,Race and gender,Black men,94.0,5.0,2016
-NY,SEXBYRACE,Race and gender,Black women,91.0,7.0,2016
-NY,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-NY,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2016
-NY,SEXBYRACE,Race and gender,Others,0.0,0.0,2016
 NY,PHIL3,Ideology,Liberal,88.0,8.0,2016
 NY,PHIL3,Ideology,Moderate,59.0,38.0,2016
 NY,PHIL3,Ideology,Conservative,19.0,78.0,2016
@@ -1650,51 +763,20 @@ NY,EDUCCOLL,Are you a college graduate?,No,53.0,44.0,2016
 NY,INCOME3,Income,Under $50K,68.0,30.0,2016
 NY,INCOME3,Income,$50K-$100K,61.0,37.0,2016
 NY,INCOME3,Income,$100K or more,55.0,38.0,2016
-NY,INC50K,Income,Under $50K,68.0,30.0,2016
-NY,INC50K,Income,$50K or more,58.0,38.0,2016
 NY,REL5,Religion,Protestant,50.0,48.0,2016
 NY,REL5,Religion,Catholic,55.0,43.0,2016
-NY,REL5,Religion,Jewish,0.0,0.0,2016
-NY,WHTEVANG,White born-again or evangelical Christian?,Yes,0.0,0.0,2016
 NY,WHTEVANG,White born-again or evangelical Christian?,No,59.0,38.0,2016
-NY,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-NY,NEC,Condition of national economy,Good,91.0,8.0,2016
-NY,NEC,Condition of national economy,Poor,0.0,0.0,2016
-NY,OBAMA2,Opinion of Barack Obama as president,Approve,91.0,6.0,2016
-NY,OBAMA2,Opinion of Barack Obama as president,Disapprove,9.0,88.0,2016
 NY,MARRIED,Marital status,Married,53.0,44.0,2016
 NY,MARRIED,Marital status,Unmarried,66.0,30.0,2016
-NY,UNIONHH12,Union household?,Union,63.0,32.0,2016
-NY,UNIONHH12,Union household?,Not Union,62.0,37.0,2016
-NY,BREAK12B,Were debates a factor in your vote?,Yes,65.0,32.0,2016
-NY,BREAK12B,Were debates a factor in your vote?,No,0.0,0.0,2016
-NY,GEOCOD,Region,New York City,79.0,18.0,2016
-NY,GEOCOD,Region,Long Island,48.0,49.0,2016
-NY,GEOCOD,Region,Urban Upstate,51.0,45.0,2016
-NY,GEOCOD,Region,Rural Upstate,37.0,57.0,2016
 NC,SEX,Gender,Male,38.0,56.0,2016
 NC,SEX,Gender,Female,52.0,45.0,2016
 NC,AGE,Age,18-29,57.0,35.0,2016
 NC,AGE,Age,30-44,49.0,46.0,2016
 NC,AGE,Age,45-64,43.0,55.0,2016
 NC,AGE,Age,65 and older,37.0,60.0,2016
-NC,AGE65,Age,18-24,58.0,36.0,2016
-NC,AGE65,Age,25-29,55.0,35.0,2016
-NC,AGE65,Age,30-39,49.0,45.0,2016
-NC,AGE65,Age,40-49,44.0,54.0,2016
-NC,AGE65,Age,50-64,44.0,54.0,2016
-NC,AGE65,Age,65 and older,37.0,60.0,2016
 NC,RACE,Race,White,32.0,63.0,2016
 NC,RACE,Race,Black,89.0,8.0,2016
 NC,RACE,Race,Latino,57.0,40.0,2016
-NC,RACE,Race,Asian,0.0,0.0,2016
-NC,SEXBYRACE,Race and gender,White men,27.0,68.0,2016
-NC,SEXBYRACE,Race and gender,White women,37.0,60.0,2016
-NC,SEXBYRACE,Race and gender,Black men,82.0,14.0,2016
-NC,SEXBYRACE,Race and gender,Black women,95.0,3.0,2016
-NC,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-NC,SEXBYRACE,Race and gender,Latino women,69.0,28.0,2016
-NC,SEXBYRACE,Race and gender,Others,57.0,39.0,2016
 NC,PHIL3,Ideology,Liberal,86.0,9.0,2016
 NC,PHIL3,Ideology,Moderate,57.0,37.0,2016
 NC,PHIL3,Ideology,Conservative,15.0,83.0,2016
@@ -1703,43 +785,21 @@ NC,EDUCCOLL,Are you a college graduate?,No,43.0,53.0,2016
 NC,INCOME3,Income,Under $50K,56.0,38.0,2016
 NC,INCOME3,Income,$50K-$100K,48.0,50.0,2016
 NC,INCOME3,Income,$100K or more,38.0,60.0,2016
-NC,INC50K,Income,Under $50K,56.0,38.0,2016
-NC,INC50K,Income,$50K or more,43.0,55.0,2016
 NC,WHTEVANG,White born-again or evangelical Christian?,Yes,17.0,81.0,2016
 NC,WHTEVANG,White born-again or evangelical Christian?,No,63.0,32.0,2016
-NC,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-NC,NEC,Condition of national economy,Good,79.0,20.0,2016
-NC,NEC,Condition of national economy,Poor,16.0,83.0,2016
 NC,MARRIED,Marital status,Married,39.0,59.0,2016
 NC,MARRIED,Marital status,Unmarried,55.0,38.0,2016
-NC,CHILD12,Parent?,Yes,49.0,48.0,2016
-NC,CHILD12,Parent?,No,45.0,51.0,2016
 NC,PARENTS,Parents by gender,Fathers,37.0,62.0,2016
 NC,PARENTS,Parents by gender,Mothers,60.0,35.0,2016
-NC,GEOCOD,Region,Charlotte Area,50.0,46.0,2016
 OH,SEX,Gender,Male,36.0,59.0,2016
 OH,SEX,Gender,Female,49.0,46.0,2016
 OH,AGE,Age,18-29,51.0,42.0,2016
 OH,AGE,Age,30-44,42.0,51.0,2016
 OH,AGE,Age,45-64,40.0,56.0,2016
 OH,AGE,Age,65 and older,43.0,56.0,2016
-OH,AGE65,Age,18-24,54.0,39.0,2016
-OH,AGE65,Age,25-29,46.0,44.0,2016
-OH,AGE65,Age,30-39,41.0,51.0,2016
-OH,AGE65,Age,40-49,39.0,56.0,2016
-OH,AGE65,Age,50-64,41.0,55.0,2016
-OH,AGE65,Age,65 and older,43.0,56.0,2016
 OH,RACE,Race,White,33.0,62.0,2016
 OH,RACE,Race,Black,88.0,8.0,2016
 OH,RACE,Race,Latino,67.0,26.0,2016
-OH,RACE,Race,Asian,0.0,0.0,2016
-OH,SEXBYRACE,Race and gender,White men,27.0,68.0,2016
-OH,SEXBYRACE,Race and gender,White women,39.0,56.0,2016
-OH,SEXBYRACE,Race and gender,Black men,84.0,13.0,2016
-OH,SEXBYRACE,Race and gender,Black women,92.0,4.0,2016
-OH,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-OH,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2016
-OH,SEXBYRACE,Race and gender,Others,55.0,35.0,2016
 OH,PHIL3,Ideology,Liberal,81.0,14.0,2016
 OH,PHIL3,Ideology,Moderate,49.0,43.0,2016
 OH,PHIL3,Ideology,Conservative,16.0,81.0,2016
@@ -1748,49 +808,20 @@ OH,EDUCCOLL,Are you a college graduate?,No,44.0,52.0,2016
 OH,INCOME3,Income,Under $50K,51.0,43.0,2016
 OH,INCOME3,Income,$50K-$100K,40.0,55.0,2016
 OH,INCOME3,Income,$100K or more,37.0,59.0,2016
-OH,INC50K,Income,Under $50K,51.0,43.0,2016
-OH,INC50K,Income,$50K or more,39.0,57.0,2016
 OH,REL5,Religion,Protestant,37.0,59.0,2016
 OH,REL5,Religion,Catholic,38.0,58.0,2016
-OH,REL5,Religion,Jewish,0.0,0.0,2016
 OH,WHTEVANG,White born-again or evangelical Christian?,Yes,20.0,77.0,2016
 OH,WHTEVANG,White born-again or evangelical Christian?,No,55.0,40.0,2016
-OH,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-OH,NEC,Condition of national economy,Good,70.0,21.0,2016
-OH,NEC,Condition of national economy,Poor,16.0,81.0,2016
 OH,MARRIED,Marital status,Married,36.0,59.0,2016
 OH,MARRIED,Marital status,Unmarried,52.0,42.0,2016
-OH,CHILD12,Parent?,Yes,44.0,51.0,2016
-OH,CHILD12,Parent?,No,39.0,54.0,2016
 OH,PARENTS,Parents by gender,Fathers,35.0,57.0,2016
 OH,PARENTS,Parents by gender,Mothers,51.0,46.0,2016
-OH,UNIONHH12,Union household?,Union,41.0,54.0,2016
-OH,UNIONHH12,Union household?,Not Union,42.0,52.0,2016
-OH,GEOCOD,Region,Cleveland Area,58.0,37.0,2016
-OH,GEOCOD,Region,Columbus Area,49.0,46.0,2016
 OR,SEX,Gender,Male,46.0,44.0,2016
 OR,SEX,Gender,Female,55.0,35.0,2016
-OR,AGE,Age,18-29,0.0,0.0,2016
 OR,AGE,Age,30-44,51.0,40.0,2016
 OR,AGE,Age,45-64,50.0,42.0,2016
 OR,AGE,Age,65 and older,46.0,45.0,2016
-OR,AGE65,Age,18-24,0.0,0.0,2016
-OR,AGE65,Age,25-29,0.0,0.0,2016
-OR,AGE65,Age,30-39,49.0,40.0,2016
-OR,AGE65,Age,40-49,51.0,37.0,2016
-OR,AGE65,Age,50-64,51.0,45.0,2016
-OR,AGE65,Age,65 and older,46.0,45.0,2016
 OR,RACE,Race,White,49.0,42.0,2016
-OR,RACE,Race,Black,0.0,0.0,2016
-OR,RACE,Race,Latino,0.0,0.0,2016
-OR,RACE,Race,Asian,0.0,0.0,2016
-OR,SEXBYRACE,Race and gender,White men,44.0,47.0,2016
-OR,SEXBYRACE,Race and gender,White women,55.0,38.0,2016
-OR,SEXBYRACE,Race and gender,Black men,0.0,0.0,2016
-OR,SEXBYRACE,Race and gender,Black women,0.0,0.0,2016
-OR,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-OR,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2016
-OR,SEXBYRACE,Race and gender,Others,0.0,0.0,2016
 OR,PHIL3,Ideology,Liberal,89.0,5.0,2016
 OR,PHIL3,Ideology,Moderate,52.0,34.0,2016
 OR,PHIL3,Ideology,Conservative,7.0,85.0,2016
@@ -1799,36 +830,15 @@ OR,EDUCCOLL,Are you a college graduate?,No,43.0,50.0,2016
 OR,INCOME3,Income,Under $50K,46.0,40.0,2016
 OR,INCOME3,Income,$50K-$100K,48.0,44.0,2016
 OR,INCOME3,Income,$100K or more,55.0,36.0,2016
-OR,INC50K,Income,Under $50K,46.0,40.0,2016
-OR,INC50K,Income,$50K or more,51.0,41.0,2016
-OR,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-OR,NEC,Condition of national economy,Good,85.0,10.0,2016
-OR,NEC,Condition of national economy,Poor,8.0,77.0,2016
-OR,GEOCOD,Region,Multnomah County,74.0,17.0,2016
-OR,GEOCOD,Region,Portland Suburbs,52.0,40.0,2016
 PA,SEX,Gender,Male,40.0,57.0,2016
 PA,SEX,Gender,Female,55.0,42.0,2016
 PA,AGE,Age,18-29,52.0,43.0,2016
 PA,AGE,Age,30-44,53.0,42.0,2016
 PA,AGE,Age,45-64,45.0,52.0,2016
 PA,AGE,Age,65 and older,44.0,54.0,2016
-PA,AGE65,Age,18-24,50.0,45.0,2016
-PA,AGE65,Age,25-29,53.0,40.0,2016
-PA,AGE65,Age,30-39,54.0,40.0,2016
-PA,AGE65,Age,40-49,47.0,49.0,2016
-PA,AGE65,Age,50-64,45.0,53.0,2016
-PA,AGE65,Age,65 and older,44.0,54.0,2016
 PA,RACE,Race,White,40.0,56.0,2016
 PA,RACE,Race,Black,92.0,7.0,2016
 PA,RACE,Race,Latino,74.0,22.0,2016
-PA,RACE,Race,Asian,0.0,0.0,2016
-PA,SEXBYRACE,Race and gender,White men,32.0,64.0,2016
-PA,SEXBYRACE,Race and gender,White women,47.0,50.0,2016
-PA,SEXBYRACE,Race and gender,Black men,83.0,14.0,2016
-PA,SEXBYRACE,Race and gender,Black women,99.0,1.0,2016
-PA,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-PA,SEXBYRACE,Race and gender,Latino women,82.0,14.0,2016
-PA,SEXBYRACE,Race and gender,Others,0.0,0.0,2016
 PA,PHIL3,Ideology,Liberal,85.0,12.0,2016
 PA,PHIL3,Ideology,Moderate,53.0,43.0,2016
 PA,PHIL3,Ideology,Conservative,12.0,85.0,2016
@@ -1837,11 +847,6 @@ PA,EDUCCOLL,Are you a college graduate?,No,45.0,52.0,2016
 PA,INCOME3,Income,Under $50K,54.0,42.0,2016
 PA,INCOME3,Income,$50K-$100K,41.0,55.0,2016
 PA,INCOME3,Income,$100K or more,45.0,52.0,2016
-PA,INC50K,Income,Under $50K,54.0,42.0,2016
-PA,INC50K,Income,$50K or more,43.0,54.0,2016
-PA,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-PA,NEC,Condition of national economy,Good,82.0,16.0,2016
-PA,NEC,Condition of national economy,Poor,10.0,86.0,2016
 PA,MARRIED,Marital status,Married,45.0,51.0,2016
 PA,MARRIED,Marital status,Unmarried,55.0,42.0,2016
 VA,SEX,Gender,Male,43.0,52.0,2016
@@ -1850,23 +855,9 @@ VA,AGE,Age,18-29,54.0,36.0,2016
 VA,AGE,Age,30-44,53.0,40.0,2016
 VA,AGE,Age,45-64,47.0,50.0,2016
 VA,AGE,Age,65 and older,45.0,52.0,2016
-VA,AGE65,Age,18-24,51.0,38.0,2016
-VA,AGE65,Age,25-29,57.0,34.0,2016
-VA,AGE65,Age,30-39,55.0,37.0,2016
-VA,AGE65,Age,40-49,51.0,45.0,2016
-VA,AGE65,Age,50-64,45.0,52.0,2016
-VA,AGE65,Age,65 and older,45.0,52.0,2016
 VA,RACE,Race,White,35.0,59.0,2016
 VA,RACE,Race,Black,88.0,9.0,2016
 VA,RACE,Race,Latino,65.0,30.0,2016
-VA,RACE,Race,Asian,0.0,0.0,2016
-VA,SEXBYRACE,Race and gender,White men,29.0,65.0,2016
-VA,SEXBYRACE,Race and gender,White women,41.0,54.0,2016
-VA,SEXBYRACE,Race and gender,Black men,84.0,13.0,2016
-VA,SEXBYRACE,Race and gender,Black women,91.0,7.0,2016
-VA,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-VA,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2016
-VA,SEXBYRACE,Race and gender,Others,62.0,30.0,2016
 VA,PHIL3,Ideology,Liberal,85.0,11.0,2016
 VA,PHIL3,Ideology,Moderate,58.0,36.0,2016
 VA,PHIL3,Ideology,Conservative,12.0,83.0,2016
@@ -1875,39 +866,16 @@ VA,EDUCCOLL,Are you a college graduate?,No,44.0,51.0,2016
 VA,INCOME3,Income,Under $50K,53.0,41.0,2016
 VA,INCOME3,Income,$50K-$100K,47.0,49.0,2016
 VA,INCOME3,Income,$100K or more,51.0,44.0,2016
-VA,INC50K,Income,Under $50K,53.0,41.0,2016
-VA,INC50K,Income,$50K or more,49.0,46.0,2016
 VA,WHTEVANG,White born-again or evangelical Christian?,Yes,14.0,80.0,2016
 VA,WHTEVANG,White born-again or evangelical Christian?,No,59.0,35.0,2016
-VA,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-VA,NEC,Condition of national economy,Good,79.0,16.0,2016
-VA,NEC,Condition of national economy,Poor,7.0,88.0,2016
 VA,MARRIED,Marital status,Married,44.0,52.0,2016
 VA,MARRIED,Marital status,Unmarried,54.0,36.0,2016
-VA,GEOCOD,Region,D.C. Suburbs,68.0,27.0,2016
 WA,SEX,Gender,Male,45.0,47.0,2016
 WA,SEX,Gender,Female,62.0,30.0,2016
-WA,AGE,Age,18-29,0.0,0.0,2016
 WA,AGE,Age,30-44,49.0,36.0,2016
 WA,AGE,Age,45-64,51.0,43.0,2016
 WA,AGE,Age,65 and older,56.0,41.0,2016
-WA,AGE65,Age,18-24,0.0,0.0,2016
-WA,AGE65,Age,25-29,0.0,0.0,2016
-WA,AGE65,Age,30-39,0.0,0.0,2016
-WA,AGE65,Age,40-49,50.0,40.0,2016
-WA,AGE65,Age,50-64,50.0,44.0,2016
-WA,AGE65,Age,65 and older,56.0,41.0,2016
 WA,RACE,Race,White,51.0,40.0,2016
-WA,RACE,Race,Black,0.0,0.0,2016
-WA,RACE,Race,Latino,0.0,0.0,2016
-WA,RACE,Race,Asian,0.0,0.0,2016
-WA,SEXBYRACE,Race and gender,White men,47.0,45.0,2016
-WA,SEXBYRACE,Race and gender,White women,55.0,36.0,2016
-WA,SEXBYRACE,Race and gender,Black men,0.0,0.0,2016
-WA,SEXBYRACE,Race and gender,Black women,0.0,0.0,2016
-WA,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-WA,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2016
-WA,SEXBYRACE,Race and gender,Others,0.0,0.0,2016
 WA,PHIL3,Ideology,Liberal,86.0,7.0,2016
 WA,PHIL3,Ideology,Moderate,61.0,29.0,2016
 WA,PHIL3,Ideology,Conservative,14.0,82.0,2016
@@ -1916,35 +884,15 @@ WA,EDUCCOLL,Are you a college graduate?,No,51.0,42.0,2016
 WA,INCOME3,Income,Under $50K,52.0,36.0,2016
 WA,INCOME3,Income,$50K-$100K,50.0,44.0,2016
 WA,INCOME3,Income,$100K or more,59.0,34.0,2016
-WA,INC50K,Income,Under $50K,52.0,36.0,2016
-WA,INC50K,Income,$50K or more,54.0,39.0,2016
-WA,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-WA,NEC,Condition of national economy,Good,86.0,10.0,2016
-WA,NEC,Condition of national economy,Poor,8.0,86.0,2016
-WA,GEOCOD,Region,King County,72.0,20.0,2016
 WI,SEX,Gender,Male,40.0,54.0,2016
 WI,SEX,Gender,Female,53.0,43.0,2016
 WI,AGE,Age,18-29,47.0,44.0,2016
 WI,AGE,Age,30-44,55.0,37.0,2016
 WI,AGE,Age,45-64,41.0,56.0,2016
 WI,AGE,Age,65 and older,48.0,49.0,2016
-WI,AGE65,Age,18-24,43.0,45.0,2016
-WI,AGE65,Age,25-29,51.0,42.0,2016
-WI,AGE65,Age,30-39,57.0,36.0,2016
-WI,AGE65,Age,40-49,46.0,49.0,2016
-WI,AGE65,Age,50-64,41.0,56.0,2016
-WI,AGE65,Age,65 and older,48.0,49.0,2016
 WI,RACE,Race,White,42.0,53.0,2016
 WI,RACE,Race,Black,92.0,6.0,2016
 WI,RACE,Race,Latino,63.0,34.0,2016
-WI,RACE,Race,Asian,0.0,0.0,2016
-WI,SEXBYRACE,Race and gender,White men,35.0,59.0,2016
-WI,SEXBYRACE,Race and gender,White women,49.0,47.0,2016
-WI,SEXBYRACE,Race and gender,Black men,90.0,8.0,2016
-WI,SEXBYRACE,Race and gender,Black women,94.0,3.0,2016
-WI,SEXBYRACE,Race and gender,Latino men,0.0,0.0,2016
-WI,SEXBYRACE,Race and gender,Latino women,0.0,0.0,2016
-WI,SEXBYRACE,Race and gender,Others,0.0,0.0,2016
 WI,PHIL3,Ideology,Liberal,86.0,10.0,2016
 WI,PHIL3,Ideology,Moderate,52.0,42.0,2016
 WI,PHIL3,Ideology,Conservative,11.0,85.0,2016
@@ -1953,17 +901,7 @@ WI,EDUCCOLL,Are you a college graduate?,No,40.0,56.0,2016
 WI,INCOME3,Income,Under $50K,49.0,45.0,2016
 WI,INCOME3,Income,$50K-$100K,46.0,52.0,2016
 WI,INCOME3,Income,$100K or more,48.0,46.0,2016
-WI,INC50K,Income,Under $50K,49.0,45.0,2016
-WI,INC50K,Income,$50K or more,47.0,50.0,2016
 WI,WHTEVANG,White born-again or evangelical Christian?,Yes,23.0,73.0,2016
 WI,WHTEVANG,White born-again or evangelical Christian?,No,57.0,38.0,2016
-WI,NEC,Condition of national economy,Excellent,0.0,0.0,2016
-WI,NEC,Condition of national economy,Good,77.0,21.0,2016
-WI,NEC,Condition of national economy,Poor,16.0,78.0,2016
 WI,MARRIED,Marital status,Married,40.0,55.0,2016
 WI,MARRIED,Marital status,Unmarried,51.0,43.0,2016
-WI,UNIONHH12,Union household?,Union,53.0,43.0,2016
-WI,UNIONHH12,Union household?,Not Union,44.0,52.0,2016
-WI,FAVRYAN2,Opinion of Paul Ryan,Favorable,32.0,63.0,2016
-WI,FAVRYAN2,Opinion of Paul Ryan,Unfavorable,66.0,30.0,2016
-WI,GEOCOD,Region,Milwaukee County,67.0,27.0,2016
