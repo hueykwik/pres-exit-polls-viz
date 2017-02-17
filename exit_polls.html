@@ -47,10 +47,10 @@ function ready(data) {
     .enter()
     .append('option')
     .attr("value", d => d.key)
-    //.property("selected", function(d){ return d === defaultOptionName; })
+    .property("selected", function(d) {
+      return d.key == defaultOptionName;
+    })
     .text(d => d.key)
-
-    debugger;
 
   var margin = {top: 70, right: 0, bottom: 40, left: 0},
       width = 710 - margin.left - margin.right,
