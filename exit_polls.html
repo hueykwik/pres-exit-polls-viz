@@ -95,6 +95,8 @@ function ready(data) {
       .data(layout.pairs(), pair_key_func).enter()
     .append('g');
 
+  console.log(layout.pairs().length);
+
   pairs.append('path')
       .attr('d', line);
 
@@ -137,31 +139,44 @@ function ready(data) {
       .text(String);
 
   function update(state) {
-    debugger;
     filtered = data.filter(d => (d.state == state));
 
     // Need to convert filtered into a layout, then use
     // layout.pairs() as data.
-    // var layout = d3.layout.slopegraph()(filtered)
-    //       .j('category').y('value').x('year')
-    //       .textHeight((y_dom[0] - y_dom[1]) / height * 14);
+    var layout = d3.layout.slopegraph()(filtered)
+           .j('category').y('value').x('year')
+           .textHeight((y_dom[0] - y_dom[1]) / height * 14);
 
-    // var pairs = svg.append('g')
-    //   .attr('class', 'lines')
-    //   .selectAll('g')
-    //   .data(layout.pairs(), key_func);
+    debugger;
 
-    // pairs.exit().remove();
+    var pairs = svg.selectAll('.lines')
+        .selectAll('g')
+      .data(layout.pairs(), pair_key_func);
 
-    // debugger;
+    pairs.exit().remove();
+
+    //pairs = pairs.enter().append('g');
 
     // pairs.append('path')
     //   .attr('d', line);
-
-
   }
 
-  //update('OH');
+
+  // Text description
+  svg.append('g')
+      .attr('class', 'desc')
+      .selectAll('text')
+      .data(['Democratic Party Exit Polls'
+            ,'Ohio'
+            ,'CNN, 2012 and 2016'
+            ]).enter()
+    .append('text')
+      .attr('y', (d,i) => i * 20)
+      .attr('dy', '-.32em')
+      .attr('x', 13)
+      .text(String);
+
+  update('OH');
 };
 </script>
 </body>
