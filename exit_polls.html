@@ -155,10 +155,35 @@ function ready(data) {
 
     pairs.exit().remove();
 
-    //pairs = pairs.enter().append('g');
+    pairs = pairs.enter().append('g');
 
-    // pairs.append('path')
-    //   .attr('d', line);
+    pairs.append('path')
+      .attr('d', line);
+
+    // Adds the labels for each category
+  pairs.selectAll('.category')
+      .data(d => d).enter()
+    .append('text')
+      .attr('class', 'category')
+      .attr('x', d => x(d.year))
+      .attr('dx', textMargin(48))
+      .attr('dy', '.32em')
+      .attr('y', d => y(d.y))
+      .style('text-anchor', textAlign())
+      .text(d => d.category);
+
+  // Adds the values for each category
+  pairs.selectAll('.value')
+      .data(d => d).enter()
+    .append('text')
+      .attr('class', 'value')
+      .attr('x', d => x(d.year))
+      .attr('dy', '.32em')
+      .attr('dx', textMargin(10))
+      .attr('y', d => y(d.y))
+      .style('text-anchor', textAlign())
+      .text(d => d.value.toFixed(0));
+
   }
 
 
