@@ -57,6 +57,9 @@ function ready(data) {
       update(this.value);
     });
 
+  // filtered = data;
+  filtered = data.filter(d => (d.state == defaultOptionName));
+
   var margin = {top: 70, right: 0, bottom: 40, left: 0},
       width = 710 - margin.left - margin.right,
       height = 940 - margin.top - margin.bottom,
@@ -72,7 +75,7 @@ function ready(data) {
           .range([390, 570]),
 
       // textHeight just sets the minimum needed distance between labels
-      layout = d3.layout.slopegraph()(data)
+      layout = d3.layout.slopegraph()(filtered)
           .j('category').y('value').x('year')
           .textHeight((y_dom[0] - y_dom[1]) / height * 14),
 
@@ -183,7 +186,7 @@ function ready(data) {
       .attr('d', line);
 
     // Adds the labels for each category
-  pairs.selectAll('.category')
+    pairs.selectAll('.category')
       .data(d => d).enter()
     .append('text')
       .attr('class', 'category')
@@ -194,20 +197,20 @@ function ready(data) {
       .style('text-anchor', textAlign())
       .text(d => d.category);
 
-  // Adds the values for each category
-  pairs.selectAll('.value')
-      .data(d => d).enter()
-    .append('text')
-      .attr('class', 'value')
-      .attr('x', d => x(d.year))
-      .attr('dy', '.32em')
-      .attr('dx', textMargin(10))
-      .attr('y', d => y(d.y))
-      .style('text-anchor', textAlign())
-      .text(d => d.value.toFixed(0));
+    // Adds the values for each category
+    pairs.selectAll('.value')
+        .data(d => d).enter()
+      .append('text')
+        .attr('class', 'value')
+        .attr('x', d => x(d.year))
+        .attr('dy', '.32em')
+        .attr('dx', textMargin(10))
+        .attr('y', d => y(d.y))
+        .style('text-anchor', textAlign())
+        .text(d => d.value.toFixed(0));
   }
 
-  update('OH');
+  //update('OH');
 };
 </script>
   <select id="states">
