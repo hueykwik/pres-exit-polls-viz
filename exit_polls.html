@@ -80,13 +80,19 @@ function ready(data) {
       .x(d => x(d.year))
       .y(d => y(d.y));
 
-  function key_func(d) { return d['state']; }
+  function key_func(d) {
+    return d.state + "_" + d.year + "_" + d.category + "_" + d.value;
+  }
+
+  function pair_key_func(d) {
+    return key_func(d[0]) + "_" + key_func(d[1]);
+  }
 
   // Add a group for each pair
   var pairs = svg.append('g')
       .attr('class', 'lines')
       .selectAll('g')
-      .data(layout.pairs(), key_func).enter()
+      .data(layout.pairs(), pair_key_func).enter()
     .append('g');
 
   pairs.append('path')
@@ -136,21 +142,26 @@ function ready(data) {
 
     // Need to convert filtered into a layout, then use
     // layout.pairs() as data.
-    var layout = d3.layout.slopegraph()(filtered)
-          .j('category').y('value').x('year')
-          .textHeight((y_dom[0] - y_dom[1]) / height * 14);
+    // var layout = d3.layout.slopegraph()(filtered)
+    //       .j('category').y('value').x('year')
+    //       .textHeight((y_dom[0] - y_dom[1]) / height * 14);
 
-    var pairs = svg.append('g')
-      .attr('class', 'lines')
-      .selectAll('g')
-      .data(layout.pairs(), key_func);
+    // var pairs = svg.append('g')
+    //   .attr('class', 'lines')
+    //   .selectAll('g')
+    //   .data(layout.pairs(), key_func);
 
-    pairs.exit().remove();
+    // pairs.exit().remove();
+
+    // debugger;
+
+    // pairs.append('path')
+    //   .attr('d', line);
 
 
   }
 
-  update('OH');
+  //update('OH');
 };
 </script>
 </body>
