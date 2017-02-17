@@ -23,7 +23,8 @@ svg {
 d3.csv('exit_polls_tidy.csv', parseRow, ready);
 
 function parseRow(d) {
-  return { 'year': +d.year,
+  return { 'state': d.state,
+           'year': +d.year,
            'category': d.answer,
            'value': +d.democrat };
 }
@@ -127,6 +128,12 @@ function ready(data) {
       .attr('x', 13)
       .text(String);
 
-}
+  function update(state) {
+    filtered = data.filter(d => (d.state == state));
+    debugger;
+  }
+
+  update('OH');
+};
 </script>
 </body>
