@@ -18,7 +18,7 @@ svg {
 
 #states {
   position: absolute;
-  top: 75px;
+  top: 155px;
   left: 13px;
   font: 15px serif;
 }
@@ -155,9 +155,11 @@ function ready(data) {
   svg.append('g')
       .attr('class', 'desc')
       .selectAll('text')
-      .data(['Democratic Party Exit Polls'
-            ,' '
-            ,'CNN, 2012 and 2016'
+      .data(['Why did Democrats lose the 2016 election?',
+             'Per CNN exit polls, Clinton performed worse',
+             'than Obama in all categories except one.',
+             ' ',
+             'Check out each state yourself: ',
             ]).enter()
     .append('text')
       .attr('y', (d,i) => i * 20)
