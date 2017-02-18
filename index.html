@@ -28,7 +28,7 @@ svg {
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script src="d3.slopegraph.js"></script>
 <script>
-d3.csv('exit_polls_tidy.csv', parseRow, ready);
+d3.csv('data/exit_polls_tidy.csv', parseRow, ready);
 
 function parseRow(d) {
   return { 'state': d.state,
@@ -62,7 +62,7 @@ function ready(data) {
 
   var margin = {top: 70, right: 0, bottom: 40, left: 0},
       width = 710 - margin.left - margin.right,
-      height = 940 - margin.top - margin.bottom,
+      height = 1500 - margin.top - margin.bottom,
 
       y_dom = d3.extent(data, d => d.value).reverse()
       x_dom = d3.extent(data, d => d.year)
