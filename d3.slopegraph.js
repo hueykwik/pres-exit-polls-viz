@@ -54,6 +54,8 @@
         // find the smallest gap
         if ( smallest_gap_size >= min_needed_dist || /* no overlaps present */
              steps > 1000 /* we're going nowhere fast */ ) {
+          console.log('Steps greater than 1000, breaking');
+          console.log(smallest_gap_size);
           break;
         }
         steps++;
@@ -77,7 +79,7 @@
   // rollup_rows will be an array of each category. The item inside will have fields for 2012 and 2016.
   // rollup_cols will be an array of each year, each item in the array will be the data item (year, category, value)
   function crunch ( data, min_needed_dist, get_x, get_y, get_j ) {
-    min_needed_dist = min_needed_dist || 0.7;
+    min_needed_dist = min_needed_dist || 0.5;
 
     var rollup_rows = {}, // j
         rollup_cols = {}, // x
@@ -111,6 +113,7 @@
       });
     });
 
+
     var one_column = []
     for (var col_id in rollup_cols) {
       one_column = one_column.concat(rollup_cols[col_id])
@@ -130,6 +133,25 @@
       });
 
     fanout(one_column, min_needed_dist);
+
+
+    // for (var col_id in rollup_cols) {
+    //   column = rollup_cols[col_id];
+    //   column = column.sort(function (a, b) {
+    //     var r = get_y(a) - get_y(b);
+    //     if (r === 0) {
+    //       if (get_j(a) > get_j(b)) {
+    //         return -1;
+    //       }
+    //       if (get_j(a) < get_j(b)) {
+    //         return 1;
+    //       }
+    //     }
+    //     return r;
+    //   });
+
+    //   fanout(column, min_needed_dist);
+    // }
 
     return pairs;
 
@@ -186,8 +208,7 @@
       return get_y;
     };
 
-    // Sets the min_needed_dist, which I think is like a spacer for the text
-    // labels.
+    // Sets the min_needed_dist, which I think is like a spacer for the text labels.
     layout.textHeight = function ( h ) {
       if ( arguments.length ) {
         min_needed_dist = h;
