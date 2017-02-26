@@ -1,4 +1,25 @@
 state,pollname,question,answer,democrat,republican,year
+ALL,SEX,Gender,Male,45.0,52.0,2012
+ALL,SEX,Gender,Female,55.0,44.0,2012
+ALL,AGE,Age,18-29,60.0,37.0,2012
+ALL,AGE,Age,30-44,52.0,45.0,2012
+ALL,AGE,Age,45-64,47.0,51.0,2012
+ALL,AGE,Age,65 and older,44.0,56.0,2012
+ALL,RACE,Race,White,39.0,59.0,2012
+ALL,RACE,Race,Black,93.0,6.0,2012
+ALL,RACE,Race,Latino,71.0,27.0,2012
+ALL,RACE,Race,Asian,73.0,26.0,2012
+ALL,PHIL3,Ideology,Liberal,86.0,11.0,2012
+ALL,PHIL3,Ideology,Moderate,56.0,41.0,2012
+ALL,PHIL3,Ideology,Conservative,17.0,82.0,2012
+ALL,INCOME3,Income,Under $50K,60.0,38.0,2012
+ALL,INCOME3,Income,$50K-$100K,46.0,52.0,2012
+ALL,INCOME3,Income,$100K or more,44.0,54.0,2012
+ALL,REL5,Religion,Protestant,42.0,57.0,2012
+ALL,REL5,Religion,Catholic,50.0,48.0,2012
+ALL,REL5,Religion,Jewish,69.0,30.0,2012
+ALL,MARRIED,Marital status,Married,42.0,56.0,2012
+ALL,MARRIED,Marital status,Unmarried,62.0,35.0,2012
 AZ,SEX,Gender,Male,40.0,57.0,2012
 AZ,SEX,Gender,Female,46.0,53.0,2012
 AZ,AGE,Age,18-29,63.0,36.0,2012
@@ -381,6 +402,27 @@ WI,INCOME3,Income,$50K-$100K,49.0,50.0,2012
 WI,INCOME3,Income,$100K or more,39.0,59.0,2012
 WI,MARRIED,Marital status,Married,45.0,54.0,2012
 WI,MARRIED,Marital status,Unmarried,61.0,37.0,2012
+ALL,SEX,Gender,Male,41.0,52.0,2016
+ALL,SEX,Gender,Female,54.0,41.0,2016
+ALL,AGE,Age,18-29,55.0,36.0,2016
+ALL,AGE,Age,30-44,51.0,41.0,2016
+ALL,AGE,Age,45-64,44.0,52.0,2016
+ALL,AGE,Age,65 and older,45.0,52.0,2016
+ALL,RACE,Race,White,37.0,57.0,2016
+ALL,RACE,Race,Black,89.0,8.0,2016
+ALL,RACE,Race,Latino,66.0,28.0,2016
+ALL,RACE,Race,Asian,65.0,27.0,2016
+ALL,PHIL3,Ideology,Liberal,84.0,10.0,2016
+ALL,PHIL3,Ideology,Moderate,52.0,40.0,2016
+ALL,PHIL3,Ideology,Conservative,16.0,81.0,2016
+ALL,INCOME3,Income,Under $50K,53.0,41.0,2016
+ALL,INCOME3,Income,$50K-$100K,46.0,49.0,2016
+ALL,INCOME3,Income,$100K or more,47.0,47.0,2016
+ALL,REL5,Religion,Protestant,39.0,56.0,2016
+ALL,REL5,Religion,Catholic,46.0,50.0,2016
+ALL,REL5,Religion,Jewish,71.0,23.0,2016
+ALL,MARRIED,Marital status,Married,44.0,52.0,2016
+ALL,MARRIED,Marital status,Unmarried,55.0,37.0,2016
 AZ,SEX,Gender,Male,40.0,53.0,2016
 AZ,SEX,Gender,Female,49.0,45.0,2016
 AZ,AGE,Age,18-29,53.0,35.0,2016
