@@ -10,6 +10,7 @@
   // j is "18-24", should probably be called label
   // y is the percentage
 
+  // Spaces or fans out a set of labels based on their y-coordinates.
   function fanout(column, min_needed_dist) {
     var improoving = true,
           steps = 0;
@@ -110,16 +111,12 @@
       });
     });
 
-    // var one_column = []
-    // for (var col_id in rollup_cols) {
-    //   one_column.concat(rollup_cols[col_id])
-    // }
-
-    // Step 2: Space out the labels
+    var one_column = []
     for (var col_id in rollup_cols) {
+      one_column.concat(rollup_cols[col_id])
+    }
 
-      // Sort based on y value, secondary sort based on label.
-      var column = rollup_cols[col_id].sort(function (a, b) {
+    one_column = one_column.sort(function (a, b) {
         var r = get_y(a) - get_y(b);
         if (r === 0) {
           if (get_j(a) > get_j(b)) {
@@ -132,10 +129,7 @@
         return r;
       });
 
-      fanout(column, min_needed_dist);
-      }
-
-    }
+    fanout(one_column, min_needed_dist);
 
     return pairs;
 
