@@ -10,61 +10,8 @@
   // j is "18-24", should probably be called label
   // y is the percentage
 
-  // rollup_rows will be an array of each category. The item inside will have fields for 2012 and 2016.
-  // rollup_cols will be an array of each year, each item in the array will be the data item (year, category, value)
-  function crunch ( data, min_needed_dist, get_x, get_y, get_j ) {
-    min_needed_dist = min_needed_dist || 0.5;
-
-    var rollup_rows = {}, // j
-        rollup_cols = {}, // x
-        xs = [],
-        js = [];
-
-    for (var di=0, dl=data.length; di<dl; di++) {
-      var item = data[di],
-          x = get_x(item),
-          j = get_j(item);
-
-      item.y = get_y(item);
-
-      rollup_rows[j] = rollup_rows[j] || {};
-      rollup_rows[j][x] = item;
-
-      rollup_cols[x] = rollup_cols[x] || [];
-      rollup_cols[x].push( item );
-
-      xs.push(x);
-      js.push(j);
-    }
-
-    var xs = d3.set(xs).values().sort(d3.ascending);
-
-    // Map over each j, which will then map on each x.
-    // The result is that each item in pairs will be an array[2].
-    var pairs = d3.set(js).values().map(function (j) {
-      return xs.map(function (x) {
-        return rollup_rows[j][x];
-      });
-    });
-
-    // step 2: "fan out" label positions to remove overlaps
-    for (var col_id in rollup_cols) {
-
-      // Sort based on y value, secondary sort based on label.
-      var column = rollup_cols[col_id].sort(function (a, b) {
-        var r = get_y(a) - get_y(b);
-        if (r === 0) {
-          if (get_j(a) > get_j(b)) {
-            return -1;
-          }
-          if (get_j(a) < get_j(b)) {
-            return 1;
-          }
-        }
-        return r;
-      });
-
-      var improoving = true,
+  function fanout(column, min_needed_dist) {
+    var improoving = true,
           steps = 0;
 
       while (improoving) {
@@ -123,6 +70,69 @@
         improoving = ( smallest_gap_size >= ( last_gap_size || 0 ) );
 
         last_gap_size = smallest_gap_size;
+      }
+  }
+
+  // rollup_rows will be an array of each category. The item inside will have fields for 2012 and 2016.
+  // rollup_cols will be an array of each year, each item in the array will be the data item (year, category, value)
+  function crunch ( data, min_needed_dist, get_x, get_y, get_j ) {
+    min_needed_dist = min_needed_dist || 0.5;
+
+    var rollup_rows = {}, // j
+        rollup_cols = {}, // x
+        xs = [],
+        js = [];
+
+    for (var di=0, dl=data.length; di<dl; di++) {
+      var item = data[di],
+          x = get_x(item),
+          j = get_j(item);
+
+      item.y = get_y(item);
+
+      rollup_rows[j] = rollup_rows[j] || {};
+      rollup_rows[j][x] = item;
+
+      rollup_cols[x] = rollup_cols[x] || [];
+      rollup_cols[x].push( item );
+
+      xs.push(x);
+      js.push(j);
+    }
+
+    var xs = d3.set(xs).values().sort(d3.ascending);
+
+    // Map over each j, which will then map on each x.
+    // The result is that each item in pairs will be an array[2].
+    var pairs = d3.set(js).values().map(function (j) {
+      return xs.map(function (x) {
+        return rollup_rows[j][x];
+      });
+    });
+
+    // var one_column = []
+    // for (var col_id in rollup_cols) {
+    //   one_column.concat(rollup_cols[col_id])
+    // }
+
+    // Step 2: Space out the labels
+    for (var col_id in rollup_cols) {
+
+      // Sort based on y value, secondary sort based on label.
+      var column = rollup_cols[col_id].sort(function (a, b) {
+        var r = get_y(a) - get_y(b);
+        if (r === 0) {
+          if (get_j(a) > get_j(b)) {
+            return -1;
+          }
+          if (get_j(a) < get_j(b)) {
+            return 1;
+          }
+        }
+        return r;
+      });
+
+      fanout(column, min_needed_dist);
       }
 
     }
