@@ -77,7 +77,7 @@
   // rollup_rows will be an array of each category. The item inside will have fields for 2012 and 2016.
   // rollup_cols will be an array of each year, each item in the array will be the data item (year, category, value)
   function crunch ( data, min_needed_dist, get_x, get_y, get_j ) {
-    min_needed_dist = min_needed_dist || 0.5;
+    min_needed_dist = min_needed_dist || 0.7;
 
     var rollup_rows = {}, // j
         rollup_cols = {}, // x
