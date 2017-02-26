@@ -39,7 +39,7 @@ function ready(data) {
           .range([0, height]),
       x = d3.scale.linear()
           .domain(x_dom)
-          .range([390, 570]),
+          .range([140, 320]),
 
       // textHeight just sets the minimum needed distance between labels
       layout = d3.layout.slopegraph()(filtered)
