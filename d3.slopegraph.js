@@ -54,8 +54,10 @@
         // find the smallest gap
         if ( smallest_gap_size >= min_needed_dist || /* no overlaps present */
              steps > 1000 /* we're going nowhere fast */ ) {
-          console.log('Steps greater than 1000, breaking');
-          console.log(smallest_gap_size);
+          console.log("Overlaps present: %b", smallest_gap_size >= min_needed_dist);
+          console.log("smallest_gap_size %f, min_needed_dist: %f", smallest_gap_size, min_needed_dist);
+          console.log("Steps: %d", steps);
+
           break;
         }
         steps++;
