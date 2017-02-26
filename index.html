@@ -38,7 +38,7 @@ function parseRow(d) {
 }
 
 function ready(data) {
-  var defaultOptionName = "OH";
+  var defaultOptionName = "ALL";
 
   var states = d3.nest().key(d => d.state).entries(data);
 
@@ -62,7 +62,7 @@ function ready(data) {
 
   var margin = {top: 70, right: 0, bottom: 40, left: 0},
       width = 710 - margin.left - margin.right,
-      height = 1500 - margin.top - margin.bottom,
+      height = 1200 - margin.top - margin.bottom,
 
       y_dom = d3.extent(data, d => d.value).reverse()
       x_dom = d3.extent(data, d => d.year)
