@@ -29,7 +29,7 @@ function ready(data) {
 
   var margin = {top: 70, right: 0, bottom: 40, left: 0},
       width = 710 - margin.left - margin.right,
-      height = 1300 - margin.top - margin.bottom,
+      height = 1500 - margin.top - margin.bottom,
 
       y_dom = d3.extent(data, d => d.value).reverse()
       x_dom = d3.extent(data, d => d.year)
@@ -119,20 +119,20 @@ function ready(data) {
       .text(d => d.value.toFixed(0));
 
   // Text description
-  svg.append('g')
-      .attr('class', 'desc')
-      .selectAll('text')
-      .data(['Why did Democrats lose the 2016 election?',
-             'Per CNN exit polls, Clinton performed worse',
-             'than Obama in all categories except one.',
-             ' ',
-             'Check out each state yourself: ',
-            ]).enter()
-    .append('text')
-      .attr('y', (d,i) => i * 20)
-      .attr('dy', '-.32em')
-      .attr('x', 13)
-      .text(String);
+  // svg.append('g')
+  //     .attr('class', 'desc')
+  //     .selectAll('text')
+  //     .data(['Why did Democrats lose the 2016 election?',
+  //            'Per CNN exit polls, Clinton performed worse',
+  //            'than Obama in all categories except one.',
+  //            ' ',
+  //            'Check out each state yourself: ',
+  //           ]).enter()
+  //   .append('text')
+  //     .attr('y', (d,i) => i * 20)
+  //     .attr('dy', '-.32em')
+  //     .attr('x', 13)
+  //     .text(String);
 
   function update(state) {
     filtered = data.filter(d => (d.state == state));

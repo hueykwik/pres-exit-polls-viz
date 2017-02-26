@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <meta charset='utf-8'>
 <style>
+h2 {
+  font:;
+}
+
 svg {
   font: 13px serif;
 }
@@ -15,14 +19,6 @@ svg {
   stroke: black;
   stroke-width: 1.1;
 }
-
-#states {
-  position: absolute;
-  top: 155px;
-  left: 13px;
-  font: 15px serif;
-}
-
 </style>
 <body>
 <script src="//d3js.org/d3.v3.min.js"></script>
@@ -31,7 +27,11 @@ svg {
 <script>
 d3.csv('data/exit_polls_tidy.csv', parseRow, ready);
 </script>
+    <h3>Why did Clinton lose?</h3>
+    <p id='commentary'>Per CNN exit polls, we can see that Clinton underperformed Obama in the vast majority of categories.</p>
+
+    To dig deeper, select a state below:
+    <select id="states"></select>
+
   <div id="graph" />
-  <select id="states">
-  </select>
 </body>
