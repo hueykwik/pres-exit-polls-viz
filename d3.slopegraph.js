@@ -113,7 +113,7 @@
 
     var one_column = []
     for (var col_id in rollup_cols) {
-      one_column.concat(rollup_cols[col_id])
+      one_column = one_column.concat(rollup_cols[col_id])
     }
 
     one_column = one_column.sort(function (a, b) {
