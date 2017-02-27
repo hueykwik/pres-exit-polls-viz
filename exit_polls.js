@@ -149,7 +149,10 @@ function ready(data) {
       .attr('dx', (d, i) => i ? 10 : -10)
       .attr('y', -40)
       .style('text-anchor', textAlign())
-      .text(String);
+      .text(function(d) {
+        if (d == "2012") { return "Obama"; }
+        return "Clinton";
+      });
 
   // Define the line that will be used for each pair below
   var line = d3.svg.line()
