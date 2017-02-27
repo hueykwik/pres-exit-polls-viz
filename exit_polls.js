@@ -86,7 +86,7 @@ function parseRow(d) {
 }
 
 function ready(data) {
-  var defaultOptionName = abbrState("ALL", 'name');
+  var defaultOptionName = abbrState("OH", 'name');
 
   var states = d3.nest().key(d => d.state).entries(data);
 
@@ -175,7 +175,13 @@ function ready(data) {
     .append('g');
 
   pairs.append('path')
-      .attr('d', line);
+      .attr('d', line)
+      .style('stroke', function(d) {
+        if (d[0].y < d[1].y) {
+          return 'blue';
+        }
+        return 'gray';
+      });
 
   // Adds the labels for each category
   pairs.selectAll('.category')
@@ -219,7 +225,13 @@ function ready(data) {
     pairs = pairs.enter().append('g');
 
     pairs.append('path')
-      .attr('d', line);
+      .attr('d', line)
+      .style('stroke', function(d) {
+        if (d[0].y < d[1].y) {
+          return 'blue';
+        }
+        return 'gray';
+      });
 
     // Adds the labels for each category
     pairs.selectAll('.category')
