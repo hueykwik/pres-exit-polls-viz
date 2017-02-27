@@ -196,7 +196,7 @@ function ready(data) {
       .attr('dx', textMargin(10))
       .attr('y', d => y(d.y))
       .style('text-anchor', textAlign())
-      .text(d => d.value.toFixed(0));
+      .text(d => d.value.toFixed(0) + '%');
 
   function update(state) {
     filtered = data.filter(d => (d.state == state));
