@@ -23,8 +23,8 @@ index_old.html shows an early version of this. After collecting feedback, I did 
 * Fixed overlapping labels, by using [Borgar's slopegraph](https://bl.ocks.org/borgar/67a2173ef40f08129201)
 * Added labels to indicate percentage
 * Made the labels larger
-# Labeled the year axes
-# Added a way to choose states for self-exploration
+* Labeled the year axes
+* Added a way to choose states for self-exploration
 
 ## Feedback
 Here are some quotes from gathering user feedback. Each quote is from a different person:
